@@ -72,16 +72,137 @@
     </h1>
 </div>
 
-<span class="search-bar">
-    <input type="search" id="query" name="q" placeholder="Hledej..." aria-label="Hledej v okolí">
-    <button class="search">Hledej</button>
-</span>
+<div class="search-bar">
+    <input type="search" id="query" name="q" placeholder="Hledej v svém okolí..." aria-label="Hledej v okolí">
+    <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn">Obec &#9660</button>
+        <div id="myDropdown" class="dropdown-content">
+          <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+          <a href="#about">About</a>
+          <a href="#base">Base</a>
+          <a href="#blog">Blog</a>
+          <a href="#contact">Contact</a>
+          <a href="#custom">Custom</a>
+          <a href="#support">Support</a>
+          <a href="#tools">Tools</a>
+        </div>
+      </div>
+      <button class="search">Hledej</button><br>
 
+      <span class="form">
+        <label for="název">Seředit podle:</label>
+         <span class="name">
+          <input type="checkbox" name="názvu">
+          <label for="název">Název</label>
+        </span>
+        <span class="rating">
+          <input type="checkbox" name="hodnocení">
+          <label for="název">Hodnocení</label>
+        </span>
+        <span class="newest">
+          <input type="checkbox" name="nejnovější">
+          <label for="název">Nejnovější</label>
+        </span>
+      </span>
+</div>
+
+
+<div class="boxes">
+<div class="services">
+    <div class="services-item">
+        <h1>SLUŽBY</h1><br>
+        <a href="#">Obchody</a>
+        <a href="#">Auto-moto</a>
+        <a href="#">Úklid</a>
+        <a href="#">Péče o tělo</a>
+        <a href="#">Řemeslo</a>
+    </div>
+
+    <div class="services-item">
+        <h1>KULTURA A ZÁBAVA</h1><br>
+        <a href="#">Kultuta a zábava</a>
+        <a href="#">Umění</a>
+        <a href="#">Sport a rekreace</a>
+    </div>
+
+    <div class="services-item">
+        <h1>ÚŘADY A INSTITUCE</h1><br>
+        <a href="#">Úřady a instituce</a>
+        <a href="#">Ekonomika a finance</a>
+        <a href="#">Zdravotní a sociální péče</a>
+        <a href="#">Vzdělávání a věda</a>
+        <a href="#">Letectví</a>
+    </div>
+
+    <div class="services-item">
+        <h1>ZEMĚDĚLSTVÍ A VÝROBA</h1><br>
+        <a href="#">Zemědělství a výroba</a>
+        <a href="#">Zemědělská výroba</a>
+        <a href="#">Výroba a průmysl</a>
+        <a href="#">Stavba, dům, byt</a>
+        <a href="#">Zahrada</a>
+        <a href="#">Chovatelství</a>
+    </div>
+
+    <div class="services-item">
+        <h1>REALITY A CESTOVÁNÍ</h1><br>
+        <a href="#">Reality a nemovitosti</a>
+        <a href="#">Ubytování</a>
+        <a href="#">Cestovní kanceláře</a>
+        <a href="#">Doprava a přeprava</a>
+    </div>
+
+    <div class="services-item">
+    <h1>STRAVOVÁNÍ A RESTAURACE</h1><br>
+        <a href="#">Restaurace</a>
+        <a href="#">Kavárny</a>
+        <a href="#">Bary</a>
+    </div>
+
+    <div class="services-item">
+    <h1>DALŠÍ SLUŽBY</h1><br>
+        <a href="#">Počítače a internet</a>
+        <a href="#">Reklama a marketing</a>
+        <a href="#">Modeling</a>
+        <a href="#">Skladovací služby</a>
+        <a href="#">Servis (kulečník,biliard)</a>
+    </div>
+</div>
+
+<div class="boxes">
+    <div class="aside">
+        <h3>Hodnocení firem</h3>
+        <hr class="devider">
+    </div>
+</div>
+
+</div>
+
+<aside>
+    <div class="aside-one">
+        <h3>Nejnovější firmy</h3>
+        <hr class="devider">
+    </div>
+</aside>
+
+<div class="add">
+    <a href="">Přidat firmu</a>
+</div>
+
+<div class="advertisment">
+    <a href="https://shop.finaltek.com/cart.php?2gid=2" onclick="javascript:window.open(this.href);return false;">
+    <img src="img/ft-banner.png" alt="FinalHosting.cz"></a>
+</div>
+
+<footer>
+    
+</footer>
 
 
 
 
 
     <script src="https://kit.fontawesome.com/8c5ffe8f98.js" crossorigin="anonymous"></script>
+    <script src="js.js"></script>
 </body>
 </html>
