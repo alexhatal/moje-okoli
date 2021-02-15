@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Quicksand',Helvetica, Arial,sans-serif;
+    color: #313131;
+    line-height: 1.6;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #84e2a7;
+}
+
+body{
+    background-image: url(img/bg.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.logo{
+    width: 22%;
+    padding: 70px;
+}
+
+.nav-bar{
+    display: inline-block;
+    background-color: #ffffff;
+    width: 800px;
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+    border-radius: 50px;
+    float: right;
+    position: relative;
+    top: -150px;
+    right: 150px;
+    opacity: 0.8;
+}
+
+.vl{
+    border-left: 3px solid #84e2a7;
+    height: 20px;
+    margin: 0 60px;
+}
+
+.social{
+    justify-content: center;
+    padding: 0 100px;
+}
+
+.vl-sm{
+    border-left: 1px solid #ffffff;
+    border-radius: 3px;
+    height: 200px;
+    margin-left: 10px;
+}
+
+.sm-icon{
+    padding: 30px 0;
+}
+
+.sm-icon i{
+    color: #ffffff;
+    font-size: 25px;
+}
+
+.sm-icon i:hover{
+color: #84e2a7;
+}
+
+.small-n{
+    position: relative;
+    bottom: 680px;
+    left: 200px;
+}
+
+.kontakt, .login, .shop{
+    padding: 0 50px;
+    color: #ffffff;
+}
+
+.small-nav a, .small-nav i{
+    color: #ffffff;
+}
+
+.small-nav a:hover{
+    color: #84e2a7;
+}
+
+.headline{
+    position: relative;
+    bottom: 590px;
+    left: 480px;
+}
+
+.headline h1{
+    font-size: 110px;
+    font-family: 'Archivo Black', sans-serif;
+    color: #ffffff;
+    letter-spacing: 10px;
+}
+
+.description{
+    position: relative;
+    bottom: 840px;
+    left: 1350px;
+}
+
+.description h2{
+    color: #ffffff;
+    font-size: 20px;
+}
