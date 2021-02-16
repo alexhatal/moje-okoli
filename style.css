@@ -207,6 +207,7 @@ color: #84e2a7;
    position:absolute;
    left: 480px;
    margin-top: 10px;
+   display: inline;
   }
 
   .name, .rating, .newest{
