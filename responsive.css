@@ -1,0 +1,432 @@
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 479px) { 
+
+}
+
+@media only screen 
+and (min-device-width: 480px) 
+and (max-device-width: 568px) { 
+
+}
+
+@media only screen 
+and (min-device-width: 569px) 
+and (max-device-width: 768px) { 
+
+}
+
+@media only screen 
+and (min-device-width: 769px) 
+and (max-device-width: 991px) { 
+
+}
+
+@media only screen 
+and (min-device-width: 992px) 
+and (max-device-width: 1279px) { 
+    .logo{
+        width: 25%;
+        padding: 40px;
+    }
+    .small-n{
+        top: 10vh;
+    }
+
+    .kontakt, .login, .shop{
+        padding: 0 15px;
+    }
+
+    .login a, .shop a, a.kontakt{
+        font-size: 14px;
+    }
+
+    .nav-bar{
+        right: 1.5vw;
+        top: -7vw;
+        width: 500px;
+        padding: 10px;
+    }
+
+    .nav-bar a{
+        font-size: 16px;
+    }
+
+    .vl{
+        margin: 0 30px;
+    }
+
+    .social{
+        position: relative;
+        top: -3vh;
+    }
+
+    .sm-icon{
+        padding: 10px 0;
+    }
+    .headline{
+        top: 16vh;
+    }
+
+    .headline h1{
+        font-size: 60px;
+    }
+    .description{
+        top: 27vh;
+        right: 2vw;
+    }
+
+    .description h2{
+        font-size: 15px;
+    }
+    .vl-sm{
+        height: 10vh;
+    }
+    
+    .content h1{
+        padding: 0px;
+        margin: 20px auto 40px auto;
+        font-size: 20px;
+    }
+
+    span.form{
+        left: 15%;
+    }
+
+    input,label{
+        font-size: 12px;
+    }
+
+    #submit-btn{
+        right: 4%;
+    }
+
+    .about{
+        width: 55%;
+        margin-top: 250px;
+    }
+    .about h1{
+        font-size: 18px;
+        margin-left: 100px;
+    }
+    .footer{
+        font-size: 14px;
+    }
+
+    .footer-logo{
+        margin: 0;
+    }
+    .footer img{
+        width: 80%;
+    }
+
+    .footer .footer-left{
+        margin-left: 20px;
+    }
+
+    .footer .footer-center{
+        margin-left: 30px;
+    }
+
+    .foo-icon i{
+        font-size: 25px;
+    }
+}
+
+@media only screen 
+and (min-device-width: 1280px) 
+and (max-device-width: 1366px) { 
+    .logo{
+        width: 20%;
+        padding: 40px;
+    }
+    .small-n{
+        top: 10vh;
+    }
+
+    .kontakt, .login, .shop{
+        padding: 0 30px;
+    }
+
+    .nav-bar{
+        right: 1.5vw;
+        top: -7vw;
+        width: 700px;
+        padding: 15px;
+    }
+
+    .social{
+        position: relative;
+        top: -3vh;
+    }
+
+    .sm-icon{
+        padding: 10px 0;
+    }
+    .headline{
+        top: 16vh;
+    }
+
+    .headline h1{
+        font-size: 60px;
+    }
+    .description{
+        top: 27vh;
+        right: 2vw;
+    }
+
+    .description h2{
+        font-size: 15px;
+    }
+    .vl-sm{
+        height: 10vh;
+    }
+    
+    .content h1{
+        padding: 0px;
+        margin: 20px auto 40px auto;
+        font-size: 20px;
+    }
+
+    span.form{
+        left: 15%;
+    }
+
+    input,label{
+        font-size: 12px;
+    }
+
+    #submit-btn{
+        right: 4%;
+    }
+
+    .about{
+        width: 55%;
+        margin-top: 250px;
+    }
+    .about h1{
+        font-size: 18px;
+        margin-left: 100px;
+    }
+    .footer{
+        font-size: 14px;
+    }
+
+    .footer-logo{
+        margin: 0;
+    }
+    .footer img{
+        width: 80%;
+    }
+
+    .footer .footer-left{
+        margin-left: 20px;
+    }
+
+    .footer .footer-center{
+        margin-left: 30px;
+    }
+
+    .foo-icon i{
+        font-size: 25px;
+    }
+}
+
+@media only screen 
+and (min-device-width: 1367px) 
+and (max-device-width: 1499px) { 
+    
+    .logo{
+        width: 25%;
+    }
+    .small-n{
+        top: 17vh;
+    }
+
+    .kontakt, .login, .shop{
+        padding: 0 30px;
+    }
+
+    .nav-bar{
+        right: 3vw;
+        top: -10vw;
+        width: 700px;
+        padding: 15px;
+    }
+
+    .social{
+        position: relative;
+        top: -3vh;
+    }
+
+    .sm-icon{
+        padding: 10px 0;
+    }
+    .headline{
+        top: 22vh;
+    }
+
+    .headline h1{
+        font-size: 55px;
+    }
+    .description{
+        top: 29vh;
+    }
+
+    .description h2{
+        font-size: 15px;
+    }
+    .vl-sm{
+        height: 10vh;
+    }
+    
+    .content h1{
+        padding: 0px;
+        margin: 0 auto 40px auto;
+    }
+
+    span.form{
+        left: 15%;
+    }
+
+    input,label{
+        font-size: 12px;
+    }
+
+    #submit-btn{
+        right: 6%;
+    }
+
+    .about{
+        width: 58%;
+    }
+    .about h1{
+        font-size: 20px;
+        margin-left: 130px;
+    }
+
+
+}
+
+@media only screen 
+and (min-device-width: 1500px) 
+and (max-device-width: 1652px) { 
+
+    .logo{
+        width: 25%;
+    }
+    .small-n{
+        top: 17vh;
+    }
+
+    .kontakt, .login, .shop{
+        padding: 0 30px;
+    }
+
+    .nav-bar{
+        right: 2vw;
+        top: -10vw;
+    }
+
+    .social{
+        position: relative;
+        top: -3vh;
+    }
+
+    .sm-icon{
+        padding: 10px 0;
+    }
+    .headline{
+        top: 22vh;
+    }
+
+    .headline h1{
+        font-size: 65px;
+    }
+    .description{
+        top: 32vh;
+    }
+
+    .description h2{
+        font-size: 17px;
+    }
+    .vl-sm{
+        height: 10vh;
+    }
+    
+    .content h1{
+        padding: 60px;
+        margin: 0 auto;
+    }
+
+    span.form{
+        left: 17%;
+    }
+
+    input,label{
+        font-size: 16px;
+    }
+
+    #submit-btn{
+        right: 9%;
+    }
+
+    .about{
+        width: 58%;
+    }
+    .about h1{
+        font-size: 20px;
+        margin-left: 130px;
+    }
+}
+
+
+@media only screen 
+and (min-device-width: 1653px) 
+and (max-device-width: 1819px) { 
+    .small-n{
+        top: 18vh;
+    }
+
+    .nav-bar{
+        right: 5vw;
+    }
+    .headline{
+        top: 25vh;
+    }
+
+    .headline h1{
+        font-size: 75px;
+    }
+    .description{
+        top: 38vh;
+    }
+
+    .description h2{
+        font-size: 18px;
+    }
+    .vl-sm{
+        height: 10vh;
+    }
+    
+    .content h1{
+        padding: 60px;
+        margin: 0 auto;
+    }
+}
+
+@media only screen 
+and (min-device-width: 1820px) 
+and (max-device-width: 1980px) { 
+    .small-n{
+        top: 18vh;
+    }
+    .headline{
+        top: 25vh;
+    }
+
+    .vl-sm{
+        height: 11vh;
+    }
+
+}
