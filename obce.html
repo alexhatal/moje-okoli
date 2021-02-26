@@ -25,7 +25,7 @@
 <!--HERO START-->
 <div class="hero">
     <div class="logo">
-        <a href="index3.html"><img src="img/logo-white-hor.svg" alt="moje okoli logo" width="100%"></a>
+        <a href="index.html"><img src="img/logo-white-hor.svg" alt="moje okoli logo" width="100%"></a>
     </div>
 
     <nav>
@@ -34,7 +34,7 @@
             <span class="vl"></span>
             <a href="#">Kam na výlet</a>
             <span class="vl"></span>
-            <a href="obce.html">Seznam obcí</a>
+            <a href="#">Seznam obcí</a>
         </span>
     </nav>
 
@@ -60,132 +60,36 @@
         </span>
     </nav>
 
-    <!--SERVICES START-->
-
-<h1 class="categorie">AUTO-MOTO</h1>
-<div class="services-two">
-    <div class="services-item">
-        <img src="img/icons/car.svg">
-        <h1><a href="#">ASISTENČNÍ A ODTAHOVÉ SLUŽBY</a></h1>
-    </div>
-
-    <div class="services-item">
-        <img src="img/icons/polisher.svg">
-        <h1><a href="#">AUTOLAKOVNA</a></h1>
- 
-    </div>
-
-    <div class="services-item">
-        <img src="img/icons/electric.svg">
-        <h1><a href="#">ELEKTRIKA A DIAGNOSTIKA</a></h1>
-    </div>
-
-    <div class="services-item">
-        <img src="img/icons/truck.svg">
-        <h1><a href="#">NÁKLADNÍ A ÚŽIT.AUTOM</a></h1>
-    </div>
-
-    <div class="services-item">
-        <img src="img/icons/gas(1).svg">
-        <h1><a href="#">PALIVA</a></h1>
-
-    </div>
-
-    <div class="services-item">
-        <img src="img/icons/trailer.svg">
-        <h1><a href="#">PRODEJ PŘÍVĚSŮ A NÁVĚSŮ</a></h1>
-    </div>
-
-    <div class="services-item">
-        <img src="img/icons/emise.svg">
-        <h1><a href="#">STK A EMISE</a></h1>
-
-    </div>
-
-    <div class="services-item">
-        <img src="img/icons/vehicle.svg">
-        <h1><a href="#">AUTO VRAKOVIŠTĚ</a></h1>
-    </div>
-
-    <div class="services-item">
-        <img src="img/icons/driving-school.svg">
-        <h1><a href="#">AUTOŠKOLY</a></h1>
-    </div>
+    <main class="headline">
+        <h1>POZNEJ<br>SVOJE<br>OKOLÍ</h1>
+    </main>
 
 
-    <div class="services-item">
-        <img src="img/icons/motorcycle.svg">
-        <h1><a href="#">MOTOCYKLY A SKÚTRY</a></h1>
-    </div>
-
-
-    <div class="services-item">
-        <img src="img/icons/caravan.svg">
-        <h1><a href="#">OBYTNÁ AUTA A PŘÍVĚSY</a></h1>
-    </div>
-
-
-    <div class="services-item">
-        <img src="img/icons/parking.svg">
-        <h1><a href="#">PARKOVIŠTĚ</a></h1>
-    </div>
-
-    <div class="services-item">
-        <img src="img/icons/car-sharing.svg">
-        <h1><a href="#">PUJČOVNY AUTO-MOTO</a></h1>
-    </div>
-
-    <div class="services-item">
-        <img src="img/icons/rally.svg">
-        <h1><a href="#">TUNING</a></h1>
-    </div>
-
-    <div class="services-item">
-        <img src="img/icons/showroom.svg">
-        <h1><a href="#">AUTOBAZARY</a></h1>
-    </div>
-
-    <div class="services-item">
-        <img src="img/icons/gas.svg">
-        <h1><a href="#">ČERPACÍ STANICE A MYČKY</a></h1>
-    </div>
-
-    <div class="services-item">
-        <img src="img/icons/starter.svg">
-        <h1><a href="#">NÁHRADNÍ DÍLY</a></h1>
-    </div>
-
-    <div class="services-item">
-        <img src="img/icons/car.svg">
-        <h1><a href="#">OSOBNÍ AUTOMOBILY</a></h1>
-    </div>
-
-    <div class="services-item">
-        <img src="img/icons/oil.svg">
-        <h1><a href="#">PRODEJ PLNĚNÍ</a></h1>
-    </div>
-
-    <div class="services-item">
-        <img src="img/icons/car-service.svg">
-        <h1><a href="#">SERVISY A PNEUSERVISY</a></h1>
-    </div>
+    <!---TOWN-->
+<div class="towns">
+        <div class="town-item">
+            <button id="myBtn">Bašť</button>
+            <!-- The Modal -->
+                <div id="myModal" class="modal">
+            <!-- Modal content -->
+                <div class="modal-content">
+                <span class="close">&times;</span><br>
+                    <p id="modal-headline">Bašť</p><br><br>
+                    <div class="modal-main">
+                        <p>lorem ipsum</p>
+                </div>
+                </div>
+            </div>
+        </div>
 </div>
 
+    
 
 
-<div class="add" id="add-two">
-    <p>Narazili jste ve svém okolí na firmu, o které nevíme?
-        Podělte se o svoji skušenost
-    </p>
-    <button class="add-btn"><a href="">Přidat firmu</a></button>
-</div>
-
-<!--SERVICES START-->
-
-<!--FOOTER START-->
+    <!--FOOTER START-->
 <div class="footer">
     <div class="footer-logo">
-        <a href="index.html"><img src="img/Logo-white-color.svg"></a>
+        <a href="index3.html"><img src="img/Logo-white-color.svg"></a>
     </div>
 
 <div class="footer-left">
@@ -222,7 +126,34 @@
 </div>
 <!--FOOTER END-->
 
+
+<script>
+        // Get the modal
+        var modal = document.getElementById("myModal");
+    
+    // Get the button that opens the modal
+    var btn = document.getElementById("myBtn");
+    
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+    
+    // When the user clicks the button, open the modal 
+    btn.onclick = function() {
+      modal.style.display = "block";
+    }
+    
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+      modal.style.display = "none";
+    }
+    
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+</script>
     <script src="https://kit.fontawesome.com/8c5ffe8f98.js" crossorigin="anonymous"></script>
-<script src="js.js"></script>
 </body>
 </html>
