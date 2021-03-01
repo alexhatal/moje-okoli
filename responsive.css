@@ -13,11 +13,11 @@ and (max-device-width: 374px){
 
     .small-n{
         top: 9em;
-        margin-left: 30px;
+        margin-left: 15px;
     }
 
     .small-n a{
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .kontakt, .login, .shop{
@@ -25,18 +25,18 @@ and (max-device-width: 374px){
     }
 
     .nav-bar{
-        width: 350px;
+        width: 300px;
         right: 4vw;
         padding: 10px;
         top: -2em;
     }
 
     .nav-bar a{
-        font-size: 13px;
+        font-size: 12px;
     }
 
     .vl{
-        margin: 0 10px;
+        margin: 0 5px;
     }
     .headline{
         position: relative;
@@ -47,7 +47,7 @@ and (max-device-width: 374px){
 
     .headline h1{
         width: 70%;
-        font-size: 40px;
+        font-size: 30px;
         letter-spacing: 8px;
     }
 
@@ -91,12 +91,12 @@ and (max-device-width: 374px){
 
     span.form {
         position: relative;
-        left: 15%;
+        left: 7%;
         top: 10px;
     }
 
     span.form label{
-        font-size: 10px;
+        font-size: 9px;
 
     }
 
@@ -105,7 +105,7 @@ and (max-device-width: 374px){
     }
 
     .cont_select_center{
-        padding-left:20px ;
+        padding-left:5px ;
     }
 
     .select_mate, #submit-btn{
@@ -133,7 +133,7 @@ and (max-device-width: 374px){
     .about{
     width: 100%;
     margin-bottom: 0;
-    padding: 50px;
+    padding: 50px 10px 50px 20px;
     }
 
     .about h1{
@@ -146,7 +146,7 @@ and (max-device-width: 374px){
         width: 100%;
     }
     .rating-item{
-        width: 350px;
+        width: 300px;
         top: 0px;
         margin: 20px auto;
         left: 3%;
@@ -160,7 +160,7 @@ and (max-device-width: 374px){
         padding: 40px 0;
     }
     .foo-icon {
-        padding: 20px 0px;
+        padding: 15px 0px;
     }
 
     .foo-icon i{
@@ -182,15 +182,15 @@ and (max-device-width: 374px){
     .footer .footer-center{
         width: 100%;
         padding-top: 20px;
-        padding-left: 90px;
+        padding-left: 60px;
     }
 
     .footer-center p{
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .footer .footer-left{
-        padding-left: 70px;
+        padding-left: 50px;
         width: 100%;
     }
 
@@ -211,14 +211,14 @@ and (max-device-width: 374px){
 
     .footer .footer-left p,
     .footer .footer-left a{
-        font-size: 14px;
+        font-size: 12px;
     }
   
 
     .footer .footer-right{
 
         width: 100%;
-      padding-left: 60px ;
+      padding-left: 40px ;
       margin-left: 0;
     }
 
