@@ -1,51 +1,483 @@
 @media only screen 
-and (min-device-width: 320px) 
-and (max-device-width: 479px) { 
-
+and (min-device-width: 412px) 
+and (max-device-width: 567px){ 
+    body{
+    background-image: url(img/bg-mob.jpg);
 }
-
-@media only screen 
-and (min-device-width: 480px) 
-and (max-device-width: 568px) { 
-
-}
-
-@media only screen 
-and (min-device-width: 569px) 
-and (max-device-width: 768px) { 
-
-}
-
-@media only screen 
-and (min-device-width: 769px) 
-and (max-device-width: 991px) { 
-
-}
-
-@media only screen 
-and (min-device-width: 992px) 
-and (max-device-width: 1279px) { 
     .logo{
-        width: 25%;
-        padding: 40px;
+        width: 80%;
+        padding: 2em 3em;
+        margin-bottom: 10px;
     }
+
     .small-n{
-        top: 10vh;
+        top: 10.5em;
+        margin-left: 30px;
     }
 
-    .kontakt, .login, .shop{
-        padding: 0 15px;
-    }
-
-    .login a, .shop a, a.kontakt{
+    .small-n a{
         font-size: 14px;
     }
 
+    .kontakt, .login, .shop{
+    padding: 0 15px
+    }
+
     .nav-bar{
-        right: 1.5vw;
-        top: -7vw;
+        width: 380px;
+        right: 3vw;
+        padding: 13px;
+    }
+
+    .nav-bar a{
+        font-size: 14px;
+    }
+
+    .vl{
+        margin: 0 10px;
+    }
+    .headline{
+        position: relative;
+        top: 2em;
+        left: 17vw;
+    }
+
+    .headline h1{
+        width: 80%;
+        font-size: 40px;
+        letter-spacing: 8px;
+    }
+
+    .description{
+        position: relative;
+        top: 5em;
+        left: 10%;
+        text-align: center;
+    }
+
+    .description h2{
+        color: green;
+        width: 80%;
+        font-size: 17px;
+    }
+
+    .social{
+      display: none;
+
+    }
+
+    .sm-icon{
+        padding: 10px 0;
+    }
+
+    .sm-icon i{
+        font-size: 15px;
+    }
+
+    .vl-sm{
+        height: 3em;
+    }
+    
+    .main{
+        margin: 80px 0 0 0 ;
+        padding: 30px 0 70px;
+    }
+
+    .content h1{
+        font-size: 16px;
+    }
+
+    #query{
+        width: 80vw;
+        margin: 0 0 20px 0;
+    }
+
+    input#query {
+        font-size: 16px;
+    }
+
+    span.form {
+        position: relative;
+        left: 15%;
+        top: 10px;
+    }
+
+    span.form label{
+        font-size: 10px;
+
+    }
+
+    .name, .rating, .newest{
+        padding:  0 5px;
+    }
+
+    .cont_select_center{
+        padding-left:20px ;
+    }
+
+    .select_mate, #submit-btn{
+        width: 100px;
+    }
+
+    .select_mate p , button#submit-btn {
+        font-size: 14px;
+    }
+
+    .services-item{
+        width: 100%;
+    }
+
+    .services-item a{
+        font-size: 16px;
+    }
+    
+
+    .add p{
+        width: 80%;
+    }
+
+    .about{
+    width: 100%;
+    margin-bottom: 0;
+    padding: 50px;
+    }
+
+    .about h1{
+        margin: 0 auto;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .aside{
+        width: 100%;
+    }
+    .rating-item{
+        width: 350px;
+        top: 0px;
+        margin: 20px 30px;
+        left: 0px;
+    }
+
+    .advertisment{
+        display: none;
+    }
+
+    .footer{
+        padding: 40px 0;
+    }
+    .foo-icon {
+        margin: 30px 10px;
+        padding: 0 25px;
+    }
+
+    .foo-icon i{
+        font-size: 25px;
+    }
+
+    .footer-logo img{
+        width: 40%;
+        margin: 0 auto;
+    }
+
+    .footer-logo{
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+        
+    }
+
+    .footer .footer-center{
+        width: 100%;
+        margin: 20px 130px;
+    }
+
+    .footer-center p{
+        font-size: 14px;
+    }
+
+    .footer .footer-left{
+        padding-left: 100px;
+        width: 80%;
+    }
+
+    .footer .footer-company{
+        margin-left: 50px;
+    }
+
+    .footer p.footer-company {
+        font-size: 10px;
+    }
+
+    .foo-btn a{
+        font-size: 14px;
+    }
+
+
+    .footer .footer-left p,
+    .footer .footer-left a{
+        font-size: 12px;
+    }
+  
+
+    .footer .footer-right{
+
+        width: 100%;
+        margin:30px 90px;
+    }
+
+    .footer p.copy, .footer .copy a{
+        font-size: 10px;
+    }
+}
+
+
+@media only screen 
+and (min-device-width: 568px) 
+and (max-device-width: 666px){ 
+    body{
+    background-image: url(img/bg-tab.jpg);
+}
+    .logo{
+        width: 45%;
+        padding: 2em 3em;
+        margin-bottom: 10px;
+    }
+    .small-n{
+        top: 9em;
+        margin-left: 10px;
+    }
+
+    .small-n a{
+        font-size: 14px;
+    }
+
+    .kontakt, .login, .shop{
+    padding: 0 15px
+    }
+
+    .nav-bar{
+        width: 400px;
+        right: 12vw;
+        padding: 13px;
+    }
+
+    .nav-bar a{
+        font-size: 15px;
+    }
+
+    .vl{
+        margin: 0 10px;
+    }
+    .headline{
+        top: 12em;
+        left: 17vw;
+    }
+
+    .headline h1{
+        width: 80%;
+        font-size: 40px;
+        letter-spacing: 8px;
+    }
+
+    .description{
+        position: relative;
+        top: -50%;
+        left: 10%;
+        text-align: center;
+    }
+
+    .description h2{
+        color: green;
+        width: 80%;
+        font-size: 18px;
+    }
+
+    .social{
+        position: relative;
+        top: -2.5em;
+
+    }
+
+    .sm-icon{
+        padding: 10px 0;
+    }
+
+    .sm-icon i{
+        font-size: 15px;
+    }
+
+    .vl-sm{
+        height: 3em;
+    }
+    
+    .main{
+        margin: 0;
+        padding: 30px 0 70px;
+    }
+
+    .content h1{
+        font-size: 16px;
+    }
+
+    #query{
+        width: 70vw;
+        margin: 0 0 20px 0;
+    }
+
+    input#query {
+        font-size: 16px;
+    }
+
+    span.form {
+        position: relative;
+        left: 20%;
+        top: 10px;
+    }
+
+    span.form label{
+        font-size: 12px;
+
+    }
+
+    .name, .rating, .newest{
+        padding:  0 15px;
+    }
+
+    .cont_select_center{
+        padding-left:20px ;
+    }
+
+    .select_mate, #submit-btn{
+        width: 150px;
+    }
+
+    .services-item{
+        width: 40%;
+    }
+
+    .services-item a{
+        font-size: 16px;
+    }
+    
+
+    .add p{
+        width: 80%;
+    }
+
+    .about{
+    width: 100%;
+    margin-bottom: 0;
+    }
+
+    .about h1{
+        margin-left: 40px;
+        font-size: 17px;
+    }
+
+    .aside{
+        width: 100%;
+    }
+    .rating-item{
+        width: 350px;
+        top: 0px;
+        margin: 50px 0;
+        left: 50px;
+    }
+
+    .advertisment{
+        width: 100px;
+        position: relative;
+        left: 100px;
+        top: 8%;
+    }
+
+    .advertisment-item img{
+        width: 100%;
+    }
+
+    .footer{
+        padding: 40px 0;
+    }
+    .foo-icon {
+        margin: 30px 10px;
+        padding: 0 40px;
+    }
+
+    .foo-icon i{
+        font-size: 35px;
+    }
+
+    .footer-logo img{
+        width: 40%;
+        margin: 0 auto;
+    }
+
+    .footer-logo{
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+        
+    }
+
+    .footer .footer-center{
+        width: 100%;
+        margin: 20px 180px;
+    }
+
+    .footer-center p{
+        font-size: 15px;
+    }
+
+    .footer .footer-left{
+        padding-left: 160px;
+        width: 80%;
+    }
+
+    .footer .footer-company{
+        margin-left: 100px;
+    }
+
+
+    .footer .footer-left p,
+    .footer .footer-left a{
+        font-size: 15px;
+    }
+  
+
+    .footer .footer-right{
+
+        width: 100%;
+        margin:30px 90px;
+    }
+}
+
+@media only screen 
+and (min-device-width: 667px) 
+and (max-device-width: 767px){ 
+    body{
+    background-image: url(img/bg-tab.jpg);
+}
+    .logo{
+        width: 45%;
+        margin-bottom: 10px;
+    }
+    .small-n{
+        top: 11em;
+        margin-left: 40px;
+    }
+
+    .small-n a{
+        font-size: 14px;
+    }
+
+    .kontakt, .login, .shop{
+    padding: 0 20px
+    }
+
+    .nav-bar{
         width: 500px;
-        padding: 10px;
+        right: 10vw;
+        padding: 13px;
     }
 
     .nav-bar a{
@@ -53,380 +485,1149 @@ and (max-device-width: 1279px) {
     }
 
     .vl{
-        margin: 0 30px;
+        margin: 0 15px;
+    }
+    .headline{
+        top: 14em;
+        left: 17vw;
+    }
+
+    .headline h1{
+        font-size: 35px;
+        letter-spacing: 8px;
+    }
+
+    .description{
+        top: 16em;
+        left: 65vw;
+    }
+
+    .description h2{
+        width: 80%;
+        font-size: 15px;
     }
 
     .social{
         position: relative;
-        top: -3vh;
+        top: -2.5em;
+
     }
 
     .sm-icon{
         padding: 10px 0;
     }
-    .headline{
-        top: 16vh;
-    }
 
-    .headline h1{
-        font-size: 60px;
-    }
-    .description{
-        top: 27vh;
-        right: 2vw;
-    }
-
-    .description h2{
+    .sm-icon i{
         font-size: 15px;
     }
+
     .vl-sm{
-        height: 10vh;
+        height: 3em;
     }
     
-    .content h1{
-        padding: 0px;
-        margin: 20px auto 40px auto;
-        font-size: 20px;
-    }
-
-    span.form{
-        left: 15%;
-    }
-
-    input,label{
-        font-size: 12px;
-    }
-
-    #submit-btn{
-        right: 4%;
-    }
-
-    .about{
-        width: 55%;
-        margin-top: 250px;
-    }
-    .about h1{
-        font-size: 18px;
-        margin-left: 100px;
-    }
-    .footer{
-        font-size: 14px;
-    }
-
-    .footer-logo{
+    .main{
         margin: 0;
+        padding: 50px 0 70px;
     }
-    .footer img{
+
+    .content h1{
+        font-size: 18px;
+    }
+
+    #query{
+        width: 70vw;
+        margin: 0 0 20px 0;
+    }
+
+    input#query {
+        font-size: 16px;
+    }
+
+    span.form {
+        position: relative;
+        left: 25%;
+        top: 10px;
+    }
+
+    span.form label{
+        font-size: 12px;
+
+    }
+
+    .name, .rating, .newest{
+        padding:  0 15px;
+    }
+
+    .cont_select_center{
+        padding-left:20px ;
+    }
+
+    .select_mate, #submit-btn{
+        width: 150px;
+    }
+
+    .services-item{
+        width: 40%;
+    }
+
+    .services-item a{
+        font-size: 16px;
+    }
+    
+
+    .add p{
         width: 80%;
     }
 
-    .footer .footer-left{
-        margin-left: 20px;
+    .about{
+    width: 100%;
+    margin-bottom: 0;
     }
 
-    .footer .footer-center{
-        margin-left: 30px;
+    .about h1{
+        margin-left: 40px;
+        font-size: 17px;
+    }
+
+    .aside{
+        width: 100%;
+    }
+    .rating-item{
+        width: 450px;
+        top: 0px;
+        margin: 50px 0;
+        left: 50px;
+    }
+
+    .advertisment{
+        width: 100px;
+        position: relative;
+        left: 100px;
+        top: 8%;
+    }
+
+    .advertisment-item img{
+        width: 100%;
+    }
+
+    .footer{
+        padding: 40px 0;
+    }
+    .foo-icon {
+        margin: 30px 10px;
+        padding: 0 20px;
     }
 
     .foo-icon i{
         font-size: 25px;
     }
+
+    .footer-logo img{
+        width: 100%;
+    }
+
+    .footer-logo{
+        width: 35%;
+        margin: 20px 0;
+        padding-left: 80px;
+    }
+
+    .footer .footer-center{
+        width: 40%;
+        margin-left: 80px;
+        padding-left: 20px;
+
+    }
+
+    .footer-center p{
+        font-size: 15px;
+    }
+
+    .footer .footer-left{
+        padding-left: 130px;
+        width: 60%;
+    }
+
+    .footer .footer-company{
+        margin-left: 35px;
+    }
+
+
+    .footer .footer-left p,
+    .footer .footer-left a{
+        font-size: 15px;
+    }
+  
+
+    .footer .footer-right{
+
+        width: 40%;
+        margin-left: 0px;
+    }
 }
 
+
 @media only screen 
-and (min-device-width: 1280px) 
-and (max-device-width: 1366px) { 
+and (min-device-width: 768px) 
+and (max-device-width: 895px){ 
+    body{
+    background-image: url(img/bg-tab.jpg);
+}
     .logo{
-        width: 20%;
-        padding: 40px;
+        width: 45%;
+        margin-bottom: 10px;
     }
     .small-n{
-        top: 10vh;
+        top: 13em;
     }
 
     .kontakt, .login, .shop{
-        padding: 0 30px;
+    padding: 0 20px
     }
 
     .nav-bar{
-        right: 1.5vw;
-        top: -7vw;
-        width: 700px;
+        width: 530px;
+        right: 15vw;
         padding: 15px;
+    }
+
+    .vl{
+        margin: 0 25px;
+    }
+    .headline{
+        top: 16em;
+        left: 18vw;
+    }
+
+    .headline h1{
+        font-size: 40px;
+        letter-spacing: 10px;
+    }
+
+    .description{
+        top: 18em;
+        left: 65vw;
+    }
+
+    .description h2{
+        width: 80%;
+        font-size: 16px;
     }
 
     .social{
         position: relative;
-        top: -3vh;
+        top: -2.5em;
+
     }
 
     .sm-icon{
-        padding: 10px 0;
-    }
-    .headline{
-        top: 16vh;
+        padding: 15px 0;
+   
     }
 
-    .headline h1{
-        font-size: 60px;
-    }
-    .description{
-        top: 27vh;
-        right: 2vw;
-    }
-
-    .description h2{
-        font-size: 15px;
-    }
     .vl-sm{
-        height: 10vh;
+        height: 4em;
     }
     
+    .main{
+        margin: 0;
+        padding: 50px 0 70px;
+    }
+
     .content h1{
-        padding: 0px;
-        margin: 20px auto 40px auto;
         font-size: 20px;
     }
 
-    span.form{
-        left: 15%;
+    #query{
+        width: 70vw;
+        margin: 0 0 20px 0;
     }
 
-    input,label{
+    input#query {
+        font-size: 16px;
+    }
+
+    span.form {
+        position: relative;
+        left: 27%;
+        top: 10px;
+    }
+
+    span.form label{
         font-size: 12px;
+
     }
 
-    #submit-btn{
-        right: 4%;
+    .name, .rating, .newest{
+        padding:  0 15px;
     }
 
-    .about{
-        width: 55%;
-        margin-top: 250px;
-    }
-    .about h1{
-        font-size: 18px;
-        margin-left: 100px;
-    }
-    .footer{
-        font-size: 14px;
+    .cont_select_center{
+        padding-left:20px ;
     }
 
-    .footer-logo{
-        margin: 0;
+    .select_mate, #submit-btn{
+        width: 150px;
     }
-    .footer img{
+
+    .services-item{
+        width: 40%;
+    }
+    
+
+    .add p{
         width: 80%;
     }
 
-    .footer .footer-left{
-        margin-left: 20px;
+    .about{
+    width: 100%;
+    margin-bottom: 0;
     }
 
-    .footer .footer-center{
-        margin-left: 30px;
+    .about h1{
+        margin-left: 40px;
+        font-size: 17px;
+    }
+
+    .aside{
+        width: 100%;
+    }
+    .rating-item{
+        width: 500px;
+        top: 0px;
+        margin: 50px 0;
+        left: 50px;
+    }
+
+    .advertisment{
+        width: 100px;
+        position: relative;
+        left: 100px;
+        top: 8%;
+    }
+
+    .advertisment-item img{
+        width: 100%;
+    }
+
+    .footer{
+        padding: 40px 0;
+    }
+    .foo-icon {
+        margin: 40px 10px;
+        padding: 0 20px;
     }
 
     .foo-icon i{
-        font-size: 25px;
+        font-size: 30px;
+    }
+
+    .footer-logo img{
+        width: 100%;
+    }
+
+    .footer-logo{
+        width: 35%;
+        margin: 20px;
+        padding-left: 100px;
+    }
+
+    .footer .footer-center{
+        width: 40%;
+        margin-left: 80px;
+        padding-left: 60px;
+
+    }
+
+    .footer-center p{
+        font-size: 16px;
+    }
+
+    .footer .footer-left{
+        padding-left: 100px;
+        width: 50%;
+    }
+
+    .footer .footer-company{
+        margin-left: 35px;
+    }
+
+
+    .footer .footer-left p,
+    .footer .footer-left a{
+        font-size: 16px;
+    }
+  
+
+    .footer .footer-right{
+
+        width: 40%;
+        margin-left: 40px;
     }
 }
 
 @media only screen 
-and (min-device-width: 1367px) 
-and (max-device-width: 1499px) { 
+and (min-device-width: 896px) 
+and (max-device-width: 1023px){ 
+    body{
+    background-image: url(img/bg-tab.jpg);
+}
+    .logo{
+        width: 40%;
+    }
+    .small-n{
+        top: 9em;
+    }
+
+    .kontakt, .login, .shop{
+    padding: 0 35px
+    }
+
+    .nav-bar{
+        width: 530px;
+        right: 3vw;
+        top: -12vw;
+    }
+
+    .vl{
+        margin: 0 25px;
+    }
+    .headline{
+        top: 11.5em;
+        left: 25vw;
+    }
+
+    .headline h1{
+        font-size: 75px;
+        letter-spacing: 10px;
+    }
+
+    .description{
+        top: 20em;
+        left: 65vw;
+    }
+
+    .description h2{
+        width: 80%;
+    }
+
+    .social{
+        position: relative;
+        top: -2em;
+
+    }
+
+    .sm-icon{
+        padding: 15px 0;
+   
+    }
+
+    .vl-sm{
+        height: 7em;
+    }
     
+    .main{
+        margin: 0;
+        padding: 50px 0 70px;
+    }
+
+    .content h1{
+        font-size: 20px;
+    }
+
+    #query{
+        margin: 0;
+    }
+
+    input#query {
+        font-size: 18px;
+    }
+
+    span.form {
+        position: relative;
+        left: 15%;
+        top: 10px;
+    }
+
+    span.form label{
+        font-size: 12px;
+
+    }
+
+    .name, .rating, .newest{
+        padding:  0 10px;
+    }
+
+    .cont_select_center{
+        padding-left:20px ;
+    }
+
+    .select_mate, #submit-btn{
+        width: 150px;
+    }
+
+    .services-item{
+        width: 25%;
+    }
+
+    .about{
+    width: 50%;
+    margin-bottom: 220px;
+    }
+
+    .about h1{
+        margin-left: 40px;
+        font-size: 17px;
+    }
+    .rating-item{
+        width: 280px;
+        left: -70px;
+        top: 70px;
+    }
+    .advertisment-item img{
+        width: 60%;
+    }
+
+    .footer{
+        padding: 40px 0;
+    }
+    .foo-icon {
+        margin: 40px 10px;
+    }
+
+    .foo-icon i{
+        font-size: 20px;
+    }
+
+    .footer-logo img{
+        width: 60%;
+    }
+
+    .footer-logo{
+        width: 40%;
+        margin: 20px;
+        padding-left: 150px;
+    }
+
+    .footer .footer-center{
+        width: 40%;
+        margin-left: 80px;
+        padding-left: 110px;
+
+    }
+
+    .footer-center p{
+        font-size: 16px;
+    }
+
+    .footer .footer-left{
+        padding-left: 100px;
+        width: 40%;
+    }
+
+    .footer .footer-company{
+        margin-left: 10px;
+    }
+
+
+    .footer .footer-left p,
+    .footer .footer-left a{
+        font-size: 16px;
+    }
+  
+
+    .footer .footer-right{
+
+        width: 40%;
+        margin-left: 60px;
+    }
+}
+
+
+@media only screen 
+and (min-device-width: 1024px) 
+and (max-device-width: 1149px){ 
+    body{
+    background-image: url(img/bg-tab.jpg);
+}
+    .logo{
+        width: 35%;
+    }
+    .small-n{
+        top: 10em;
+    }
+
+    .kontakt, .login, .shop{
+    padding: 0 40px
+    }
+
+    .nav-bar{
+        width: 650px;
+        right: 3vw;
+        top: -12vw;
+    }
+
+    .vl{
+        margin: 0 40px;
+    }
+    .headline{
+        top: 13.5em;
+        left: 25vw;
+    }
+
+    .headline h1{
+        font-size: 85px;
+        letter-spacing: 10px;
+    }
+
+    .description{
+        top: 25em;
+        left: 70vw;
+    }
+
+    .description h2{
+        width: 75%;
+    }
+
+    .social{
+        position: relative;
+
+    }
+
+    .sm-icon{
+        padding: 15px 0;
+    }
+
+    .vl-sm{
+        height: 8em;
+    }
+    
+    .main{
+        margin: 0;
+        padding: 50px 0 70px;
+    }
+
+    .content h1{
+        font-size: 20px;
+    }
+
+    #query{
+        margin: 0;
+    }
+
+    input#query {
+        font-size: 18px;
+    }
+
+    span.form {
+        position: relative;
+        left: 15%;
+        top: 10px;
+    }
+
+    span.form label{
+        font-size: 13px;
+
+    }
+
+    .name, .rating, .newest{
+        padding:  0 10px;
+    }
+
+    .cont_select_center{
+        padding-left:20px ;
+    }
+
+    .select_mate, #submit-btn{
+        width: 170px;
+    }
+
+    .services-item{
+        width: 25%;
+    }
+
+    .about{
+    width: 50%;
+    margin-bottom: 180px;
+    }
+    .about h1{
+        margin-left: 40px;
+        font-size: 20px;
+    }
+    .rating-item{
+        width: 350px;
+        left: -70px
+    }
+
+    .footer{
+        padding: 40px 0;
+    }
+    .foo-icon {
+        margin: 40px 10px;
+    }
+
+    .foo-icon i{
+        font-size: 20px;
+    }
+
+    .footer-logo img{
+        width: 60%;
+    }
+
+    .footer-logo{
+        width: 40%;
+        margin: 20px;
+        padding-left: 150px;
+    }
+
+    .footer .footer-center{
+        width: 40%;
+        margin-left: 80px;
+        padding-left: 110px;
+
+    }
+
+    .footer-center p{
+        font-size: 16px;
+    }
+
+    .footer .footer-left{
+        padding-left: 100px;
+        width: 40%;
+    }
+
+    .footer .footer-company{
+        margin-left: 10px;
+    }
+
+
+    .footer .footer-left p,
+    .footer .footer-left a{
+        font-size: 16px;
+    }
+  
+
+    .footer .footer-right{
+
+        width: 40%;
+        margin-left: 60px;
+    }
+}
+
+
+@media only screen 
+and (min-device-width: 1150px) 
+and (max-device-width: 1279px){ 
     .logo{
         width: 25%;
     }
     .small-n{
-        top: 17vh;
+        top: 7em;
     }
 
     .kontakt, .login, .shop{
-        padding: 0 30px;
+    padding: 0 30px
     }
 
     .nav-bar{
+        width: 600px;
         right: 3vw;
         top: -10vw;
-        width: 700px;
-        padding: 15px;
+        padding: 13px;
+    }
+
+    .vl{
+        margin: 0 30px;
+    }
+    .headline{
+        top: 11em;
+    }
+
+    .headline h1{
+        font-size: 50px;
+        letter-spacing: 5px;
+    }
+
+    .description{
+        top: 17em;
+    }
+
+    .description h2{
+        font-size: 15px;
     }
 
     .social{
         position: relative;
-        top: -3vh;
+       top: -2em;
     }
 
     .sm-icon{
         padding: 10px 0;
     }
+
+    .vl-sm{
+        height: 4em;
+    }
+    
+    .main{
+        margin: 0;
+        padding: 30px 0 70px;
+    }
+
+    .content h1{
+        font-size: 20px;
+    }
+    #query{
+        margin: 0;
+    }
+
+    input#query {
+        font-size: 18px;
+    }
+
+    span.form {
+        position: relative;
+        left: 15%;
+        top: 10px;
+    }
+
+    span.form label{
+        font-size: 15px;
+    }
+
+    .cont_select_center{
+        padding-left:20px ;
+    }
+
+    .select_mate, #submit-btn{
+        width: 170px;
+    }
+
+    .about{
+    width: 50%;
+    margin-bottom: 180px;
+    }
+    .about h1{
+        margin-left: 60px;
+        font-size: 22px;
+    }
+    .rat-ad{
+        width: 70%;
+    }
+    .rating-item{
+        width: 400px;
+        left: -70px
+    }
+
+    .advertisment-item img{
+        width: 80%;
+    }
+
+    .footer{
+        padding: 40px 0;
+    }
+    .foo-icon {
+        margin: 40px 10px;
+    }
+
+    .foo-icon i{
+        font-size: 20px;
+    }
+
+    .footer-logo img{
+        width: 100%;
+    }
+
+    .footer-logo{
+        width: 15%;
+        margin: 20px;
+    }
+
+    .footer-center{
+        width: 15%;
+        margin-left: 80px;
+    }
+
+    .footer-center p{
+        font-size: 15px;
+    }
+
+    .footer-left{
+        padding-left: 50px;
+        width: 15%;
+    }
+
+    .footer .footer-company{
+        margin-left: 10px;
+    }
+
+
+    .footer .footer-left p,
+    .footer .footer-left a{
+        font-size: 15px;
+    }
+  
+
+    .footer .footer-right{
+        margin-left: 50px;
+        width: 15%;
+    }
+}
+
+
+@media only screen 
+and (min-device-width: 1280px) 
+and (max-device-width: 1399px){ 
+    .logo{
+        width: 30%;
+    }
+    .small-n{
+        top: 8em;
+    }
+
+    .kontakt, .login, .shop{
+    padding: 0 30px
+    }
+
+    .nav-bar{
+        width: 600px;
+        right: 3.5vw;
+        top: -10vw;
+    }
+
+    .vl{
+        margin: 0 30px;
+    }
     .headline{
-        top: 22vh;
+        top: 11em;
     }
 
     .headline h1{
         font-size: 55px;
+        letter-spacing: 5px;
     }
+
     .description{
-        top: 29vh;
+        top: 17em;
     }
 
     .description h2{
-        font-size: 15px;
-    }
-    .vl-sm{
-        height: 10vh;
-    }
-    
-    .content h1{
-        padding: 0px;
-        margin: 0 auto 40px auto;
-    }
-
-    span.form{
-        left: 15%;
-    }
-
-    input,label{
-        font-size: 12px;
-    }
-
-    #submit-btn{
-        right: 6%;
-    }
-
-    .about{
-        width: 58%;
-    }
-    .about h1{
-        font-size: 20px;
-        margin-left: 130px;
-    }
-
-
-}
-
-@media only screen 
-and (min-device-width: 1500px) 
-and (max-device-width: 1652px) { 
-
-    .logo{
-        width: 25%;
-    }
-    .small-n{
-        top: 17vh;
-    }
-
-    .kontakt, .login, .shop{
-        padding: 0 30px;
-    }
-
-    .nav-bar{
-        right: 2vw;
-        top: -10vw;
+        font-size: 16px;
     }
 
     .social{
         position: relative;
-        top: -3vh;
+       top: -2em;
     }
 
     .sm-icon{
-        padding: 10px 0;
+        padding: 15px 0;
+    }
+    .vl-sm{
+        height: 4em;
+    }
+    
+    .main{
+        margin: 0;
+        padding: 30px 0 70px;
+    }
+
+    input#query {
+        font-size: 18px;
+    }
+
+    span.form {
+        position: relative;
+        left: 15%;
+        top: 10px;
+    }
+
+    span.form label{
+        font-size: 15px;
+    }
+
+    #submit-btn{
+        right: 1%;
+    }
+
+    .about{
+        width: 50%;
+    margin-bottom: 180px;
+    }
+    .about h1{
+        margin-left: 60px;
+        font-size: 22px;
+    }
+
+    .rating-item{
+        width: 450px;
+    }
+
+    .foo-icon i{
+        font-size: 25px;
+    }
+
+    .footer-logo{
+        margin: 0;
+    }
+
+    .footer-center{
+        margin-left: 60px;
+    }
+}
+
+
+
+@media only screen 
+and (min-device-width: 1400px) 
+and (max-device-width: 1519px){ 
+    .logo{
+        width: 30%;
+    }
+    .small-n{
+        top: 10em;
+    }
+
+    .kontakt, .login, .shop{
+    padding: 0 40px
+    }
+
+    .nav-bar{
+        width: 700px;
+        right: 3.5vw;
+        top: -10vw;
     }
     .headline{
-        top: 22vh;
+        top: 12em;
     }
 
     .headline h1{
         font-size: 65px;
     }
     .description{
-        top: 32vh;
-    }
-
-    .description h2{
-        font-size: 17px;
-    }
-    .vl-sm{
-        height: 10vh;
-    }
-    
-    .content h1{
-        padding: 60px;
-        margin: 0 auto;
-    }
-
-    span.form{
-        left: 17%;
-    }
-
-    input,label{
-        font-size: 16px;
-    }
-
-    #submit-btn{
-        right: 9%;
-    }
-
-    .about{
-        width: 58%;
-    }
-    .about h1{
-        font-size: 20px;
-        margin-left: 130px;
-    }
-}
-
-
-@media only screen 
-and (min-device-width: 1653px) 
-and (max-device-width: 1819px) { 
-    .small-n{
-        top: 18vh;
-    }
-
-    .nav-bar{
-        right: 5vw;
-    }
-    .headline{
-        top: 25vh;
-    }
-
-    .headline h1{
-        font-size: 75px;
-    }
-    .description{
-        top: 38vh;
+        top: 19em;
     }
 
     .description h2{
         font-size: 18px;
     }
-    .vl-sm{
-        height: 10vh;
+
+    .social{
+        position: relative;
+        top: -1.5em;
+
     }
-    
-    .content h1{
-        padding: 60px;
-        margin: 0 auto;
+    .vl-sm{
+        height: 4em;
+    }
+
+    input#query {
+        font-size: 18px;
+    }
+
+    span.form {
+        position: relative;
+        left: 15%;
+        top: 10px;
+    }
+
+    span.form label{
+        font-size: 15px;
+    }
+
+    #submit-btn{
+        right: 1%;
+    }
+
+    .about{
+        width: 50%;
+    margin-bottom: 180px;
+    }
+    .about h1{
+        margin-left: 60px;
+    }
+
+    .rating-item{
+        width: 500px;
     }
 }
 
 @media only screen 
-and (min-device-width: 1820px) 
-and (max-device-width: 1980px) { 
+and (min-device-width: 1520px) 
+and (max-device-width: 1680px){ 
     .small-n{
-        top: 18vh;
+        top: 10em;
+    }
+
+    .nav-bar{
+        width: 700px;
+        right: 5vw;
     }
     .headline{
-        top: 25vh;
+        top: 12em;
+    }
+
+    .headline h1{
+        font-size: 80px;
+    }
+    .description{
+        top: 21.5em;
+    }
+
+    .description h2{
+        font-size: 18px;
     }
 
     .vl-sm{
-        height: 11vh;
+        height: 5em;
     }
 
+    #submit-btn{
+        right: 1%;
+    }
+
+    .about{
+    margin-bottom: 200px;
+    }
+    .about h1{
+        margin-left: 60px;
+    }
+
+    .rating-item{
+        width: 550px;
+    }
+}
+
+@media only screen 
+and (min-device-width: 1681px) 
+and (max-device-width: 1825px) { 
+    .small-n{
+        top: 10em;
+    }
+
+    .nav-bar{
+        right: 9vw;
+    }
+    .headline{
+        top: 12em;
+    }
+
+    .headline h1{
+        font-size: 93px;
+    }
+    .description{
+        top: 23em;
+    }
+
+    .vl-sm{
+        height: 7em;
+    }
+
+    #submit-btn{
+        right: 1%;
+    }
+
+    .about h1{
+        margin-left: 60px;
+    }
 }

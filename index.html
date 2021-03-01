@@ -17,6 +17,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    
 </head>
 
 <body>
@@ -24,24 +26,24 @@
 <!--HERO START-->
 <div class="hero">
     <div class="logo">
-        <a href="index3.html"><img src="img/logo-white-hor.svg" alt="moje okoli logo" width="100%"></a>
+        <a href="index.html"><img src="img/logo-white-hor.svg" alt="moje okoli logo" width="100%"></a>
     </div>
 
     <nav>
         <span class="nav-bar">
-            <a href="#">Katalog Firem</a>
+            <a href="index.html">Katalog Firem</a>
             <span class="vl"></span>
             <a href="#">Kam na výlet</a>
             <span class="vl"></span>
-            <a href="#">Seznam obcí</a>
+            <a href="obce.html">Seznam obcí</a>
         </span>
     </nav>
 
     <div class="social">
         <div class="vl-sm"></div>
-        <div class="sm-icon"><a href=""><i class="fab fa-facebook-f"></i></a></div>
-        <div class="sm-icon"><a href=""><i class="fab fa-instagram"></i></a></div>
-        <div class="sm-icon"><a href=""><i class="fab fa-linkedin-in"></i></a></div>
+        <div class="sm-icon"><a href="https://www.facebook.com/MojeOkoli/about/" target="blank"><i class="fab fa-facebook-f"></i></a></div>
+        <div class="sm-icon"><a href=""><i class="fab fa-instagram" target="blank"></i></a></div>
+        <div class="sm-icon"><a href=""><i class="fab fa-linkedin-in" target="blank"></i></a></div>
         <div class="vl-sm"></div>
     </div>
 
@@ -60,7 +62,7 @@
     </nav>
 
     <main class="headline">
-        <h1>POZNEJ<br>SVOJE<br>OKOLÍ</h1>
+        <h1>POZNEJ SVOJE OKOLÍ</h1>
     </main>
 
     <div class="description">
@@ -71,164 +73,202 @@
 <!--HERO END-->
 
 <!--MAIN START-->
-
+<div class="main">
 <div class="content">
     <h1>
         Moje Okolí Vám pomůže najít nejrůznější firmy, řemeslníky, služby a obchody, ale potřebné informace zde najdou i maminky s dětmi, sportovci, milovníci zábavy všeho druhu nebo ti z Vás, kteří hledají místo pro odpočinek v přírodě.
     </h1>
     <div class="search-bar">
-        <input type="search" id="query" name="q" placeholder="Hledej ve svém okolí..." aria-label="Hledej v okolí">
-        
+            <div class="query-bar">
+            <input type="search" id="query" name="q" placeholder="Hledej ve svém okolí..." aria-label="Hledej v okolí">
+            </div>
+
             <div class="cont_select_center">
-            <!-- Custom select structure --> 
-            <div class="select_mate" data-mate-select="active" >
-            <select name="" onchange="" onclick="return false;" id="">
-            <option value="" >Obec</option>
-            <option value="1">Select option 1</option>
-            <option value="2" >Select option 2</option>
-            <option value="3">Select option 3</option>
-            </select>
-            <p class="selecionado_opcion"  onclick="open_select(this)" ></p><span onclick="open_select(this)" class="icon_select_mate" ><svg fill="#25ac57" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
-                <path d="M7.41 7.84L12 12.42l4.59-4.58L18 9.25l-6 6-6-6z"/>
-                <path d="M0-.75h24v24H0z" fill="none"/>
-            </svg></span>
-            <div class="cont_list_select_mate">
-            <ul class="cont_select_int">  </ul> 
-            </div>
-            </div>
-            <!-- Custom select structure --> 
+                <!-- Custom select structure --> 
+                <div class="select_mate" data-mate-select="active" >
+                <select name="" onchange="" onclick="return false;" id="">
+                <option value="" >Obec</option>
+                <option value="1">Select option 1</option>
+                <option value="2" >Select option 2</option>
+                <option value="3">Select option 3</option>
+                </select>
+                <p class="selecionado_opcion"  onclick="open_select(this)" ></p><span onclick="open_select(this)" class="icon_select_mate" ><svg fill="#25ac57" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M7.41 7.84L12 12.42l4.59-4.58L18 9.25l-6 6-6-6z"/>
+                    <path d="M0-.75h24v24H0z" fill="none"/>
+                </svg></span>
+                <div class="cont_list_select_mate">
+                <ul class="cont_select_int">  </ul> 
+                </div>
+                </div>
+                <!-- Custom select structure --> 
             </div> <!-- End div center   -->
+            <div class="submit-b">
             <button type="submit" id="submit-btn">Hledej</button>
+            </div>
         </div>
-        <span class="form">
-            <label for="název">Seředit podle:</label>
-             <span class="name">
-              <input type="checkbox" name="názvu">
-              <label for="název">Název</label>
-            </span>
-            <span class="rating">
-              <input type="checkbox" name="hodnocení">
-              <label for="název">Hodnocení</label>
-            </span>
-            <span class="newest">
-              <input type="checkbox" name="nejnovější">
-              <label for="název">Nejnovější</label>
-            </span>
-          </span>
+</div>
+<span class="form">
+    <label for="název">Seředit podle:</label>
+     <span class="name">
+      <input type="checkbox" name="názvu">
+      <label for="název">Název</label>
+    </span>
+    <span class="rating">
+      <input type="checkbox" name="hodnocení">
+      <label for="název">Hodnocení</label>
+    </span>
+    <span class="newest">
+      <input type="checkbox" name="nejnovější">
+      <label for="název">Nejnovější</label>
+    </span>
+  </span>
 </div>
 
-<div class="boxes">
-    <div class="services">
-        <div class="services-item">
-            <img src="img/icons/services.svg" width="20%">
-            <h1>SLUŽBY</h1><br>
-            <a href="#">Obchody</a>
-            <a href="#">Auto-moto</a>
-            <a href="#">Úklid</a>
-            <a href="#">Péče o tělo</a>
-            <a href="#">Řemeslo</a>
-        </div>
-    
-        <div class="services-item">
-            <img src="img/icons/culture.svg" width="25%">
-            <h1>KULTURA A ZÁBAVA</h1><br>
-            <a href="#">Kultuta a zábava</a>
-            <a href="#">Umění</a>
-            <a href="#">Sport a rekreace</a>
-        </div>
-    
-        <div class="services-item">
-            <img src="img/icons/institution.svg" width="20%">
-            <h1>ÚŘADY A INSTITUCE</h1><br>
-            <a href="#">Úřady a instituce</a>
-            <a href="#">Ekonomika a finance</a>
-            <a href="#">Zdravotní a sociální péče</a>
-            <a href="#">Vzdělávání a věda</a>
-            <a href="#">Letectví</a>
-        </div>
-    
-        <div class="services-item">
-            <img src="img/icons/agriculture.svg" width="20%">
-            <h1>ZEMĚDĚLSTVÍ A VÝROBA</h1><br>
-            <a href="#">Zemědělství a výroba</a>
-            <a href="#">Zemědělská výroba</a>
-            <a href="#">Výroba a průmysl</a>
-            <a href="#">Stavba, dům, byt</a>
-            <a href="#">Zahrada</a>
-            <a href="#">Chovatelství</a>
-        </div>
-    
-        <div class="services-item">
-            <img src="img/icons/travel.svg" width="20%">
-            <h1>REALITY A CESTOVÁNÍ</h1><br>
-            <a href="#">Reality a nemovitosti</a>
-            <a href="#">Ubytování</a>
-            <a href="#">Cestovní kanceláře</a>
-            <a href="#">Doprava a přeprava</a>
-        </div>
-    
-        <div class="services-item">
-            <img src="img/icons/food.svg" width="20%">
-            <h1>STRAVOVÁNÍ A RESTAURACE</h1><br>
-            <a href="#">Restaurace</a>
-            <a href="#">Kavárny</a>
-            <a href="#">Bary</a>
-        </div>
-    
-        <div class="services-item">
-            <img src="img/icons/otherservices.svg" width="20%">
-            <h1>DALŠÍ SLUŽBY</h1><br>
-            <a href="#">Počítače a internet</a>
-            <a href="#">Reklama a marketing</a>
-            <a href="#">Modeling</a>
-            <a href="#">Skladovací služby</a>
-            <a href="#">Servis (kulečník,biliard)</a>
-        </div>
+<!--MAIN END-->
+
+<!--SERVICES START-->
+
+<div class="services">
+    <div class="services-item">
+        <img src="img/icons/car.svg">
+        <h1><a href="katalog-auto-moto.html">AUTO-MOTO</a></h1>
     </div>
-    <div class="boxes">
-        <div class="aside">
+
+    <div class="services-item">
+        <img src="img/icons/institution.svg">
+        <h1><a href="#">ÚŘADY A INSTITUCE</a></h1>
+        <a href="#">Ekonomika a finance</a><br>
+        <a href="#">Zdravotní a sociální péče</a>
+    </div>
+
+    <div class="services-item">
+        <img src="img/icons/knowledge.svg">
+        <h1><a href="#">VZDĚLÁVÁNÍ A VĚDA</a></h1>
+    </div>
+
+    <div class="services-item">
+        <img src="img/icons/shop.svg">
+        <h1><a href="#">OBCHODY</a></h1>
+    </div>
+
+    <div class="services-item">
+        <img src="img/icons/tool-box.svg">
+        <h1><a href="#">SLUŽBY A ŘEMESLÁ</a></h1>
+        <a href="#">Úklid</a><br>
+        <a href="#">Péče o tělo</a>
+    </div>
+
+    <div class="services-item">
+        <img src="img/icons/culture.svg">
+        <h1><a href="#">KULTURA A ZÁBAVA</a></h1>
+        <a href="#">Umění</a>
+    </div>
+
+    <div class="services-item">
+        <img src="img/icons/sport.svg">
+        <h1><a href="#">SPORT A REKREACE</a></h1>
+
+    </div>
+
+    <div class="services-item">
+        <img src="img/icons/travel.svg">
+        <h1><a href="#">CESTOVNÍ KANCELÁŘE</a></h1>
+        <a href="#">Doprava a přeprava</a>
+    </div>
+
+    <div class="services-item">
+        <img src="img/icons/living-room.svg">
+        <h1><a href="#">REALITY A NEMOVIOSTI</a></h1>
+        <a href="#">Ubytování</a>
+    </div>
+
+
+    <div class="services-item">
+        <img src="img/icons/agriculture.svg">
+        <h1><a href="#">ZEMĚDĚLSKÁ VÝROBA</a></h1>
+        <a href="#">Výroba a průmysl</a><br>
+        <a href="#">Chovatelství</a>
+    </div>
+
+
+    <div class="services-item">
+        <img src="img/icons/food.svg">
+        <h1><a href="#">STRAVOVÁNÍ A RESTAURACE</a></h1>
+    </div>
+
+
+    <div class="services-item">
+        <img src="img/icons/home.svg">
+        <h1><a href="#">STAVBA, DŮM, BYT</a></h1>
+        <a href="#">Zahrada</a>
+        
+    </div>
+
+    <div class="services-item">
+        <img src="img/icons/computer.svg">
+        <h1><a href="#">POČÍTAČE A INTERNET</a></h1>
+        <a href="#">Reklama a marketing</a>
+    </div>
+
+    <div class="services-item">
+        <img src="img/icons/otherservices.svg">
+        <h1><a href="#">OSTATNÍ</a></h1>
+    </div>
+</div>
+
+<!--SERVICES START-->
+
+<!--ADD START-->
+<div class="add">
+    <p>Narazili jste ve svém okolí na firmu, o které nevíme?
+        Podělte se o svoji skušenost
+    </p>
+    <button class="add-btn"><a href="">Přidat firmu</a></button>
+</div>
+<!--ADD END-->
+
+<!--ASIDE START-->
+<div class="aside-container">
+<div class="about">
+    <h1>Naše stránky jsou obsáhlým průvodcem Vašeho volného času i důležitým pomocníkem v řešení každodenních potřeb.<br><br>
+
+        Staňte se i Vy součástí našeho informačního portálu a prezentujte zde své služby.<br><br>
+        
+        Hledáte práci? Prodáváte nemovitost? I tyto informace u nás naleznete.<br><br>
+        Potřebujete poradit? Napište nám<br><br>
+        <button class="ct-btn"><a href="">Kontakt</a></button>
+    </h1>
+</div>
+
+<div class="aside">
+<div class="rat-ad">
+        <div class="rating-item">
             <h3>Hodnocení firem</h3>
             <hr class="devider">
         </div>
-    </div>
-    
-    </div>
-    
-    <aside>
-        <div class="aside-one">
+
+        <div class="rating-item">
             <h3>Nejnovější firmy</h3>
             <hr class="devider">
         </div>
-    </aside>
-
-  
-    <div class="add">
-        <p>Narazili jste ve svém okolí na firmu, o které nevíme?
-            Podělte se o svoji skušenost
-        </p>
-        <button class="add-btn"><a href="">Přidat firmu</a></button>
     </div>
+
 
     <div class="advertisment">
         <div class="advertisment-item">
             <a href="https://shop.finaltek.com/cart.php?2gid=2" onclick="javascript:window.open(this.href);return false;">
-            <img src="img/ft-banner.png" alt="FinalHosting.cz"></a>
+            <img src="img/banners/reklama.52.png" alt="FinalHosting.cz"></a>
         </div>
+    
         <div class="advertisment-item">
             <a href="https://shop.finaltek.com/cart.php?2gid=2" onclick="javascript:window.open(this.href);return false;">
-            <img src="img/ft-banner.png" alt="FinalHosting.cz"></a>
-        </div>
-        <div class="advertisment-item">
-            <a href="https://shop.finaltek.com/cart.php?2gid=2" onclick="javascript:window.open(this.href);return false;">
-            <img src="img/ft-banner.png" alt="FinalHosting.cz"></a>
+            <img src="img/banners/reklama.53.png" alt="FinalHosting.cz"></a>
         </div>
     </div>
+</div>
+</div>
 
-    
-
-
-
-
+<!--ASIDE END-->
 
 <!--FOOTER START-->
 <div class="footer">
@@ -259,9 +299,9 @@
 </div>
     
 <div class="footer-right">
-    <span class="foo-icon"><a href=""><i class="fab fa-facebook-f"></i></a></span>
-    <span class="foo-icon"><a href=""><i class="fab fa-instagram"></i></a></span>
-    <span class="foo-icon"><a href=""><i class="fab fa-linkedin-in"></i></a></span>
+    <span class="foo-icon"><a href="https://www.facebook.com/MojeOkoli/about/" target="blank"><i class="fab fa-facebook-f"></i></a></span>
+    <span class="foo-icon"><a href=""><i class="fab fa-instagram" target="blank"></i></a></span>
+    <span class="foo-icon"><a href=""><i class="fab fa-linkedin-in" target="blank"></i></a></span>
     <p class="footer-company">Provozovatel: FinalTek.com <br> IČ: 22743201<br>Nová 225/1, Měšice, 250 64</p>
 </div>
 
@@ -269,7 +309,6 @@
     <p class="copy">© 2009 - 2021 Všechna práva vyhrazena | created by <a href="https://alexhatal.com" target="blank">alex.hatal</a></p>
 </div>
 <!--FOOTER END-->
-
 
 <script src="https://kit.fontawesome.com/8c5ffe8f98.js" crossorigin="anonymous"></script>
 <script src="js.js"></script>
