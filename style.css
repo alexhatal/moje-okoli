@@ -657,6 +657,10 @@ h1.categorie{
   }
   /* FOOTER END */
 
+  /****TOWNS*****/
+.headline h1#headline-town {
+    width: 70%;
+  }
 
 /****MODAL ****/
 .towns{
@@ -664,7 +668,7 @@ h1.categorie{
     flex-wrap: wrap;
     position: relative;
     top: 50px;
-    width: 70%;
+    width: 80%;
     justify-content: center;
     margin: 50px auto 80px auto;
 }
@@ -672,6 +676,10 @@ h1.categorie{
 .towns .advertisment-two{
   display: inline;
 }
+.towns-item{
+  width: 25 %;
+}
+
 
 .modal-window {
     position: fixed;
@@ -815,7 +823,9 @@ padding: 20px;
 
 .advertisment-two{
   position: absolute;
-  left: 100%;
+  left: 95%;
+  display: block;
+  
 }
 
 
