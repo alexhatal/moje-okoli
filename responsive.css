@@ -225,6 +225,25 @@ and (max-device-width: 374px){
     .footer p.copy, .footer .copy a{
         font-size: 10px;
     }
+
+    /****KATALOG AUTO-MOTO****/
+    .services-two{
+        top: 145px;
+    }
+
+    h1.categorie{
+        font-size: 35px;
+        letter-spacing: 5px;
+        top: 6.5em;
+    }
+
+    .services-two-item{
+
+    }
+
+    #add-two{
+        margin: 180px 0 50px 0;
+    }
 }
 
 @media only screen 
@@ -240,7 +259,7 @@ and (max-device-width: 411px){
     }
 
     .small-n{
-        top: 9em;
+        top: 10em;
         margin-left: 30px;
     }
 
@@ -453,6 +472,25 @@ and (max-device-width: 411px){
     .footer p.copy, .footer .copy a{
         font-size: 10px;
     }
+
+        /****KATALOG AUTO-MOTO****/
+        .services-two{
+            top: 145px;
+        }
+    
+        h1.categorie{
+            font-size: 35px;
+            letter-spacing: 5px;
+            top: 6.5em;
+        }
+    
+        .services-two-item{
+    
+        }
+    
+        #add-two{
+            margin: 180px 0 50px 0;
+        }
 }
 
 @media only screen 
@@ -680,6 +718,25 @@ and (max-device-width: 479px){
     .footer p.copy, .footer .copy a{
         font-size: 10px;
     }
+
+           /****KATALOG AUTO-MOTO****/
+           .services-two{
+            top: 170px;
+        }
+    
+        h1.categorie{
+            font-size: 35px;
+            letter-spacing: 5px;
+            top: 7.5em;
+        }
+    
+        .services-two-item{
+    
+        }
+    
+        #add-two{
+            margin: 200px 0 50px 0;
+        }
 }
 
 @media only screen 
@@ -906,6 +963,21 @@ and (max-device-width: 567px){
     .footer p.copy, .footer .copy a{
         font-size: 10px;
     }
+
+       /****KATALOG AUTO-MOTO****/
+       .services-two{
+        top: 250px;
+    }
+
+    h1.categorie{
+        font-size: 50px;
+        letter-spacing: 5px;
+        top: 6em;
+    }
+
+    #add-two{
+        margin: 300px 0 50px 0;
+    }
 }
 
 
@@ -947,7 +1019,7 @@ and (max-device-width: 666px){
         margin: 0 10px;
     }
     .headline{
-        top: 12em;
+        top: 13em;
         left: 17vw;
     }
 
@@ -959,8 +1031,10 @@ and (max-device-width: 666px){
 
     .description{
         position: relative;
-        top: -50%;
-        left: 10%;
+        top: 0em;
+        left: 0%;
+        padding-left: 10%;
+        padding-top: 50px;
         text-align: center;
     }
 
@@ -1099,7 +1173,8 @@ and (max-device-width: 666px){
 
     .footer .footer-center{
         width: 100%;
-        margin: 20px 180px;
+        margin: 20px 0px;
+        padding-left: 180px;
     }
 
     .footer-center p{
@@ -1125,8 +1200,24 @@ and (max-device-width: 666px){
     .footer .footer-right{
 
         width: 100%;
-        margin:30px 90px;
+        margin:30px 0px;
+        padding-left: 90px;
     }
+
+       /****KATALOG AUTO-MOTO****/
+       .services-two{
+        top: -60px;
+    }
+
+    h1.categorie{
+        font-size: 50px;
+        letter-spacing: 5px;
+        top: 4.5em;
+    }
+
+    #add-two{
+        margin: 50px 0 50px auto;
+    }    
 }
 
 @media only screen 
@@ -1342,6 +1433,21 @@ and (max-device-width: 767px){
         width: 40%;
         margin-left: 0px;
     }
+
+    /****KATALOG AUTO-MOTO****/
+.services-two{
+    top: -60px;
+    }
+
+h1.categorie{
+    font-size: 50px;
+    letter-spacing: 5px;
+    top: 5.5em;
+}
+
+    #add-two{
+        margin: 50px 0 50px auto;
+    }        
 }
 
 
@@ -1542,6 +1648,21 @@ and (max-device-width: 895px){
         width: 40%;
         margin-left: 40px;
     }
+
+/****KATALOG AUTO-MOTO****/
+.services-two{
+    top: -60px;
+}
+    
+h1.categorie{
+    font-size: 50px;
+    letter-spacing: 5px;
+    top: 6.5em;
+}
+    
+#add-two{
+    margin: 30px 0 30px auto;
+}  
 }
 
 @media only screen 
@@ -1719,6 +1840,21 @@ and (max-device-width: 1023px){
         width: 40%;
         margin-left: 60px;
     }
+
+/****KATALOG AUTO-MOTO****/
+.services-two{
+    top: -100px;
+}
+    
+h1.categorie{
+    font-size: 80px;
+    letter-spacing: 5px;
+    top: 3.5em;
+}
+    
+#add-two{
+    margin: 20px 0 30px auto;
+}
 }
 
 
@@ -1890,6 +2026,21 @@ and (max-device-width: 1149px){
         width: 40%;
         margin-left: 60px;
     }
+
+    /****KATALOG AUTO-MOTO****/
+.services-two{
+    top: -140px;
+}
+    
+h1.categorie{
+    font-size: 80px;
+    letter-spacing: 5px;
+    top: 3.5em;
+}
+    
+#add-two{
+    margin: -80px 0 30px auto;
+}
 }
 
 
@@ -2050,6 +2201,21 @@ and (max-device-width: 1279px){
         margin-left: 50px;
         width: 15%;
     }
+
+        /****KATALOG AUTO-MOTO****/
+.services-two{
+    top: -80px;
+}
+    
+h1.categorie{
+    font-size: 80px;
+    letter-spacing: 5px;
+    top: 2.5em;
+}
+    
+#add-two{
+    margin: -30px 0 30px auto;
+}
 }
 
 
@@ -2152,6 +2318,21 @@ and (max-device-width: 1399px){
     .footer-center{
         margin-left: 60px;
     }
+
+/****KATALOG AUTO-MOTO****/
+.services-two{
+    top: -80px;
+}
+            
+h1.categorie{
+    font-size: 80px;
+    letter-spacing: 5px;
+    top: 3em;
+}
+            
+#add-two{
+    margin: -30px 0 30px auto;
+}
 }
 
 @media only screen 
@@ -2226,6 +2407,21 @@ and (max-device-width: 1519px){
     .rating-item{
         width: 500px;
     }
+
+/****KATALOG AUTO-MOTO****/
+.services-two{
+    top: -80px;
+}
+            
+h1.categorie{
+    font-size: 80px;
+    letter-spacing: 5px;
+    top: 3.5em;
+}
+            
+#add-two{
+    margin: -30px 0 30px auto;
+}
 }
 
 @media only screen 
@@ -2272,6 +2468,21 @@ and (max-device-width: 1680px){
     .rating-item{
         width: 550px;
     }
+
+    /****KATALOG AUTO-MOTO****/
+.services-two{
+    top: -80px;
+}
+            
+h1.categorie{
+    font-size: 80px;
+    letter-spacing: 5px;
+    top: 3.5em;
+}
+            
+#add-two{
+    margin: -30px 0 30px auto;
+}
 }
 
 @media only screen 
@@ -2306,6 +2517,21 @@ and (max-device-width: 1825px) {
     .about h1{
         margin-left: 60px;
     }
+
+        /****KATALOG AUTO-MOTO****/
+.services-two{
+    top: -100px;
+}
+            
+h1.categorie{
+    font-size: 80px;
+    letter-spacing: 5px;
+    top: 4em;
+}
+            
+#add-two{
+    margin: -30px 0 30px auto;
+}
 }
 
 
