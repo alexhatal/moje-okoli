@@ -1,5 +1,5 @@
-/* When the user clicks on the button,
-toggle between hiding and showing the dropdown content */
+// /* When the user clicks on the button,
+// toggle between hiding and showing the dropdown content */
 function myFunction() {
     document.getElementById("myDropdown").classList.toggle("show");
   }
@@ -103,7 +103,7 @@ function myFunction() {
    }
   }
   
-  } // fin function open_select
+  } // fin function open_select 
   
   function salir_select(indx){
   var select_ = document.querySelectorAll("[data-indx-select='"+indx+"'] > select")[0];
