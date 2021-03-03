@@ -51,6 +51,11 @@ and (max-device-width: 374px){
         letter-spacing: 8px;
     }
 
+    h1#headline-town {
+        font-size: 20px;
+        letter-spacing: 5px;
+    }
+
     .description{
         position: relative;
         top: 3em;
@@ -237,12 +242,26 @@ and (max-device-width: 374px){
         top: 6.5em;
     }
 
-    .services-two-item{
-
-    }
-
     #add-two{
         margin: 180px 0 50px 0;
+    }
+
+    .towns{
+        width: 100%;
+        margin: 0px 0 80px 0;
+        text-align: center;
+    }
+    
+    .towns-item {
+        width: 90%;
+    }
+
+    a.modal-btn {
+        font-size: 16px;
+    }
+    
+    .advertisment-item-two {
+        display: none;
     }
 }
 
@@ -296,6 +315,11 @@ and (max-device-width: 411px){
         width: 70%;
         font-size: 40px;
         letter-spacing: 8px;
+    }
+
+    h1#headline-town {
+        font-size: 30px;
+        letter-spacing: 5px;
     }
 
     .description{
@@ -481,15 +505,29 @@ and (max-device-width: 411px){
         h1.categorie{
             font-size: 35px;
             letter-spacing: 5px;
-            top: 6.5em;
-        }
-    
-        .services-two-item{
-    
+            top: 7em;
         }
     
         #add-two{
             margin: 180px 0 50px 0;
+        }
+
+        .towns{
+            width: 100%;
+            margin: 0px 0 80px 0;
+            text-align: center;
+        }
+        
+        .towns-item {
+            width: 90%;
+        }
+    
+        a.modal-btn {
+            font-size: 16px;
+        }
+        
+        .advertisment-item-two {
+            display: none;
         }
 }
 
@@ -542,6 +580,11 @@ and (max-device-width: 479px){
         width: 70%;
         font-size: 40px;
         letter-spacing: 8px;
+    }
+
+    h1#headline-town {
+        font-size: 30px;
+        letter-spacing: 5px;
     }
 
     .description{
@@ -730,12 +773,26 @@ and (max-device-width: 479px){
             top: 7.5em;
         }
     
-        .services-two-item{
-    
-        }
-    
         #add-two{
             margin: 200px 0 50px 0;
+        }
+
+        .towns{
+            width: 100%;
+            margin: 10px 0 80px 0;
+            text-align: center;
+        }
+        
+        .towns-item {
+            width: 90%;
+        }
+    
+        a.modal-btn {
+            font-size: 16px;
+        }
+        
+        .advertisment-item-two {
+            display: none;
         }
 }
 
@@ -978,6 +1035,29 @@ and (max-device-width: 567px){
     #add-two{
         margin: 300px 0 50px 0;
     }
+
+    .towns{
+        left: -12%;
+        width: 100%;
+        margin: 30px 0 80px 0;
+    }
+    
+    .towns-item {
+        width: 35%;
+    }
+
+    a.modal-btn {
+        font-size: 16px;
+    }
+    
+    .advertisment-item-two {
+        display: none;
+    }
+
+    h1#headline-town {
+        font-size: 40px;
+        letter-spacing: 5px;
+    }
 }
 
 
@@ -1027,6 +1107,11 @@ and (max-device-width: 666px){
         width: 80%;
         font-size: 40px;
         letter-spacing: 8px;
+    }
+
+    h1#headline-town {
+        font-size: 30px;
+        letter-spacing: 5px;
     }
 
     .description{
@@ -1218,6 +1303,26 @@ and (max-device-width: 666px){
     #add-two{
         margin: 50px 0 50px auto;
     }    
+
+    .towns{
+        left: -5%;
+        width: 100%;
+        margin: 0px 0 80px 0;
+    }
+    
+    .towns-item {
+        width: 35%;
+        margin-right: 30px;
+    }
+
+    a.modal-btn {
+        font-size: 16px;
+    }
+    
+    .advertisment-item-two {
+        display: none;
+    }
+
 }
 
 @media only screen 
@@ -1264,6 +1369,11 @@ and (max-device-width: 767px){
     .headline h1{
         font-size: 35px;
         letter-spacing: 8px;
+    }
+
+    h1#headline-town {
+        font-size: 35px;
+        letter-spacing: 5px;
     }
 
     .description{
@@ -1454,11 +1564,22 @@ h1.categorie{
     }
     
     .towns{
-        left: -8%;
+        left: -12%;
+        width: 90%;
+        margin: 20px 0 80px 0;
+    }
+    
+    .towns-item {
+        width: 35%;
+        margin-right: 30px;
+    }
+
+    a.modal-btn {
+        font-size: 16px;
     }
     
     .advertisment-two {
-        left: 95%;
+        left: 94%;
     }
 
 }
@@ -1499,6 +1620,11 @@ and (max-device-width: 895px){
     .headline h1{
         font-size: 40px;
         letter-spacing: 10px;
+    }
+
+    h1#headline-town {
+        font-size: 40px;
+        letter-spacing: 5px;
     }
 
     .description{
@@ -1682,12 +1808,19 @@ h1.categorie{
 }
 
 .towns{
-    left: -8%;
+    left: -10%;
+    width: 90%;
+    margin: 0px 0 80px 0;
+}
+
+.towns-item {
+    width: 35%;
 }
 
 .advertisment-two {
-    left: 95%;
+    left: 96%;
 }
+
 
 }
 
@@ -1723,6 +1856,11 @@ and (max-device-width: 1023px){
     }
 
     .headline h1{
+        font-size: 75px;
+        letter-spacing: 10px;
+    }
+
+    h1#headline-town {
         font-size: 75px;
         letter-spacing: 10px;
     }
@@ -1888,12 +2026,19 @@ h1.categorie{
 }
 
 .towns{
-    left: -8%;
+    left: -5%;
+    width: 90%;
+    margin: 0 0 70px 0;
+}
+
+.towns-item {
+    width: 35%;
 }
 
 .advertisment-two {
-    left: 95%;
+    left: 90%;
 }
+
 }
 
 
@@ -2086,11 +2231,16 @@ h1.categorie{
 }
 
 .towns{
-    left: -8%;
+    left: -10%;
+}
+
+.towns-item {
+    width: 30%;
 }
 
 .advertisment-two {
-    left: 95%;
+    left: 100%;
+    padding-left: 15px;
 }
 }
 
@@ -2127,6 +2277,7 @@ and (max-device-width: 1279px){
         font-size: 50px;
         letter-spacing: 5px;
     }
+
 
     .description{
         top: 17em;
@@ -2269,11 +2420,12 @@ h1.categorie{
 }
 
 .towns{
-    left: -6%;
+    left: -10%;
 }
 
 .advertisment-two {
     left: 100%;
+    padding-left: 60px;
 }
 }
 
@@ -2394,11 +2546,12 @@ h1.categorie{
 }
 
 .towns{
-    left: -6%;
+    left: -8%;
 }
 
 .advertisment-two {
     left: 100%;
+    padding-left: 50px;
 }
 }
 
@@ -2495,6 +2648,7 @@ h1.categorie{
 
 .advertisment-two {
     left: 100%;
+    padding-left: 30px;
 }
 }
 
