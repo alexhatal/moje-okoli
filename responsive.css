@@ -1,7 +1,7 @@
 
 @media only screen 
-and (min-device-width: 320px) 
-and (max-device-width: 374px){ 
+and (min-width: 320px) 
+and (max-width: 374px){ 
     body{
     background-image: url(img/bg-mob.jpg);
 }
@@ -58,9 +58,11 @@ and (max-device-width: 374px){
 
     .description{
         position: relative;
-        top: 3em;
+        top: 5em;
         text-align: center;
-        margin: 0 80px;
+        margin: 0 30px;
+        width: 90%;
+        margin-bottom: 40px;
     }
 
     .description h2{
@@ -81,6 +83,7 @@ and (max-device-width: 374px){
 
     .content h1{
         font-size: 16px;
+        text-align: justify;
     }
 
     #query{
@@ -263,11 +266,67 @@ and (max-device-width: 374px){
     .advertisment-item-two {
         display: none;
     }
+
+    .headline h1#firm-headline  {
+        position: relative;
+        font-size: 25px;
+        width: 100%;
+        top: 20px;
+    }
+    
+    .firm-container{
+        flex-direction: column-reverse;
+        -webkit-flex-direction: row-reverse; /* Safari 6.1+ */
+        top: 50px;
+    }
+
+    
+    
+    .main-container-item-one{
+        width: 90%;
+        margin: 10px auto;
+        
+    }
+    
+    .rating-item-three{
+        min-height: 180px;
+    }
+    
+    .rating-item-three .devider{
+        margin: 5px auto;
+    }
+    
+    .main-container-item-two{
+        width: 90%;
+        margin-bottom: 20px;
+    }
+    
+    .main-container-item-three{
+        display: none;
+        width: 10%;
+        margin-top: 25px;
+    }
+
+    label h3{
+        font-size: 16px;
+    }
+
+    label{
+        font-size: 12px;
+    }
+
+    label p{
+        font-size: 9px;
+    }
+    .option {
+    margin-bottom: 0;
+    }
+    
 }
 
 @media only screen 
-and (min-device-width: 375px) 
-and (max-device-width: 411px){ 
+and (min-width: 375px) 
+and (max-width: 411px){ 
     body{
     background-image: url(img/bg-mob.jpg);
 }
@@ -324,9 +383,11 @@ and (max-device-width: 411px){
 
     .description{
         position: relative;
-        top: 3em;
+        top: 4em;
         text-align: center;
-        margin: 0 80px;
+        margin: 0 40px;
+        width: 90%;
+        margin-bottom: 40px;
     }
 
     .description h2{
@@ -347,6 +408,7 @@ and (max-device-width: 411px){
 
     .content h1{
         font-size: 16px;
+        text-align: justify;
     }
 
     #query{
@@ -529,11 +591,65 @@ and (max-device-width: 411px){
         .advertisment-item-two {
             display: none;
         }
+
+        .headline h1#firm-headline  {
+            position: relative;
+            font-size: 30px;
+            width: 100%;
+            top: 20px;
+        }
+        
+        .firm-container{
+            flex-direction: column-reverse;
+            -webkit-flex-direction: row-reverse; /* Safari 6.1+ */
+            top: 50px;
+        }
+        
+        
+        .main-container-item-one{
+            width: 90%;
+            margin: 10px auto;
+            
+        }
+        
+        .rating-item-three{
+            min-height: 180px;
+        }
+        
+        .rating-item-three .devider{
+            margin: 5px auto;
+        }
+        
+        .main-container-item-two{
+            width: 90%;
+            margin-bottom: 20px;
+        }
+        
+        .main-container-item-three{
+            display: none;
+            width: 10%;
+            margin-top: 25px;
+        }
+
+        label h3{
+            font-size: 16px;
+        }
+    
+        label{
+            font-size: 12px;
+        }
+    
+        label p{
+            font-size: 9px;
+        }
+        .option {
+        margin-bottom: 0;
+        }
 }
 
 @media only screen 
-and (min-device-width: 412px) 
-and (max-device-width: 479px){ 
+and (min-width: 412px) 
+and (max-width: 479px){ 
     body{
     background-image: url(img/bg-mob.jpg);
 }
@@ -571,7 +687,7 @@ and (max-device-width: 479px){
     }
     .headline{
         position: relative;
-        top: 3em;
+        top: 3.5em;
         left: 17vw;
         width: 80%;
     }
@@ -589,15 +705,17 @@ and (max-device-width: 479px){
 
     .description{
         position: relative;
-        top: 6em;
+        top: 8em;
         text-align: center;
-        margin: 0 80px;
+        margin: 0 40px;
+        width: 90%;
+        margin-bottom: 40px;
     }
 
     .description h2{
         color: green;
         width: 100%;
-        font-size: 17px;
+        font-size: 20px;
     }
 
     .social{
@@ -612,6 +730,7 @@ and (max-device-width: 479px){
 
     .content h1{
         font-size: 16px;
+        text-align: justify;
     }
 
     #query{
@@ -794,11 +913,65 @@ and (max-device-width: 479px){
         .advertisment-item-two {
             display: none;
         }
+
+        .headline h1#firm-headline  {
+            position: relative;
+            font-size: 30px;
+            width: 90%;
+            top: 0px;
+        }
+        
+        .firm-container{
+            flex-direction: column-reverse;
+            -webkit-flex-direction: row-reverse; /* Safari 6.1+ */
+            top: 90px;
+        }
+        
+        
+        .main-container-item-one{
+            width: 90%;
+            margin: 10px auto;
+            
+        }
+        
+        .rating-item-three{
+            min-height: 180px;
+        }
+        
+        .rating-item-three .devider{
+            margin: 5px auto;
+        }
+        
+        .main-container-item-two{
+            width: 90%;
+            margin-bottom: 20px;
+        }
+        
+        .main-container-item-three{
+            display: none;
+            width: 10%;
+            margin-top: 25px;
+        }
+
+        label h3{
+            font-size: 16px;
+        }
+    
+        label{
+            font-size: 12px;
+        }
+    
+        label p{
+            font-size: 9px;
+        }
+        .option {
+        margin-bottom: 0;
+        }
 }
 
 @media only screen 
-and (min-device-width: 480px) 
-and (max-device-width: 567px){ 
+and (min-width: 480px) 
+and (max-width: 567px){ 
     body{
     background-image: url(img/bg-mob.jpg);
 }
@@ -849,7 +1022,7 @@ and (max-device-width: 567px){
 
     .description{
         position: relative;
-        top: 6em;
+        top: 9em;
         text-align: center;
         margin: 0 80px;
     }
@@ -867,11 +1040,12 @@ and (max-device-width: 567px){
     
     .main{
 
-        padding-top: 120px;
+        padding-top: 160px;
     }
 
     .content h1{
         font-size: 16px;
+        text-align: justify;
     }
 
     #query{
@@ -1058,12 +1232,50 @@ and (max-device-width: 567px){
         font-size: 40px;
         letter-spacing: 5px;
     }
+
+    .headline h1#firm-headline  {
+        position: relative;
+        font-size: 40px;
+        width: 90%;
+        top: 0px;
+    }
+    
+    .firm-container{
+        flex-direction: column-reverse;
+        -webkit-flex-direction: row-reverse; /* Safari 6.1+ */
+        top: 90px;
+    }
+    
+    
+    .main-container-item-one{
+        width: 90%;
+        margin: 10px auto;
+        
+    }
+    
+    .rating-item-three{
+        min-height: 180px;
+    }
+    
+    .rating-item-three .devider{
+        margin: 5px auto;
+    }
+    
+    .main-container-item-two{
+        width: 76%;
+        margin-bottom: 20px;
+    }
+    
+    .main-container-item-three{
+        width: 10%;
+        margin-top: 25px;
+    }
 }
 
 
 @media only screen 
-and (min-device-width: 568px) 
-and (max-device-width: 666px){ 
+and (min-width: 568px) 
+and (max-width: 666px){ 
     body{
     background-image: url(img/bg-tab.jpg);
 }
@@ -1154,6 +1366,7 @@ and (max-device-width: 666px){
 
     .content h1{
         font-size: 16px;
+        text-align: justify;
     }
 
     #query{
@@ -1323,11 +1536,49 @@ and (max-device-width: 666px){
         display: none;
     }
 
+    .headline h1#firm-headline  {
+        position: relative;
+        font-size: 30px;
+        width: 70%;
+        top: -15px;
+    }
+    
+    .firm-container{
+        flex-direction: column-reverse;
+        -webkit-flex-direction: row-reverse; /* Safari 6.1+ */
+        top: 20px;
+    }
+    
+    
+    .main-container-item-one{
+        width: 90%;
+        margin: 10px auto;
+        
+    }
+    
+    .rating-item-three{
+        min-height: 180px;
+    }
+    
+    .rating-item-three .devider{
+        margin: 5px auto;
+    }
+    
+    .main-container-item-two{
+        width: 70%;
+        margin-bottom: 0px;
+    }
+    
+    .main-container-item-three{
+        width: 10%;
+        margin-top: 25px;
+    }
+
 }
 
 @media only screen 
-and (min-device-width: 667px) 
-and (max-device-width: 767px){ 
+and (min-width: 667px) 
+and (max-width: 767px){ 
     body{
     background-image: url(img/bg-tab.jpg);
 }
@@ -1582,12 +1833,50 @@ h1.categorie{
         left: 94%;
     }
 
+    .headline h1#firm-headline  {
+        position: relative;
+        font-size: 35px;
+        width: 60%;
+        top: 10px;
+    }
+    
+    .firm-container{
+        flex-direction: column-reverse;
+        -webkit-flex-direction: row-reverse; /* Safari 6.1+ */
+        top: 20px;
+    }
+    
+    
+    .main-container-item-one{
+        width: 90%;
+        margin: 10px auto;
+        
+    }
+    
+    .rating-item-three{
+        min-height: 180px;
+    }
+    
+    .rating-item-three .devider{
+        margin: 5px auto;
+    }
+    
+    .main-container-item-two{
+        width: 70%;
+        margin-bottom: 30px;
+    }
+    
+    .main-container-item-three{
+        width: 10%;
+        margin-top: 25px;
+    }
+
 }
 
 
 @media only screen 
-and (min-device-width: 768px) 
-and (max-device-width: 895px){ 
+and (min-width: 768px) 
+and (max-width: 895px){ 
     body{
     background-image: url(img/bg-tab.jpg);
 }
@@ -1821,12 +2110,50 @@ h1.categorie{
     left: 96%;
 }
 
+.headline h1#firm-headline  {
+    position: relative;
+    font-size: 40px;
+    width: 60%;
+    top: 10px;
+}
+
+.firm-container{
+    flex-direction: column-reverse;
+    -webkit-flex-direction: row-reverse; /* Safari 6.1+ */
+    top: 20px;
+}
+
+
+.main-container-item-one{
+    width: 90%;
+    margin: 10px auto;
+    
+}
+
+.rating-item-three{
+    min-height: 180px;
+}
+
+.rating-item-three .devider{
+    margin: 5px auto;
+}
+
+.main-container-item-two{
+    width: 80%;
+    margin-bottom: 30px;
+}
+
+.main-container-item-three{
+    width: 10%;
+    margin-top: 25px;
+}
+
 
 }
 
 @media only screen 
-and (min-device-width: 896px) 
-and (max-device-width: 1023px){ 
+and (min-width: 896px) 
+and (max-width: 990px){ 
     body{
     background-image: url(img/bg-tab.jpg);
 }
@@ -2039,12 +2366,277 @@ h1.categorie{
     left: 90%;
 }
 
+.headline h1#firm-headline  {
+    position: relative;
+    font-size: 60px;
+    width: 75%;
+    top: 60px;
+}
+
+.firm-container{
+    top: 60px;
+}
+
+.main-container-item-one{
+    width: 10%;
+}
+
+.main-container-item-two{
+    width: 50%;
+    margin-bottom: 30px;
+}
+
+.main-container-item-three{
+    width: 10%;
+}
+
+}
+
+@media only screen 
+and (min-width: 991px) 
+and (max-width: 1023px){ 
+    body{
+    background-image: url(img/bg-tab.jpg);
+}
+    .logo{
+        width: 40%;
+    }
+    .small-n{
+        top: 9em;
+    }
+
+    .kontakt, .login, .shop{
+    padding: 0 35px
+    }
+
+    .nav-bar{
+        width: 530px;
+        right: 3vw;
+        top: -12vw;
+    }
+
+    .vl{
+        margin: 0 25px;
+    }
+    .headline{
+        top: 11.5em;
+        left: 25vw;
+    }
+
+    .headline h1{
+        font-size: 75px;
+        letter-spacing: 10px;
+    }
+
+    h1#headline-town {
+        font-size: 75px;
+        letter-spacing: 10px;
+    }
+
+    .description{
+        top: 20em;
+        left: 65vw;
+    }
+
+    .description h2{
+        width: 80%;
+    }
+
+    .social{
+        position: relative;
+        top: -2em;
+
+    }
+
+    .sm-icon{
+        padding: 15px 0;
+   
+    }
+
+    .vl-sm{
+        height: 7em;
+    }
+    
+    .main{
+        margin: 0;
+        padding: 50px 0 70px;
+    }
+
+    .content h1{
+        font-size: 20px;
+    }
+
+    #query{
+        margin: 0;
+    }
+
+    input#query {
+        font-size: 18px;
+    }
+
+    span.form {
+        position: relative;
+        left: 15%;
+        top: 10px;
+    }
+
+    span.form label{
+        font-size: 12px;
+
+    }
+
+    .name, .rating, .newest{
+        padding:  0 10px;
+    }
+
+    .cont_select_center{
+        padding-left:20px ;
+    }
+
+    .select_mate, #submit-btn{
+        width: 150px;
+    }
+
+    .services-item{
+        width: 25%;
+    }
+
+    .about{
+    width: 50%;
+    margin-bottom: 220px;
+    }
+
+    .about h1{
+        margin-left: 40px;
+        font-size: 17px;
+    }
+    .rating-item{
+        width: 280px;
+        left: -70px;
+        top: 70px;
+    }
+    .advertisment-item img{
+        width: 60%;
+    }
+
+    .footer{
+        padding: 40px 0;
+    }
+    .foo-icon {
+        margin: 40px 10px;
+    }
+
+    .foo-icon i{
+        font-size: 20px;
+    }
+
+    .footer-logo img{
+        width: 60%;
+    }
+
+    .footer-logo{
+        width: 40%;
+        margin: 20px;
+        padding-left: 150px;
+    }
+
+    .footer .footer-center{
+        width: 40%;
+        margin-left: 80px;
+        padding-left: 110px;
+
+    }
+
+    .footer-center p{
+        font-size: 16px;
+    }
+
+    .footer .footer-left{
+        padding-left: 100px;
+        width: 40%;
+    }
+
+    .footer .footer-company{
+        margin-left: 10px;
+    }
+
+
+    .footer .footer-left p,
+    .footer .footer-left a{
+        font-size: 16px;
+    }
+  
+
+    .footer .footer-right{
+
+        width: 40%;
+        margin-left: 60px;
+    }
+
+/****KATALOG AUTO-MOTO****/
+.services-two{
+    top: -100px;
+}
+    
+h1.categorie{
+    font-size: 80px;
+    letter-spacing: 5px;
+    top: 3.5em;
+}
+    
+#add-two{
+    margin: 20px 0 30px auto;
+}
+
+.headline h1#headline-town{
+    font-size: 55px;
+    padding-top: 25px;
+}
+
+.towns{
+    left: -5%;
+    width: 90%;
+    margin: 0 0 70px 0;
+}
+
+.towns-item {
+    width: 35%;
+}
+
+.advertisment-two {
+    left: 90%;
+}
+
+.headline h1#firm-headline  {
+    position: relative;
+    font-size: 60px;
+    width: 75%;
+    top: 60px;
+}
+
+.firm-container{
+    top: 100px;
+}
+
+.main-container-item-one{
+    width: 10%;
+}
+
+.main-container-item-two{
+    width: 50%;
+    margin-bottom: 30px;
+}
+
+.main-container-item-three{
+    width: 10%;
+}
+
 }
 
 
 @media only screen 
-and (min-device-width: 1024px) 
-and (max-device-width: 1149px){ 
+and (min-width: 1024px) 
+and (max-width: 1149px){ 
     body{
     background-image: url(img/bg-tab.jpg);
 }
@@ -2069,7 +2661,7 @@ and (max-device-width: 1149px){
         margin: 0 40px;
     }
     .headline{
-        top: 13.5em;
+        top: 14em;
         left: 25vw;
     }
 
@@ -2106,7 +2698,7 @@ and (max-device-width: 1149px){
     
     .main{
         margin: 0;
-        padding: 50px 0 70px;
+        padding:100px 0 70px;
     }
 
     .content h1{
@@ -2114,7 +2706,9 @@ and (max-device-width: 1149px){
     }
 
     #query{
+        width: 60vw;
         margin: 0;
+        margin-bottom: 10px;
     }
 
     input#query {
@@ -2123,7 +2717,7 @@ and (max-device-width: 1149px){
 
     span.form {
         position: relative;
-        left: 15%;
+        left: 32%;
         top: 10px;
     }
 
@@ -2242,12 +2836,36 @@ h1.categorie{
     left: 100%;
     padding-left: 15px;
 }
+
+.headline h1#firm-headline  {
+    position: relative;
+    font-size: 70px;
+    width: 75%;
+    top: 60px;
+}
+
+.firm-container{
+    top: 100px;
+}
+
+.main-container-item-one{
+    width: 10%;
+}
+
+.main-container-item-two{
+    width: 50%;
+    margin-bottom: 30px;
+}
+
+.main-container-item-three{
+    width: 10%;
+}
 }
 
 
 @media only screen 
-and (min-device-width: 1150px) 
-and (max-device-width: 1279px){ 
+and (min-width: 1150px) 
+and (max-width: 1279px){ 
     .logo{
         width: 25%;
     }
@@ -2427,12 +3045,36 @@ h1.categorie{
     left: 100%;
     padding-left: 60px;
 }
+
+
+.headline h1#firm-headline  {
+    position: relative;
+    font-size: 55px;
+    width: 60%;
+    top: -20px;
+}
+
+.firm-container{
+    top: 40px;
+}
+
+.main-container-item-one{
+    width: 10%;
+}
+
+.main-container-item-two{
+    width: 50%;
+}
+
+.main-container-item-three{
+    width: 10%;
+}
 }
 
 
 @media only screen 
-and (min-device-width: 1280px) 
-and (max-device-width: 1399px){ 
+and (min-width: 1280px) 
+and (max-width: 1399px){ 
     .logo{
         width: 30%;
     }
@@ -2540,6 +3182,8 @@ h1.categorie{
     letter-spacing: 5px;
     top: 3em;
 }
+
+
             
 #add-two{
     margin: -30px 0 30px auto;
@@ -2553,11 +3197,34 @@ h1.categorie{
     left: 100%;
     padding-left: 50px;
 }
+
+.headline h1#firm-headline  {
+    position: relative;
+    font-size: 60px;
+    width: 60%;
+    top: 10px;
+}
+
+.firm-container{
+    top: 30px;
+}
+
+.main-container-item-one{
+    width: 10%;
+}
+
+.main-container-item-two{
+    width: 50%;
+}
+
+.main-container-item-three{
+    width: 10%;
+}
 }
 
 @media only screen 
-and (min-device-width: 1400px) 
-and (max-device-width: 1519px){ 
+and (min-width: 1400px) 
+and (max-width: 1519px){ 
     .logo{
         width: 30%;
     }
@@ -2638,6 +3305,13 @@ h1.categorie{
     letter-spacing: 5px;
     top: 3.5em;
 }
+
+.headline h1#firm-headline  {
+    position: relative;
+    font-size: 65px;
+    width: 60%;
+    top: 10px;
+}
             
 #add-two{
     margin: -30px 0 30px auto;
@@ -2650,11 +3324,20 @@ h1.categorie{
     left: 100%;
     padding-left: 30px;
 }
+
+.main-container-item-one{
+    width: 15%;
+}
+
+.main-container-item-two{
+    width: 60%;
+}
+
 }
 
 @media only screen 
-and (min-device-width: 1520px) 
-and (max-device-width: 1680px){ 
+and (min-width: 1520px) 
+and (max-width: 1680px){ 
     .small-n{
         top: 10em;
     }
@@ -2707,7 +3390,14 @@ h1.categorie{
     letter-spacing: 5px;
     top: 3.5em;
 }
-            
+
+.headline h1#firm-headline  {
+    position: relative;
+    font-size: 70px;
+    width: 60%;
+    top: 20px;
+}
+
 #add-two{
     margin: -30px 0 30px auto;
 }
@@ -2719,11 +3409,15 @@ h1.categorie{
 .advertisment-two {
     left: 100%;
 }
+
+.main-container-item-two{
+    width: 55%;
+  }
 }
 
 @media only screen 
-and (min-device-width: 1681px) 
-and (max-device-width: 1825px) { 
+and (min-width: 1681px) 
+and (max-width: 1825px) { 
     .small-n{
         top: 10em;
     }
@@ -2764,6 +3458,13 @@ h1.categorie{
     letter-spacing: 5px;
     top: 4em;
 }
+
+.headline h1#firm-headline  {
+    position: relative;
+    font-size: 85px;
+    width: 60%;
+    top: 20px;
+}
             
 #add-two{
     margin: -30px 0 30px auto;
@@ -2776,6 +3477,10 @@ h1.categorie{
 .advertisment-two {
     left: 100%;
 }
+
+.main-container-item-two{
+    width: 60%;
+  }
 
 }
 

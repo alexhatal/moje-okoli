@@ -180,11 +180,11 @@ color: #84e2a7;
 #query{
     width: 40vw;
     height: 50px;
-    border: 1px solid #25ac57;
     border-radius: 50px;
     background-color: #ffffff;
     padding: 20px;
-    box-shadow: 1px 1px 3px 3px rgb(132, 226, 167, 0.2);
+    border: 0.2px solid #16b13c;
+    box-shadow: 1px 1px 2px 2px rgba(1, 112, 42, 0.1);
     margin: 0 50px 0 20px;
 }
 
@@ -209,7 +209,7 @@ color: #84e2a7;
     color: #84e2a7;
     font-weight: 300;
     background-color: #fff;
-    box-shadow: 1px 2px 8px -1px rgba(132, 226, 167, 0.8);
+    box-shadow: 1px 1px 2px 1px rgba(1, 112, 42, 0.2);
     border-radius: 50px;
     transition: all 375ms ease-in-out;
   }
@@ -430,7 +430,7 @@ h1.categorie{
   position: relative;
   justify-content: left;
   width: 50%;
-  background-color: rgba(149, 255, 158, 0.76);
+  background-color: rgb(218, 255, 211);
   padding: 100px;
   margin-bottom: 300px;
 }
@@ -466,10 +466,10 @@ h1.categorie{
   width: 100%;
   width: 650px;
   min-height: 400px;
-  background-image: url(img/rating.jpg);
-  border: 5px solid #ffffff;
+  background-image: url(img/rating-bg.jpg);
   border-radius: 15px;
-  box-shadow: 2px 2px 5px 5px rgb(28, 172, 23, 0.2);
+  border: 3px solid #ffffff;
+  box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.2);
   position: relative; 
   padding: 30px;
   margin-bottom: 20px;
@@ -479,7 +479,6 @@ h1.categorie{
 
 .rating-item h3{
   color: #ffffff;
-  margin-top: 20px;
   text-align: center;
 }
 
@@ -512,7 +511,7 @@ h1.categorie{
 
 /* FOOTER START */
 .footer{
-    background-image: url(img/footer.jpg);
+    background-image: url(img/foo-img.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -600,7 +599,7 @@ h1.categorie{
       background-color: #ffffff;
       width: 150px;
       height: 40px;
-      border: 1px solid #84e2a7;
+      border: none;
       border-radius: 20px;
   }
 
@@ -641,6 +640,8 @@ h1.categorie{
     border: 1px solid #ffffff;
     width: 100%;
     opacity: 0.4;
+    margin-top: 5px;
+
   }
   
   .copy{
@@ -846,34 +847,37 @@ h1.categorie{
 *****VYPIS FIREM******
 *********************/
 
-.main-container{
+.firm-container{
   display: flex;
   flex-wrap: wrap;
   width: 100%;
   justify-content: center;
-position: relative;
-top: 80px;
+  align-items: flex-start;
+  position: relative;
+  top: 80px;
 }
 
 .main-container-item-one{
-  width: 15%;
+  width: 20%;
+  min-width: 250px;
+  margin-right: 30px;
 }
 .main-container-item-two{
-  width: 65%;
+  width: 60%;
+  margin: 0 20px;
 }
 .main-container-item-three{
 width: 10%;
-padding-left: 30px;
+margin-left: 30px;
 }
 
 .rating-item-three{
   width: 100%;
-  width: 250px;
   min-height: 400px;
-  background-image: url(img/rating.jpg);
-  border: 5px solid #ffffff;
+  background-image: url(img/rating-bg.jpg);
   border-radius: 15px;
-  box-shadow: 2px 2px 5px 5px rgb(28, 172, 23, 0.2);
+  border: 3px solid #ffffff;
+  box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.2);
   position: relative; 
   margin-bottom: 20px;
 
@@ -881,7 +885,6 @@ padding-left: 30px;
 
 .rating-item-three h3{
   color: #ffffff;
-  margin-top: 20px;
   text-align: center;
 }
 
@@ -892,7 +895,7 @@ padding-left: 30px;
 
 /**** FIRM KATALOG****/
 .accordion {
-  margin: 0 40px;
+  margin: 0px;
 
 }
 
@@ -949,29 +952,30 @@ label p{
   font-size: 12px;
 }
 
-.content {
+.content-firm {
   max-height: 0;
   overflow: hidden;
   background-color: #fff;
   width: 100%;
   text-align: start;
+  padding: 20px;
 }
-  .content p {
+  .content-firm p {
     margin: 0;
     padding: 0.5em 3em 1em;
     font-size: 14px;
     line-height: 1;
   }
 
-  .content a{
+  .content-firm a{
     font-size: 14px;
   }
 
 .toggle:checked  + .title,
-.toggle:checked  + .title + .content {
+.toggle:checked  + .title + .content-firm{
     box-shadow: 3px 3px 6px #ddd, -3px 3px 6px #ddd;
   }
-  .toggle:checked + .title + .content {
+  .toggle:checked + .title + .content-firm {
     max-height: 600px;
   }
   
@@ -985,5 +989,20 @@ label p{
   border-radius: 10px;
   box-shadow: 1px 1px 10px 3px rgb(28, 172, 23, 0.1);
   margin-bottom: 20px;
+}
+
+.download .down-link{
+  padding-left: 50px;
+}
+
+
+
+p.down {
+ color: #16b13c;
+ font-size: 18px;
+}
+
+.down-link a{
+  padding-left: 100px;
 }
 
