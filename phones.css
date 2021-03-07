@@ -4667,6 +4667,10 @@ span.form label{
     }
 }
 
+/*****************/
+/****MAC BOOKS****/
+/*****************/
+
 @media only screen 
 and (width: 1440px) 
 and (height: 900px){ 
@@ -4796,6 +4800,7 @@ h1.categorie{
 }
 
 }
+
 
 
 
@@ -5098,10 +5103,21 @@ body{
 @media only screen 
 and (width: 1280px) 
 and (height: 800px){ 
-    
+.nav-bar{
+    right: 3.5em;
+}
+
 #query{
     width: 40vw;
     margin: 0;
+}
+
+.description{
+    top: 16.4em;
+}
+
+.description h2{
+    font-size: 14px;
 }
     
 input#query {
@@ -5110,7 +5126,7 @@ input#query {
     
 span.form {
     position: relative;
-    left: 25%;
+    left: 20%;
     top: 0px;
 }
     
