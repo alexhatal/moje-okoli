@@ -116,7 +116,7 @@ color: #84e2a7;
 .headline{
     position: absolute;
     top: 13em ;
-    left: 28vw;
+    left: 25vw;
 }
 
 .headline h1{
@@ -130,6 +130,7 @@ color: #84e2a7;
 .headline h1#firm-headline{
   width: 80%;
   font-size: 100px;
+  margin-top: 50px;
 }
 
 .description{
@@ -185,7 +186,7 @@ color: #84e2a7;
     padding: 20px;
     border: 0.2px solid #16b13c;
     box-shadow: 1px 1px 2px 2px rgba(1, 112, 42, 0.1);
-    margin: 0 50px 0 20px;
+    margin: 0 20px 0 20px;
 }
 
 /****DROPDOWN SELECT ****/
@@ -421,6 +422,11 @@ h1.categorie{
 /***ADD***/
 
 /*** ASIDE ***/
+
+.aside-container{
+  width: 100%;
+  justify-content: center;
+}
 .aside-container, .aside{
   display: inline-flex;
   flex-wrap: wrap;
@@ -432,7 +438,8 @@ h1.categorie{
   width: 50%;
   background-color: rgb(218, 255, 211);
   padding: 100px;
-  margin-bottom: 300px;
+  margin-bottom: 30px;
+  margin-right: 30px;
 }
 
 .about h1{
@@ -472,9 +479,7 @@ h1.categorie{
   box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.2);
   position: relative; 
   padding: 30px;
-  margin-bottom: 20px;
-  left: -100px;
-  top: 170px;
+  margin: 0 auto;
 }
 
 .rating-item h3{
@@ -487,12 +492,16 @@ h1.categorie{
   width: 80%;
 }
 
+.advertisment-item{
+  margin: 0 auto;
+}
+
 .advertisment-item img{
   width: 80%;
   border: none;
   border-radius: 10px;
   box-shadow: 1px 1px 10px 3px rgb(28, 172, 23, 0.1);
-  margin-bottom: 20px;
+  margin-left: 10px;
 }
 
 .advertisment-item img:hover{
