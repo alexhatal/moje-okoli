@@ -303,6 +303,3083 @@ body{
     }
 }
 
+/***iPhone 5/SE***/
+@media only screen 
+and (width: 320px) 
+and (height: 568px){ 
+body{
+    background-image: url(img/bg-mob.jpg);
+}
+    .logo{
+        width: 70%;
+        padding: 2em;
+        margin-bottom: 15px;
+    }
+
+    .nav-bar{
+        width: 280px;
+        right: 7vw;
+        padding: 10px;
+        top: -2em;
+    }
+
+    .nav-bar a{
+        font-size: 11px;
+    }
+
+    .vl{
+        margin: 0 10px 0 5px;
+        border-left: 2px solid #84e2a7;
+    }
+
+    .small-n{
+        top: 9em;
+        margin-left: -5px;
+    }
+
+    .small-n a{
+        font-size: 12px;
+    }
+
+    .kontakt, .login, .shop{
+    padding: 0 20px
+    }
+
+
+    .headline{
+        position: relative;
+        top: 1em;
+        left: 14vw;
+        width: 80%;
+    }
+
+    .headline h1{
+        width: 70%;
+        font-size: 30px;
+        letter-spacing: 8px;
+    }
+
+    .description{
+        position: relative;
+        width: 100%;
+        top: 3em;
+        text-align: center;
+        margin: 0 auto;
+        padding:0 20px 0 40px;
+    }
+
+    .description h2{
+        color: green;
+        width: 100%;
+        font-size: 17px;
+    }
+
+    .social{
+      display: none;
+
+    }
+    
+    .main{
+        margin: 0;
+        padding: 80px 0 30px 0;
+    }
+
+    .content h1{
+        font-size: 16px;
+        padding-bottom: 30px;
+        text-align: justify;
+    }
+
+    #query{
+        width: 80vw;
+        height: 30px;
+        margin: 0 0 10px 0;
+  
+    }
+
+    input#query {
+        font-size: 14px;
+    }
+
+    span.form {
+        position: relative;
+        left: 9%;
+        top: 10px;
+    }
+
+    span.form label{
+        font-size: 9px;
+
+    }
+
+    .name, .rating, .newest{
+        padding:  0 5px;
+    }
+
+    .cont_select_center{
+        padding-left:5px ;
+    }
+
+    .select_mate, #submit-btn{
+        width: 100px;
+        height: 40px;
+    }
+
+    .select_mate p , button#submit-btn {
+        font-size: 14px;
+    }
+
+    .services{
+        padding: 20px;
+    }
+
+    .services-item{
+        width: 100%;
+        margin: 30px;
+    }
+
+    .services-item a{
+        font-size: 16px;
+    }
+    
+
+    .add p{
+        width: 80%;
+    }
+
+    .about{
+    width: 100%;
+    margin-bottom: 0;
+    padding: 50px 20px 50px 0px;
+    }
+
+    .about h1{
+        margin: 0 auto;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .ct-btn {
+        width: 150px;
+        height: 50px;
+        padding: 0px;
+    }
+
+    .aside{
+        width: 100%;
+    }
+    .rating-item{
+        width: 290px;
+        top: 0px;
+        margin: 20px auto;
+        left: 5%;
+    }
+
+    .rating-item h3{
+        margin-top: 0;
+    }
+
+    .advertisment{
+        display: none;
+    }
+
+    .footer{
+        padding: 40px 0;
+    }
+
+    .footer-logo img{
+        width: 35%;
+        margin: 0 auto;
+    }
+
+    .footer-logo{
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+        
+    }
+    .footer .footer-left{
+        padding-left: 55px;
+        width: 100%;
+    }
+
+    .footer .footer-left p,
+    .footer .footer-left a{
+        font-size: 12px;
+    }
+
+    .footer .footer-center{
+        width: 100%;
+        padding-top: 0px;
+        padding-left: 70px;
+    }
+
+    .footer-center p{
+        font-size: 12px;
+    }
+
+    .foo-btn{
+        margin-left: 10px;
+    }
+    .foo-btn a{
+        font-size: 14px;
+    }
+
+    .footer .footer-right{
+    width: 100%;
+    padding-left: 35px ;
+    margin-left: 0;
+    }
+
+    .foo-icon {
+        padding: 15px 0px;
+    }
+
+    .foo-icon i{
+        font-size: 25px;
+    }
+
+    .footer .footer-company{
+        padding-left: 75px;
+        margin-left: 0px;
+    }
+
+    .footer p.footer-company {
+        font-size: 10px;
+
+    }
+
+    .footer p.copy, .footer .copy a{
+        font-size: 10px;
+    }
+}
+
+/***Moto G4, Galaxy S5, Samsung Galax S7 Edge,
+Samsung Galaxy S7 ***/
+@media only screen 
+and (width: 360px) 
+and (height: 640px){ 
+body{
+    background-image: url(img/bg-mob.jpg);
+}
+    .logo{
+        width: 70%;
+        padding: 2em;
+        margin-bottom: 15px;
+    }
+
+    .nav-bar{
+        width: 320px;
+        right: 3vw;
+        padding: 10px;
+        top: -2.5em;
+    }
+
+
+    .nav-bar a{
+        font-size: 12px;
+    }
+    .vl{
+        margin: 0 10px 0 5px;
+        border-left: 2px solid #84e2a7;
+    }
+
+    .small-n{
+        top: 9em;
+        margin-left: 23px;
+    }
+
+    .small-n a{
+        font-size: 12px;
+    }
+
+    .kontakt, .login, .shop{
+    padding: 0 15px
+    }
+
+
+    .headline{
+        position: relative;
+        top: 1.5em;
+        left: 19vw;
+        width: 80%;
+    }
+
+    .headline h1{
+        width: 70%;
+        font-size: 32px;
+        letter-spacing: 8px;
+    }
+
+    .description{
+        position: relative;
+        top: 4.5em;
+        text-align: center;
+        margin: 0 auto;
+        right: 0;
+    }
+
+    .description h2{
+        color: green;
+        width: 100%;
+        font-size: 17px;
+    }
+
+    .social{
+      display: none;
+
+    }
+    
+    .main{
+        margin: 20px 0 0 0;
+        padding: 80px 0 30px 0;
+    }
+
+    .content h1{
+        font-size: 16px;
+        padding-bottom: 30px;
+    }
+
+    #query{
+        width: 80vw;
+        height: 30px;
+        margin: 0 0 10px 0;
+  
+    }
+
+    input#query {
+        font-size: 16px;
+    }
+
+    span.form {
+        position: relative;
+        left: 13%;
+        top: 10px;
+    }
+
+    span.form label{
+        font-size: 9px;
+
+    }
+
+    .name, .rating, .newest{
+        padding:  0 5px;
+    }
+
+    .cont_select_center{
+        padding-left:5px ;
+    }
+
+    .select_mate, #submit-btn{
+        width: 100px;
+        height: 40px;
+    }
+
+    .select_mate p , button#submit-btn {
+        font-size: 14px;
+    }
+
+    .services{
+        padding: 20px;
+    }
+
+    .services-item{
+        width: 100%;
+        margin: 30px;
+    }
+
+    .services-item a{
+        font-size: 16px;
+    }
+    
+
+    .add p{
+        width: 80%;
+    }
+
+    .about{
+    width: 100%;
+    margin-bottom: 0;
+    padding: 50px 10px 50px 20px;
+    }
+
+    .about h1{
+        margin: 0 auto;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .aside{
+        width: 100%;
+    }
+    .rating-item{
+        width: 300px;
+        top: 0px;
+        margin: 20px auto;
+        left: 10%;
+    }
+
+    .rating-item h3{
+        margin-top: 0;
+    }
+
+    .advertisment{
+        display: none;
+    }
+
+    .footer{
+        padding: 40px 0;
+    }
+
+    .footer-logo img{
+        width: 35%;
+        margin: 0 auto;
+    }
+
+    .footer-logo{
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+        
+    }
+    .footer .footer-left{
+        padding-left: 75px;
+        width: 100%;
+    }
+
+    .footer .footer-left p,
+    .footer .footer-left a{
+        font-size: 12px;
+    }
+
+    .footer .footer-center{
+        width: 100%;
+        padding-top: 0px;
+        padding-left: 90px;
+    }
+
+    .footer-center p{
+        font-size: 12px;
+    }
+
+    .foo-btn{
+        margin-left: 10px;
+    }
+    .foo-btn a{
+        font-size: 14px;
+    }
+
+    .footer .footer-right{
+    width: 100%;
+    padding-left: 55px ;
+    margin-left: 0;
+    }
+
+    .foo-icon {
+        padding: 15px 0px;
+    }
+
+    .foo-icon i{
+        font-size: 25px;
+    }
+
+    .footer .footer-company{
+        padding-left: 75px;
+        margin-left: 0px;
+    }
+
+    .footer p.footer-company {
+        font-size: 10px;
+
+    }
+
+    .footer p.copy, .footer .copy a{
+        font-size: 10px;
+    }
+}
+
+/***LG G6, HTCU12+, HTC U11+, Samsung A6s,***/
+@media only screen 
+and (width: 360px) 
+and (height: 720px){ 
+body{
+    background-image: url(img/bg-mob.jpg);
+}
+    .logo{
+        width: 70%;
+        padding: 2em;
+        margin-bottom: 15px;
+    }
+
+    .nav-bar{
+        width: 320px;
+        right: 5vw;
+        padding: 10px;
+        top: -2em;
+    }
+
+
+    .nav-bar a{
+        font-size: 12px;
+    }
+    .vl{
+        margin: 0 10px 0 5px;
+        border-left: 2px solid #84e2a7;
+    }
+
+    .small-n{
+        top: 9em;
+        margin-left: 23px;
+    }
+
+    .small-n a{
+        font-size: 12px;
+    }
+
+    .kontakt, .login, .shop{
+    padding: 0 15px
+    }
+
+
+    .headline{
+        position: relative;
+        top: 1.5em;
+        left: 19vw;
+        width: 80%;
+    }
+
+    .headline h1{
+        width: 70%;
+        font-size: 32px;
+        letter-spacing: 8px;
+    }
+
+    .description{
+        position: relative;
+        top: 4.5em;
+        text-align: center;
+        margin: 0 auto;
+        right: 0;
+    }
+
+    .description h2{
+        color: green;
+        width: 100%;
+        font-size: 17px;
+    }
+
+    .social{
+      display: none;
+
+    }
+    
+    .main{
+        margin: 20px 0 0 0;
+        padding: 80px 0 30px 0;
+    }
+
+    .content h1{
+        font-size: 16px;
+        padding-bottom: 30px;
+    }
+
+    #query{
+        width: 80vw;
+        height: 30px;
+        margin: 0 0 10px 0;
+  
+    }
+
+    input#query {
+        font-size: 16px;
+    }
+
+    span.form {
+        position: relative;
+        left: 13%;
+        top: 10px;
+    }
+
+    span.form label{
+        font-size: 9px;
+
+    }
+
+    .name, .rating, .newest{
+        padding:  0 5px;
+    }
+
+    .cont_select_center{
+        padding-left:5px ;
+    }
+
+    .select_mate, #submit-btn{
+        width: 100px;
+        height: 40px;
+    }
+
+    .select_mate p , button#submit-btn {
+        font-size: 14px;
+    }
+
+    .icon_select_mate {
+        top: 10px;
+        right: 10px;
+    }
+
+    .selecionado_opcion{
+    padding: 10px 2%;
+    }
+
+    .services{
+        padding: 20px;
+    }
+
+    .services-item{
+        width: 100%;
+        margin: 30px;
+    }
+
+    .services-item a{
+        font-size: 16px;
+    }
+    
+
+    .add p{
+        width: 80%;
+    }
+
+    .about{
+    width: 100%;
+    margin-bottom: 0;
+    padding: 50px 10px 50px 20px;
+    }
+
+    .about h1{
+        margin: 0 auto;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .aside{
+        width: 100%;
+    }
+    .rating-item{
+        width: 300px;
+        top: 0px;
+        margin: 20px auto;
+        left: 10%;
+    }
+
+    .rating-item h3{
+        margin-top: 0;
+    }
+
+    .advertisment{
+        display: none;
+    }
+
+    .footer{
+        padding: 40px 0;
+    }
+
+    .footer-logo img{
+        width: 35%;
+        margin: 0 auto;
+    }
+
+    .footer-logo{
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+        
+    }
+    .footer .footer-left{
+        padding-left: 75px;
+        width: 100%;
+    }
+
+    .footer .footer-left p,
+    .footer .footer-left a{
+        font-size: 12px;
+    }
+
+    .footer .footer-center{
+        width: 100%;
+        padding-top: 0px;
+        padding-left: 90px;
+    }
+
+    .footer-center p{
+        font-size: 12px;
+    }
+
+    .foo-btn{
+        margin-left: 10px;
+    }
+    .foo-btn a{
+        font-size: 14px;
+    }
+
+    .footer .footer-right{
+    width: 100%;
+    padding-left: 55px ;
+    margin-left: 0;
+    }
+
+    .foo-icon {
+        padding: 15px 0px;
+    }
+
+    .foo-icon i{
+        font-size: 25px;
+    }
+
+    .footer .footer-company{
+        padding-left: 75px;
+        margin-left: 0px;
+    }
+
+    .footer p.footer-company {
+        font-size: 10px;
+
+    }
+
+    .footer p.copy, .footer .copy a{
+        font-size: 10px;
+    }
+}
+
+/***Samsung Galaxy Note 9, Samsung Galaxy S9+
+Samsung Galaxy S9, Samsung Galaxy S8,
+Samsung Galaxy S8+ ***/
+@media only screen 
+and (width: 360px) 
+and (height: 740px){ 
+body{
+    background-image: url(img/bg-mob.jpg);
+}
+    .logo{
+        width: 70%;
+        padding: 2em;
+        margin-bottom: 15px;
+    }
+
+    .nav-bar{
+        width: 320px;
+        right: 5vw;
+        padding: 10px;
+        top: -2em;
+    }
+
+
+    .nav-bar a{
+        font-size: 12px;
+    }
+    .vl{
+        margin: 0 10px 0 5px;
+        border-left: 2px solid #84e2a7;
+    }
+
+    .small-n{
+        top: 9em;
+        margin-left: 23px;
+    }
+
+    .small-n a{
+        font-size: 12px;
+    }
+
+    .kontakt, .login, .shop{
+    padding: 0 15px
+    }
+
+
+    .headline{
+        position: relative;
+        top: 1.5em;
+        left: 19vw;
+        width: 80%;
+    }
+
+    .headline h1{
+        width: 70%;
+        font-size: 32px;
+        letter-spacing: 8px;
+    }
+
+    .description{
+        position: relative;
+        top: 4.5em;
+        text-align: center;
+        margin: 0 auto;
+        right: 0;
+    }
+
+    .description h2{
+        color: green;
+        width: 100%;
+        font-size: 17px;
+    }
+
+    .social{
+      display: none;
+
+    }
+    
+    .main{
+        margin: 20px 0 0 0;
+        padding: 80px 0 30px 0;
+    }
+
+    .content h1{
+        font-size: 16px;
+        padding-bottom: 30px;
+    }
+
+    #query{
+        width: 80vw;
+        height: 30px;
+        margin: 0 0 10px 0;
+  
+    }
+
+    input#query {
+        font-size: 16px;
+    }
+
+    span.form {
+        position: relative;
+        left: 13%;
+        top: 10px;
+    }
+
+    span.form label{
+        font-size: 9px;
+
+    }
+
+    .name, .rating, .newest{
+        padding:  0 5px;
+    }
+
+    .cont_select_center{
+        padding-left:5px ;
+    }
+
+    .select_mate, #submit-btn{
+        width: 100px;
+        height: 40px;
+    }
+
+    .select_mate p , button#submit-btn {
+        font-size: 14px;
+    }
+
+    .services{
+        padding: 20px;
+    }
+
+    .services-item{
+        width: 100%;
+        margin: 30px;
+    }
+
+    .services-item a{
+        font-size: 16px;
+    }
+    
+
+    .add p{
+        width: 80%;
+    }
+
+    .about{
+    width: 100%;
+    margin-bottom: 0;
+    padding: 50px 10px 50px 20px;
+    }
+
+    .about h1{
+        margin: 0 auto;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .aside{
+        width: 100%;
+    }
+    .rating-item{
+        width: 300px;
+        top: 0px;
+        margin: 20px auto;
+        left: 10%;
+    }
+
+    .rating-item h3{
+        margin-top: 0;
+    }
+
+    .advertisment{
+        display: none;
+    }
+
+    .footer{
+        padding: 40px 0;
+    }
+
+    .footer-logo img{
+        width: 35%;
+        margin: 0 auto;
+    }
+
+    .footer-logo{
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+        
+    }
+    .footer .footer-left{
+        padding-left: 75px;
+        width: 100%;
+    }
+
+    .footer .footer-left p,
+    .footer .footer-left a{
+        font-size: 12px;
+    }
+
+    .footer .footer-center{
+        width: 100%;
+        padding-top: 0px;
+        padding-left: 90px;
+    }
+
+    .footer-center p{
+        font-size: 12px;
+    }
+
+    .foo-btn{
+        margin-left: 10px;
+    }
+    .foo-btn a{
+        font-size: 14px;
+    }
+
+    .footer .footer-right{
+    width: 100%;
+    padding-left: 55px ;
+    margin-left: 0;
+    }
+
+    .foo-icon {
+        padding: 15px 0px;
+    }
+
+    .foo-icon i{
+        font-size: 25px;
+    }
+
+    .footer .footer-company{
+        padding-left: 75px;
+        margin-left: 0px;
+    }
+
+    .footer p.footer-company {
+        font-size: 10px;
+
+    }
+
+    .footer p.copy, .footer .copy a{
+        font-size: 10px;
+    }
+}
+
+/***Samsung Galaxy Note 9, Samsung Galaxy S9+
+Samsung Galaxy S9, Samsung Galaxy S8,
+Samsung Galaxy S8+ ***/
+@media only screen 
+and (width: 360px) 
+and (height: 780px){ 
+body{
+    background-image: url(img/bg-mob.jpg);
+}
+    .logo{
+        width: 70%;
+        padding: 2em;
+        margin-bottom: 15px;
+    }
+
+    .nav-bar{
+        width: 320px;
+        right: 5vw;
+        padding: 10px;
+        top: -2em;
+    }
+
+
+    .nav-bar a{
+        font-size: 12px;
+    }
+    .vl{
+        margin: 0 10px 0 5px;
+        border-left: 2px solid #84e2a7;
+    }
+
+    .small-n{
+        top: 9.3em;
+        margin-left: 10px;
+    }
+
+    .small-n a{
+        font-size: 12px;
+    }
+
+    .kontakt, .login, .shop{
+    padding: 0 15px
+    }
+
+
+    .headline{
+        position: relative;
+        top: 1.5em;
+        left: 19vw;
+        width: 80%;
+    }
+
+    .headline h1{
+        width: 70%;
+        font-size: 32px;
+        letter-spacing: 8px;
+    }
+
+    .description{
+        position: relative;
+        top: 4.5em;
+        text-align: center;
+        margin: 0 auto;
+        right: 0;
+    }
+
+    .description h2{
+        color: green;
+        width: 100%;
+        font-size: 17px;
+    }
+
+    .social{
+      display: none;
+
+    }
+    
+    .main{
+        margin: 20px 0 0 0;
+        padding: 80px 0 30px 0;
+    }
+
+    .content h1{
+        font-size: 16px;
+        padding-bottom: 30px;
+    }
+
+    #query{
+        width: 80vw;
+        height: 30px;
+        margin: 0 0 10px 0;
+  
+    }
+
+    input#query {
+        font-size: 16px;
+    }
+
+    span.form {
+        position: relative;
+        left: 13%;
+        top: 10px;
+    }
+
+    span.form label{
+        font-size: 9px;
+
+    }
+
+    .name, .rating, .newest{
+        padding:  0 5px;
+    }
+
+    .cont_select_center{
+        padding-left:5px ;
+    }
+
+    .select_mate, #submit-btn{
+        width: 100px;
+        height: 40px;
+    }
+
+    .select_mate p , button#submit-btn {
+        font-size: 14px;
+    }
+
+    .icon_select_mate{
+        top: 10px;
+        right: 10px;
+    }
+
+    .selecionado_opcion{
+        padding: 10px 0%;
+    }
+
+    .services{
+        padding: 20px;
+    }
+
+    .services-item{
+        width: 100%;
+        margin: 30px;
+    }
+
+    .services-item a{
+        font-size: 16px;
+    }
+    
+
+    .add p{
+        width: 80%;
+    }
+
+    .about{
+    width: 100%;
+    margin-bottom: 0;
+    padding: 50px 10px 50px 20px;
+    }
+
+    .about h1{
+        margin: 0 auto;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .aside{
+        width: 100%;
+    }
+    .rating-item{
+        width: 300px;
+        top: 0px;
+        margin: 20px auto;
+        left: 10%;
+    }
+
+    .rating-item h3{
+        margin-top: 0;
+    }
+
+    .advertisment{
+        display: none;
+    }
+
+    .footer{
+        padding: 40px 0;
+    }
+
+    .footer-logo img{
+        width: 35%;
+        margin: 0 auto;
+    }
+
+    .footer-logo{
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+        
+    }
+    .footer .footer-left{
+        padding-left: 75px;
+        width: 100%;
+    }
+
+    .footer .footer-left p,
+    .footer .footer-left a{
+        font-size: 12px;
+    }
+
+    .footer .footer-center{
+        width: 100%;
+        padding-top: 0px;
+        padding-left: 90px;
+    }
+
+    .footer-center p{
+        font-size: 12px;
+    }
+
+    .foo-btn{
+        margin-left: 10px;
+    }
+    .foo-btn a{
+        font-size: 14px;
+    }
+
+    .footer .footer-right{
+    width: 100%;
+    padding-left: 55px ;
+    margin-left: 0;
+    }
+
+    .foo-icon {
+        padding: 15px 0px;
+    }
+
+    .foo-icon i{
+        font-size: 25px;
+    }
+
+    .footer .footer-company{
+        padding-left: 75px;
+        margin-left: 0px;
+    }
+
+    .footer p.footer-company {
+        font-size: 10px;
+
+    }
+
+    .footer p.copy, .footer .copy a{
+        font-size: 10px;
+    }
+}
+
+/***Samsung S20,Huawei Nova 7 SE,Huawei Nova 6,
+LG K51S***/
+@media only screen 
+and (width: 360px) 
+and (height: 800px){ 
+body{
+    background-image: url(img/bg-mob.jpg);
+}
+    .logo{
+        width: 70%;
+        padding: 2em;
+        margin-bottom: 15px;
+    }
+
+    .nav-bar{
+        width: 320px;
+        right: 5vw;
+        padding: 10px;
+        top: -2em;
+    }
+
+
+    .nav-bar a{
+        font-size: 12px;
+    }
+    .vl{
+        margin: 0 10px 0 5px;
+        border-left: 2px solid #84e2a7;
+    }
+
+    .small-n{
+        top: 9em;
+        margin-left: 23px;
+    }
+
+    .small-n a{
+        font-size: 12px;
+    }
+
+    .kontakt, .login, .shop{
+    padding: 0 15px
+    }
+
+
+    .headline{
+        position: relative;
+        top: 1.5em;
+        left: 19vw;
+        width: 80%;
+    }
+
+    .headline h1{
+        width: 70%;
+        font-size: 32px;
+        letter-spacing: 8px;
+    }
+
+    .description{
+        position: relative;
+        top: 4.5em;
+        text-align: center;
+        margin: 0 auto;
+        right: 0;
+    }
+
+    .description h2{
+        color: green;
+        width: 100%;
+        font-size: 17px;
+    }
+
+    .social{
+      display: none;
+
+    }
+    
+    .main{
+        margin: 20px 0 0 0;
+        padding: 80px 0 30px 0;
+    }
+
+    .content h1{
+        font-size: 16px;
+        padding-bottom: 30px;
+    }
+
+    #query{
+        width: 80vw;
+        height: 30px;
+        margin: 0 0 10px 0;
+  
+    }
+
+    input#query {
+        font-size: 16px;
+    }
+
+    span.form {
+        position: relative;
+        left: 13%;
+        top: 10px;
+    }
+
+    span.form label{
+        font-size: 9px;
+
+    }
+
+    .name, .rating, .newest{
+        padding:  0 5px;
+    }
+
+    .cont_select_center{
+        padding-left:5px ;
+    }
+
+    .select_mate, #submit-btn{
+        width: 100px;
+        height: 40px;
+    }
+
+    .select_mate p , button#submit-btn {
+        font-size: 14px;
+    }
+
+    .services{
+        padding: 20px;
+    }
+
+    .services-item{
+        width: 100%;
+        margin: 30px;
+    }
+
+    .services-item a{
+        font-size: 16px;
+    }
+    
+
+    .add p{
+        width: 80%;
+    }
+
+    .about{
+    width: 100%;
+    margin-bottom: 0;
+    padding: 50px 10px 50px 20px;
+    }
+
+    .about h1{
+        margin: 0 auto;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .aside{
+        width: 100%;
+    }
+    .rating-item{
+        width: 300px;
+        top: 0px;
+        margin: 20px auto;
+        left: 10%;
+    }
+
+    .rating-item h3{
+        margin-top: 0;
+    }
+
+    .advertisment{
+        display: none;
+    }
+
+    .footer{
+        padding: 40px 0;
+    }
+
+    .footer-logo img{
+        width: 35%;
+        margin: 0 auto;
+    }
+
+    .footer-logo{
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+        
+    }
+    .footer .footer-left{
+        padding-left: 75px;
+        width: 100%;
+    }
+
+    .footer .footer-left p,
+    .footer .footer-left a{
+        font-size: 12px;
+    }
+
+    .footer .footer-center{
+        width: 100%;
+        padding-top: 0px;
+        padding-left: 90px;
+    }
+
+    .footer-center p{
+        font-size: 12px;
+    }
+
+    .foo-btn{
+        margin-left: 10px;
+    }
+    .foo-btn a{
+        font-size: 14px;
+    }
+
+    .footer .footer-right{
+    width: 100%;
+    padding-left: 55px ;
+    margin-left: 0;
+    }
+
+    .foo-icon {
+        padding: 15px 0px;
+    }
+
+    .foo-icon i{
+        font-size: 25px;
+    }
+
+    .footer .footer-company{
+        padding-left: 75px;
+        margin-left: 0px;
+    }
+
+    .footer p.footer-company {
+        font-size: 10px;
+
+    }
+
+    .footer p.copy, .footer .copy a{
+        font-size: 10px;
+    }
+}
+
+/***iPhone 6/7/8***/
+@media only screen 
+and (width: 375px) 
+and (height: 667px){ 
+body{
+    background-image: url(img/bg-mob.jpg);
+}
+    .logo{
+        width: 70%;
+        padding: 2em;
+        margin-bottom: 15px;
+    }
+
+    .nav-bar{
+        width: 320px;
+        right: 7vw;
+        padding: 10px;
+        top: -2em;
+    }
+
+    .nav-bar a{
+        font-size: 11px;
+    }
+
+    .vl{
+        margin: 0 10px 0 5px;
+        border-left: 2px solid #84e2a7;
+    }
+
+    .small-n{
+        top: 9.5em;
+        margin-left: 20px;
+    }
+
+    .small-n a{
+        font-size: 12px;
+    }
+
+    .kontakt, .login, .shop{
+    padding: 0 20px
+    }
+
+
+    .headline{
+        position: relative;
+        top: 1.5em;
+        left: 14vw;
+        width: 80%;
+    }
+
+    .headline h1{
+        width: 70%;
+        font-size: 35px;
+        letter-spacing: 8px;
+    }
+
+    .description{
+        position: relative;
+        width: 100%;
+        top: 4em;
+        text-align: center;
+        margin: 0 auto;
+        padding:0 20px 0 40px;
+    }
+
+    .description h2{
+        color: green;
+        width: 100%;
+        font-size: 17px;
+    }
+
+    .social{
+      display: none;
+
+    }
+    
+    .main{
+        margin: 10px 0;
+        padding: 80px 0 30px 0;
+    }
+
+    .content h1{
+        font-size: 16px;
+        padding-bottom: 30px;
+        text-align: justify;
+    }
+
+    #query{
+        width: 80vw;
+        height: 30px;
+        margin: 0 0 10px 0;
+  
+    }
+
+    input#query {
+        font-size: 14px;
+    }
+
+    span.form {
+        position: relative;
+        left: 13%;
+        top: 10px;
+    }
+
+    span.form label{
+        font-size: 9px;
+
+    }
+
+    .name, .rating, .newest{
+        padding:  0 5px;
+    }
+
+    .cont_select_center{
+        padding-left:5px ;
+    }
+
+    .select_mate, #submit-btn{
+        width: 100px;
+        height: 40px;
+    }
+
+    .select_mate p , button#submit-btn {
+        font-size: 14px;
+    }
+
+    .services{
+        padding: 20px;
+    }
+
+    .services-item{
+        width: 100%;
+        margin: 30px;
+    }
+
+    .services-item a{
+        font-size: 16px;
+    }
+    
+
+    .add p{
+        width: 80%;
+    }
+
+    .about{
+    width: 100%;
+    margin-bottom: 0;
+    padding: 50px 20px 50px 20px;
+    }
+
+    .about h1{
+        margin: 0 auto;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .ct-btn {
+        width: 150px;
+        height: 50px;
+        padding: 0px;
+    }
+
+    .aside{
+        width: 100%;
+    }
+    .rating-item{
+        width: 330px;
+        top: 0px;
+        margin: 20px auto;
+        left: 6.5%;
+    }
+
+    .rating-item h3{
+        margin-top: 0;
+    }
+
+    .advertisment{
+        display: none;
+    }
+
+    .footer{
+        padding: 40px 0;
+    }
+
+    .footer-logo img{
+        width: 35%;
+        margin: 0 auto;
+    }
+
+    .footer-logo{
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+        
+    }
+    .footer .footer-left{
+        padding-left: 80px;
+        width: 100%;
+    }
+
+    .footer .footer-left p,
+    .footer .footer-left a{
+        font-size: 12px;
+    }
+
+    .footer .footer-center{
+        width: 100%;
+        padding-top: 0px;
+        padding-left: 100px;
+    }
+
+    .footer-center p{
+        font-size: 12px;
+    }
+
+    .foo-btn{
+        margin-left: 10px;
+    }
+    .foo-btn a{
+        font-size: 14px;
+    }
+
+    .footer .footer-right{
+    width: 100%;
+    padding-left: 55px ;
+    margin-left: 0;
+    }
+
+    .foo-icon {
+        padding: 15px 0px;
+    }
+
+    .foo-icon i{
+        font-size: 25px;
+    }
+
+    .footer .footer-company{
+        padding-left: 75px;
+        margin-left: 0px;
+    }
+
+    .footer p.footer-company {
+        font-size: 10px;
+
+    }
+
+    .footer p.copy, .footer .copy a{
+        font-size: 10px;
+    }
+
+    .towns{
+        width: 100%;
+        margin: 0 auto;
+        top: 70px;
+        margin-bottom: 80px;
+    }
+
+    .towns-item{
+        width: 80%;
+    }
+
+    .advertisment-item-two{
+        display: none;
+    }
+
+    .modal-window p,
+    .modal-window a{
+        font-size: 12px;
+    }
+
+ 
+
+    .modal-btn{
+        width: 200px;
+        margin: 10px ;
+    }
+
+    a.modal-btn {
+        font-size: 14px;
+    }
+
+    p.long{
+        display: none;
+    }
+}
+
+
+/***iPhone X, iPhone 11 Pro ***/
+@media only screen 
+and (width: 375px) 
+and (height: 812px){ 
+body{
+    background-image: url(img/bg-mob.jpg);
+}
+    .logo{
+        width: 70%;
+        padding: 2em;
+        margin-bottom: 15px;
+    }
+
+    .nav-bar{
+        width: 330px;
+        right: 6vw;
+        padding: 10px;
+        top: -2em;
+    }
+
+    .nav-bar a{
+        font-size: 13px;
+    }
+
+    .vl{
+        margin: 0 10px 0 5px;
+        border-left: 2px solid #84e2a7;
+    }
+
+    .small-n{
+        top: 9.5em;
+        margin-left: 20px;
+    }
+
+    .small-n a{
+        font-size: 12px;
+    }
+
+    .kontakt, .login, .shop{
+    padding: 0 20px
+    }
+
+
+    .headline{
+        position: relative;
+        top: 1.5em;
+        left: 14vw;
+        width: 80%;
+    }
+
+    .headline h1{
+        width: 70%;
+        font-size: 38px;
+        letter-spacing: 8px;
+    }
+
+    .description{
+        position: relative;
+        width: 100%;
+        top: 4em;
+        text-align: center;
+        margin: 0 auto;
+        padding:0 20px 0 40px;
+    }
+
+    .description h2{
+        color: green;
+        width: 100%;
+        font-size: 17px;
+    }
+
+    .social{
+      display: none;
+
+    }
+    
+    .main{
+        margin: 10px 0;
+        padding: 80px 0 30px 0;
+    }
+
+    .content h1{
+        font-size: 16px;
+        padding-bottom: 30px;
+        text-align: justify;
+    }
+
+    #query{
+        width: 80vw;
+        height: 30px;
+        margin: 0 0 10px 0;
+  
+    }
+
+    input#query {
+        font-size: 14px;
+    }
+
+    span.form {
+        position: relative;
+        left: 15%;
+        top: 10px;
+    }
+
+    span.form label{
+        font-size: 9px;
+
+    }
+
+    .name, .rating, .newest{
+        padding:  0 5px;
+    }
+
+    .cont_select_center{
+        padding-left:5px ;
+    }
+
+    .select_mate, #submit-btn{
+        width: 100px;
+        height: 40px;
+    }
+
+    .select_mate p , button#submit-btn {
+        font-size: 14px;
+    }
+
+    .services{
+        padding: 20px;
+    }
+
+    .services-item{
+        width: 100%;
+        margin: 30px;
+    }
+
+    .services-item a{
+        font-size: 16px;
+    }
+    
+
+    .add p{
+        width: 80%;
+    }
+
+    .about{
+    width: 100%;
+    margin-bottom: 0;
+    padding: 50px 20px 50px 20px;
+    }
+
+    .about h1{
+        margin: 0 auto;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .ct-btn {
+        width: 150px;
+        height: 50px;
+        padding: 0px;
+    }
+
+    .aside{
+        width: 100%;
+    }
+    .rating-item{
+        width: 330px;
+        top: 0px;
+        margin: 20px auto;
+        left: 7%;
+    }
+
+    .rating-item h3{
+        margin-top: 0;
+    }
+
+    .advertisment{
+        display: none;
+    }
+
+    .footer{
+        padding: 40px 0;
+    }
+
+    .footer-logo img{
+        width: 35%;
+        margin: 0 auto;
+    }
+
+    .footer-logo{
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+        
+    }
+    .footer .footer-left{
+        padding-left: 80px;
+        width: 100%;
+    }
+
+    .footer .footer-left p,
+    .footer .footer-left a{
+        font-size: 12px;
+    }
+
+    .footer .footer-center{
+        width: 100%;
+        padding-top: 0px;
+        padding-left: 100px;
+    }
+
+    .footer-center p{
+        font-size: 12px;
+    }
+
+    .foo-btn{
+        margin-left: 10px;
+    }
+    .foo-btn a{
+        font-size: 14px;
+    }
+
+    .footer .footer-right{
+    width: 100%;
+    padding-left: 60px ;
+    margin-left: 0;
+    }
+
+    .foo-icon {
+        padding: 15px 0px;
+    }
+
+    .foo-icon i{
+        font-size: 25px;
+    }
+
+    .footer .footer-company{
+        padding-left: 75px;
+        margin-left: 0px;
+    }
+
+    .footer p.footer-company {
+        font-size: 10px;
+
+    }
+
+    .footer p.copy, .footer .copy a{
+        font-size: 10px;
+    }
+
+    .towns{
+        width: 100%;
+        margin: 0 auto;
+        top: 50px;
+        margin-bottom: 80px;
+    }
+
+    .towns-item{
+        width: 80%;
+    }
+
+    .advertisment-item-two{
+        display: none;
+    }
+
+    .modal-window p,
+    .modal-window a{
+        font-size: 12px;
+    }
+
+    .modal-btn{
+        width: 200px;
+        margin: 10px ;
+    }
+
+    a.modal-btn {
+        font-size: 14px;
+    }
+}
+
+/***Pixel 2***/
+@media only screen 
+and (width: 411px) 
+and (height: 731px){ 
+body{
+    background-image: url(img/bg-mob.jpg);
+}
+    .logo{
+        width: 70%;
+        padding: 2em;
+        margin-bottom: 15px;
+    }
+
+    .nav-bar{
+        width: 350px;
+        right: 7vw;
+        padding: 10px;
+        top: -2em;
+    }
+
+    .nav-bar a{
+        font-size: 12px;
+    }
+
+    .vl{
+        margin: 0 10px 0 5px;
+        border-left: 2px solid #84e2a7;
+    }
+
+    .small-n{
+        top: 10em;
+        margin-left: 40px;
+    }
+
+    .small-n a{
+        font-size: 12px;
+    }
+
+    .kontakt, .login, .shop{
+    padding: 0 20px
+    }
+
+
+    .headline{
+        position: relative;
+        top: 2em;
+        left: 14vw;
+        width: 80%;
+    }
+
+    .headline h1{
+        width: 70%;
+        font-size: 40px;
+        letter-spacing: 8px;
+    }
+
+    .description{
+        position: relative;
+        width: 100%;
+        top: 4.5em;
+        text-align: center;
+        margin: 0 auto;
+        padding:0 20px 0 40px;
+    }
+
+    .description h2{
+        color: green;
+        width: 100%;
+        font-size: 17px;
+    }
+
+    .social{
+      display: none;
+
+    }
+    
+    .main{
+        margin: 20px 0 0 0;
+        padding: 80px 0 30px 0;
+    }
+
+    .content h1{
+        font-size: 16px;
+        padding-bottom: 30px;
+        text-align: justify;
+    }
+
+    #query{
+        width: 80vw;
+        height: 30px;
+        margin: 0 0 10px 0;
+  
+    }
+
+    input#query {
+        font-size: 16px;
+    }
+
+    span.form {
+        position: relative;
+        left: 13%;
+        top: 10px;
+    }
+
+    span.form label{
+        font-size: 9px;
+
+    }
+
+    .name, .rating, .newest{
+        padding:  0 5px;
+    }
+
+    .cont_select_center{
+        padding-left:5px ;
+    }
+
+    .select_mate, #submit-btn{
+        width: 100px;
+        height: 40px;
+    }
+
+    .select_mate p , button#submit-btn {
+        font-size: 14px;
+    }
+
+    .services{
+        padding: 20px;
+    }
+
+    .services-item{
+        width: 100%;
+        margin: 30px;
+    }
+
+    .services-item a{
+        font-size: 16px;
+    }
+    
+
+    .add p{
+        width: 80%;
+    }
+
+    .about{
+    width: 100%;
+    margin-bottom: 0;
+    padding: 50px 10px 50px 20px;
+    }
+
+    .about h1{
+        margin: 0 auto;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .aside{
+        width: 100%;
+    }
+    .rating-item{
+        width: 340px;
+        top: 0px;
+        margin: 20px auto;
+        left: 10%;
+    }
+
+    .rating-item h3{
+        margin-top: 0;
+    }
+
+    .advertisment{
+        display: none;
+    }
+
+    .footer{
+        padding: 40px 0;
+    }
+
+    .footer-logo img{
+        width: 35%;
+        margin: 0 auto;
+    }
+
+    .footer-logo{
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+        
+    }
+    .footer .footer-left{
+        padding-left: 95px;
+        width: 100%;
+    }
+
+    .footer .footer-left p,
+    .footer .footer-left a{
+        font-size: 12px;
+    }
+
+    .footer .footer-center{
+        width: 100%;
+        padding-top: 0px;
+        padding-left: 110px;
+    }
+
+    .footer-center p{
+        font-size: 12px;
+    }
+
+    .foo-btn{
+        margin-left: 10px;
+    }
+    .foo-btn a{
+        font-size: 14px;
+    }
+
+    .footer .footer-right{
+    width: 100%;
+    padding-left: 75px ;
+    margin-left: 0;
+    }
+
+    .foo-icon {
+        padding: 15px 0px;
+    }
+
+    .foo-icon i{
+        font-size: 25px;
+    }
+
+    .footer .footer-company{
+        padding-left: 75px;
+        margin-left: 0px;
+    }
+
+    .footer p.footer-company {
+        font-size: 10px;
+
+    }
+
+    .footer p.copy, .footer .copy a{
+        font-size: 10px;
+    }
+}
+
+/***Pixel 2 XL***/
+@media only screen 
+and (width: 411px) 
+and (height: 823px){ 
+body{
+    background-image: url(img/bg-mob.jpg);
+}
+    .logo{
+        width: 70%;
+        padding: 2em;
+        margin-bottom: 15px;
+    }
+
+    .nav-bar{
+        width: 350px;
+        right: 7vw;
+        padding: 10px;
+        top: -2em;
+    }
+
+    .nav-bar a{
+        font-size: 12px;
+    }
+
+    .vl{
+        margin: 0 10px 0 5px;
+        border-left: 2px solid #84e2a7;
+    }
+
+    .small-n{
+        top: 10em;
+        margin-left: 40px;
+    }
+
+    .small-n a{
+        font-size: 12px;
+    }
+
+    .kontakt, .login, .shop{
+    padding: 0 20px
+    }
+
+
+    .headline{
+        position: relative;
+        top: 2em;
+        left: 14vw;
+        width: 80%;
+    }
+
+    .headline h1{
+        width: 70%;
+        font-size: 40px;
+        letter-spacing: 8px;
+    }
+
+    .description{
+        position: relative;
+        width: 100%;
+        top: 4.5em;
+        text-align: center;
+        margin: 0 auto;
+        padding:0 20px 0 40px;
+    }
+
+    .description h2{
+        color: green;
+        width: 100%;
+        font-size: 17px;
+    }
+
+    .social{
+      display: none;
+
+    }
+    
+    .main{
+        margin: 20px 0 0 0;
+        padding: 80px 0 30px 0;
+    }
+
+    .content h1{
+        font-size: 16px;
+        padding-bottom: 30px;
+        text-align: justify;
+    }
+
+    #query{
+        width: 80vw;
+        height: 30px;
+        margin: 0 0 10px 0;
+  
+    }
+
+    input#query {
+        font-size: 16px;
+    }
+
+    span.form {
+        position: relative;
+        left: 13%;
+        top: 10px;
+    }
+
+    span.form label{
+        font-size: 9px;
+
+    }
+
+    .name, .rating, .newest{
+        padding:  0 5px;
+    }
+
+    .cont_select_center{
+        padding-left:5px ;
+    }
+
+    .select_mate, #submit-btn{
+        width: 100px;
+        height: 40px;
+    }
+
+    .select_mate p , button#submit-btn {
+        font-size: 14px;
+    }
+
+    .services{
+        padding: 20px;
+    }
+
+    .services-item{
+        width: 100%;
+        margin: 30px;
+    }
+
+    .services-item a{
+        font-size: 16px;
+    }
+    
+
+    .add p{
+        width: 80%;
+    }
+
+    .about{
+    width: 100%;
+    margin-bottom: 0;
+    padding: 50px 10px 50px 20px;
+    }
+
+    .about h1{
+        margin: 0 auto;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .aside{
+        width: 100%;
+    }
+    .rating-item{
+        width: 340px;
+        top: 0px;
+        margin: 20px auto;
+        left: 10%;
+    }
+
+    .rating-item h3{
+        margin-top: 0;
+    }
+
+    .advertisment{
+        display: none;
+    }
+
+    .footer{
+        padding: 40px 0;
+    }
+
+    .footer-logo img{
+        width: 35%;
+        margin: 0 auto;
+    }
+
+    .footer-logo{
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+        
+    }
+    .footer .footer-left{
+        padding-left: 95px;
+        width: 100%;
+    }
+
+    .footer .footer-left p,
+    .footer .footer-left a{
+        font-size: 12px;
+    }
+
+    .footer .footer-center{
+        width: 100%;
+        padding-top: 0px;
+        padding-left: 110px;
+    }
+
+    .footer-center p{
+        font-size: 12px;
+    }
+
+    .foo-btn{
+        margin-left: 10px;
+    }
+    .foo-btn a{
+        font-size: 14px;
+    }
+
+    .footer .footer-right{
+    width: 100%;
+    padding-left: 75px ;
+    margin-left: 0;
+    }
+
+    .foo-icon {
+        padding: 15px 0px;
+    }
+
+    .foo-icon i{
+        font-size: 25px;
+    }
+
+    .footer .footer-company{
+        padding-left: 75px;
+        margin-left: 0px;
+    }
+
+    .footer p.footer-company {
+        font-size: 10px;
+
+    }
+
+    .footer p.copy, .footer .copy a{
+        font-size: 10px;
+    }
+}
+
+/***iPhone 6/7/8 Plus, iPhone XR, iPhone XS Max
+Nexus 6P, Nexus 5X, Google Pixel 4XL, Google Pixel 4
+Google Pixel 3a, Google Pixel 3XL, Google Pixel 2XL,
+Google Pixel XL, Google Pixel, Samsung Galaxy Note 10+,
+Samsung Galaxy Note 10***/
+@media only screen 
+and (width: 414px) 
+and (height: 736px){ 
+body{
+    background-image: url(img/bg-mob.jpg);
+}
+    .logo{
+        width: 70%;
+        padding: 2em;
+        margin-bottom: 15px;
+    }
+
+    .nav-bar{
+        width: 350px;
+        right: 7vw;
+        padding: 10px;
+        top: -2em;
+    }
+
+    .nav-bar a{
+        font-size: 13px;
+    }
+
+    .vl{
+        margin: 0 10px 0 5px;
+        border-left: 2px solid #84e2a7;
+    }
+
+    .small-n{
+        top: 10em;
+        margin-left: 40px;
+    }
+
+    .small-n a{
+        font-size: 12px;
+    }
+
+    .kontakt, .login, .shop{
+    padding: 0 20px
+    }
+
+
+    .headline{
+        position: relative;
+        top: 1.5em;
+        left: 14vw;
+        width: 80%;
+    }
+
+    .headline h1{
+        width: 70%;
+        font-size: 42px;
+        letter-spacing: 8px;
+    }
+
+    .description{
+        position: relative;
+        width: 100%;
+        top: 4em;
+        text-align: center;
+        margin: 0 auto;
+        padding:0 20px 0 40px;
+    }
+
+    .description h2{
+        color: green;
+        width: 100%;
+        font-size: 17px;
+    }
+
+    .social{
+      display: none;
+
+    }
+    
+    .main{
+        margin: 10px 0;
+        padding: 80px 0 30px 0;
+    }
+
+    .content h1{
+        font-size: 16px;
+        padding-bottom: 30px;
+        text-align: justify;
+    }
+
+    #query{
+        width: 80vw;
+        height: 30px;
+        margin: 0 0 10px 0;
+  
+    }
+
+    input#query {
+        font-size: 14px;
+    }
+
+    span.form {
+        position: relative;
+        left: 18%;
+        top: 10px;
+    }
+
+    span.form label{
+        font-size: 9px;
+
+    }
+
+    .name, .rating, .newest{
+        padding:  0 5px;
+    }
+
+    .cont_select_center{
+        padding-left:5px ;
+    }
+
+    .select_mate, #submit-btn{
+        width: 100px;
+        height: 40px;
+    }
+
+    .select_mate p , button#submit-btn {
+        font-size: 14px;
+    }
+
+    .services{
+        padding: 20px;
+    }
+
+    .services-item{
+        width: 100%;
+        margin: 30px;
+    }
+
+    .services-item a{
+        font-size: 16px;
+    }
+    
+
+    .add p{
+        width: 80%;
+    }
+
+    .about{
+    width: 100%;
+    margin-bottom: 0;
+    padding: 50px 20px 50px 20px;
+    }
+
+    .about h1{
+        margin: 0 auto;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .ct-btn {
+        width: 150px;
+        height: 50px;
+        padding: 0px;
+    }
+
+    .aside{
+        width: 100%;
+    }
+    .rating-item{
+        width: 360px;
+        top: 0px;
+        margin: 20px auto;
+        left: 7.5%;
+    }
+
+    .rating-item h3{
+        margin-top: 0;
+    }
+
+    .advertisment{
+        display: none;
+    }
+
+    .footer{
+        padding: 40px 0;
+    }
+
+    .footer-logo img{
+        width: 35%;
+        margin: 0 auto;
+    }
+
+    .footer-logo{
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+        
+    }
+    .footer .footer-left{
+        padding-left: 100px;
+        width: 100%;
+    }
+
+    .footer .footer-left p,
+    .footer .footer-left a{
+        font-size: 12px;
+    }
+
+    .footer .footer-center{
+        width: 100%;
+        padding-top: 0px;
+        padding-left: 120px;
+    }
+
+    .footer-center p{
+        font-size: 12px;
+    }
+
+    .foo-btn{
+        margin-left: 10px;
+    }
+    .foo-btn a{
+        font-size: 14px;
+    }
+
+    .footer .footer-right{
+    width: 100%;
+    padding-left: 80px ;
+    margin-left: 0;
+    }
+
+    .foo-icon {
+        padding: 15px 0px;
+    }
+
+    .foo-icon i{
+        font-size: 25px;
+    }
+
+    .footer .footer-company{
+        padding-left: 75px;
+        margin-left: 0px;
+    }
+
+    .footer p.footer-company {
+        font-size: 10px;
+
+    }
+
+    .footer p.copy, .footer .copy a{
+        font-size: 10px;
+    }
+
+    .towns{
+        width: 100%;
+        margin: 0 auto;
+        top: 70px;
+        margin-bottom: 80px;
+    }
+
+    .towns-item{
+        width: 80%;
+    }
+
+    .advertisment-item-two{
+        display: none;
+    }
+
+    .modal-window p,
+    .modal-window a{
+        font-size: 12px;
+    }
+
+    .modal-btn{
+        width: 200px;
+        margin: 10px ;
+    }
+
+    a.modal-btn {
+        font-size: 14px;
+    }
+}
+
+/***Samsung Galaxy Note 5, LG G5, One Plus3***/
+@media only screen 
+and (width: 480px) 
+and (height: 853px){ 
+body{
+    background-image: url(img/bg-mob.jpg);
+}
+    .logo{
+        width: 70%;
+        padding: 2em;
+        margin-bottom: 15px;
+    }
+
+    .nav-bar{
+        width: 400px;
+        right: 7vw;
+        padding: 15px;
+        top: -2em;
+    }
+
+    .nav-bar a{
+        font-size: 14px;
+    }
+
+    .vl{
+        margin: 0 15px 0 10px;
+        border-left: 2px solid #84e2a7;
+    }
+
+    .small-n{
+        top: 12em;
+        margin-left: 10px;
+    }
+
+    .small-n a{
+        font-size: 14px;
+    }
+
+    .kontakt, .login, .shop{
+    padding: 0 20px
+    }
+
+
+    .headline{
+        position: relative;
+        top: 2em;
+        left: 14vw;
+        width: 80%;
+    }
+
+    .headline h1{
+        width: 70%;
+        font-size: 50px;
+        letter-spacing: 8px;
+    }
+
+    .description{
+        position: relative;
+        width: 100%;
+        top: 4.5em;
+        text-align: center;
+        margin: 20px auto;
+        padding:0 20px 0 40px;
+    }
+
+    .description h2{
+        color: green;
+        width: 100%;
+        font-size: 17px;
+    }
+
+    .social{
+      display: none;
+
+    }
+    
+    .main{
+        margin: 20px 0 0 0;
+        padding: 80px 0 30px 0;
+    }
+
+    .content h1{
+        font-size: 16px;
+        padding-bottom: 30px;
+        text-align: justify;
+    }
+
+    #query{
+        width: 80vw;
+        height: 30px;
+        margin: 0 0 10px 0;
+  
+    }
+
+    input#query {
+        font-size: 16px;
+    }
+
+    span.form {
+        position: relative;
+        left: 16%;
+        top: 5px;
+    }
+
+    span.form label{
+        font-size: 12px;
+
+    }
+
+    .name, .rating, .newest{
+        padding:  0 5px;
+    }
+
+    .cont_select_center{
+        padding-left:5px ;
+    }
+
+    .select_mate, #submit-btn{
+        width: 100px;
+        height: 40px;
+    }
+
+    .select_mate p , button#submit-btn {
+        font-size: 14px;
+    }
+
+    .services{
+        padding: 20px;
+    }
+
+    .services-item{
+        width: 100%;
+        margin: 30px;
+    }
+
+    .services-item a{
+        font-size: 16px;
+    }
+    
+
+    .add p{
+        width: 80%;
+    }
+
+    .about{
+    width: 100%;
+    margin-bottom: 0;
+    padding: 50px 10px 50px 20px;
+    }
+
+    .about h1{
+        margin: 0 auto;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .aside{
+        width: 100%;
+    }
+    .rating-item{
+        width: 400px;
+        top: 0px;
+        margin: 20px auto;
+        left: 10%;
+    }
+
+    .rating-item h3{
+        margin-top: 0;
+    }
+
+    .advertisment{
+        display: none;
+    }
+
+    .footer{
+        padding: 40px 0;
+    }
+
+    .footer-logo img{
+        width: 35%;
+        margin: 0 auto;
+    }
+
+    .footer-logo{
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+        
+    }
+    .footer .footer-left{
+        padding-left: 140px;
+        width: 100%;
+    }
+
+    .footer .footer-left p,
+    .footer .footer-left a{
+        font-size: 12px;
+    }
+
+    .footer .footer-center{
+        width: 100%;
+        padding-top: 0px;
+        padding-left: 150px;
+    }
+
+    .footer-center p{
+        font-size: 12px;
+    }
+
+    .foo-btn{
+        margin-left: 10px;
+    }
+    .foo-btn a{
+        font-size: 14px;
+    }
+
+    .footer .footer-right{
+    width: 100%;
+    padding-left: 110px ;
+    margin-left: 0;
+    }
+
+    .foo-icon {
+        padding: 15px 0px;
+    }
+
+    .foo-icon i{
+        font-size: 25px;
+    }
+
+    .footer .footer-company{
+        padding-left: 75px;
+        margin-left: 0px;
+    }
+
+    .footer p.footer-company {
+        font-size: 10px;
+
+    }
+
+    .footer p.copy, .footer .copy a{
+        font-size: 10px;
+    }
+}
+
+
 /*** Surface Duo***/
 @media only screen 
 and (width: 540px) 
@@ -566,6 +3643,415 @@ and (height: 720px){
 
     a.modal-btn {
         font-size: 14px;
+    }
+}
+
+/***Nexus 7***/
+@media only screen 
+and (width: 600px) 
+and (height: 960px){ 
+body{
+    background-image: url(img/bg-tab.jpg);
+    }
+
+.logo{
+    width: 55%;
+    margin-bottom: 20px;
+}
+
+.nav-bar{
+    width: 500px;
+    right: 5vw;
+    padding: 15px;
+}
+  
+.vl{
+    margin: 0 25px;
+}
+
+.small-n{
+    top: 11em;
+    left: 10.5vw;
+}
+    
+.kontakt, .login, .shop{
+    padding: 0 20px
+}
+
+.social{
+    position: relative;
+    top: -2.5em;  
+}
+    
+.sm-icon{
+    padding: 10px 0;      
+}
+    
+.vl-sm{
+    height: 3em;
+}
+
+.headline{
+    top: 14em;
+    left: 18vw;
+}
+    
+.headline h1{
+    font-size: 40px;
+    letter-spacing: 10px;
+}
+    
+.description{
+    top: 1em;
+    left: 8vw;
+}
+    
+.description h2{
+    width: 80%;
+    font-size: 20px;
+    color: green;
+}
+
+        
+.main{
+    margin: 0;
+    padding: 50px 0 70px;
+}
+    
+.content h1{
+    font-size: 20px;
+}
+    
+#query{
+    width: 70vw;
+    margin: 0 0 20px 0;
+}
+    
+input#query {
+    font-size: 16px;
+}
+    
+span.form {
+    position: relative;
+    left: 17%;
+    top: 10px;
+}
+    
+span.form label{
+    font-size: 12px;
+    
+}
+    
+.name, .rating, .newest{
+    padding:  0 15px;
+}
+    
+.cont_select_center{
+    padding-left:20px ;
+}
+    
+.select_mate, #submit-btn{
+    width: 150px;
+}
+    
+.services-item{
+    width: 40%;
+}
+        
+    
+.add p{
+    width: 80%;
+}
+    
+.about{
+    width: 100%;
+    margin-bottom: 0;
+}
+    
+.about h1{
+    margin-left: 40px;
+    font-size: 17px;
+}
+    
+.aside{
+    width: 100%;
+}
+
+.rating-item{
+    width: 500px;
+    top: 0px;
+    margin: 50px 0;
+    left: 50px;
+}
+    
+.advertisment{
+    width: 100px;
+    position: relative;
+    left: 100px;
+    top: 8%;
+}
+    
+.advertisment-item img{
+    width: 100%;
+}
+    
+.footer{
+    padding: 40px 0;
+}
+
+.footer-logo img{
+    width: 100%;
+}
+    
+.footer-logo{
+    width: 35%;
+    margin: 10px;
+    padding-left: 50px;
+}
+
+.footer .footer-left{
+    padding-left: 60px;
+    width: 60%;
+}
+
+.footer .footer-left p,
+.footer .footer-left a{
+    font-size: 16px;
+}
+
+.footer .footer-center{
+    width: 40%;
+    margin: 0px;
+    padding-left: 60px;
+    padding-top: 35px;
+}
+    
+.footer-center p{
+    font-size: 16px;
+}
+
+.foo-btn{
+    width: 140px;
+    height: 35px;
+}
+
+.footer .footer-right{
+    width: 40%;
+    margin: 0px;
+    padding-left: 60px;
+}
+
+.foo-icon {
+    margin: 40px 10px;
+    padding: 0 0px;
+}
+            
+.foo-icon i{
+    font-size: 25px;
+}
+
+.footer .footer-company{
+    margin-left: 10px;
+    }
+}
+
+/***iPad ***/
+@media only screen 
+and (width: 768px) 
+and (height: 1024px){ 
+body{
+    background-image: url(img/bg-tab.jpg);
+    }
+
+.logo{
+    width: 45%;
+    margin-bottom: 10px;
+}
+.small-n{
+    top: 13em;
+    left: 15vw;
+}
+    
+.kontakt, .login, .shop{
+    padding: 0 20px
+}
+
+.nav-bar{
+    width: 530px;
+    right: 12vw;
+    padding: 15px;
+}
+  
+.vl{
+    margin: 0 25px;
+}
+.headline{
+    top: 16em;
+    left: 18vw;
+}
+    
+.headline h1{
+    font-size: 40px;
+    letter-spacing: 10px;
+}
+    
+.description{
+    top: 18em;
+    left: 65vw;
+}
+    
+.description h2{
+    width: 80%;
+    font-size: 16px;
+}
+    
+.social{
+    position: relative;
+    top: -2.5em;
+    
+}
+    
+.sm-icon{
+    padding: 15px 0;
+       
+}
+    
+.vl-sm{
+    height: 4em;
+}
+        
+.main{
+    margin: 0;
+    padding: 50px 0 70px;
+}
+    
+.content h1{
+    font-size: 20px;
+}
+    
+#query{
+    width: 70vw;
+    margin: 0 0 20px 0;
+}
+    
+input#query {
+    font-size: 16px;
+}
+    
+span.form {
+    position: relative;
+    left: 27%;
+    top: 10px;
+}
+    
+span.form label{
+    font-size: 12px;
+    
+}
+    
+.name, .rating, .newest{
+    padding:  0 15px;
+}
+    
+.cont_select_center{
+    padding-left:20px ;
+}
+    
+.select_mate, #submit-btn{
+    width: 150px;
+}
+    
+.services-item{
+    width: 40%;
+}
+        
+    
+.add p{
+    width: 80%;
+}
+    
+.about{
+    width: 100%;
+    margin-bottom: 0;
+}
+    
+.about h1{
+    margin-left: 40px;
+    font-size: 17px;
+}
+    
+.aside{
+    width: 100%;
+}
+
+.rating-item{
+    width: 500px;
+    top: 0px;
+    margin: 50px 0;
+    left: 50px;
+}
+    
+.advertisment{
+    width: 100px;
+    position: relative;
+    left: 100px;
+    top: 8%;
+}
+    
+.advertisment-item img{
+    width: 100%;
+}
+    
+.footer{
+    padding: 40px 0;
+}
+
+.footer-logo img{
+    width: 100%;
+}
+    
+.footer-logo{
+    width: 35%;
+    margin: 10px;
+    padding-left: 70px;
+}
+
+.footer .footer-left{
+    padding-left: 100px;
+    width: 50%;
+}
+
+.footer .footer-left p,
+.footer .footer-left a{
+    font-size: 16px;
+}
+
+.footer .footer-center{
+    width: 40%;
+    margin-left: 40px;
+    padding-left: 60px;
+}
+    
+.footer-center p{
+    font-size: 16px;
+}
+
+.footer .footer-right{
+    width: 40%;
+    margin-left: 30px;
+}
+
+.foo-icon {
+    margin: 40px 10px;
+    padding: 0 20px;
+}
+            
+.foo-icon i{
+    font-size: 30px;
+}
+
+.footer .footer-company{
+    margin-left: 35px;
     }
 }
 
@@ -977,214 +4463,7 @@ span.form label{
     }
 }
 
-/***Nexus 7***/
-@media only screen 
-and (width: 600px) 
-and (height: 960px){ 
-body{
-    background-image: url(img/bg-tab.jpg);
-    }
 
-.logo{
-    width: 55%;
-    margin-bottom: 20px;
-}
-
-.nav-bar{
-    width: 500px;
-    right: 5vw;
-    padding: 15px;
-}
-  
-.vl{
-    margin: 0 25px;
-}
-
-.small-n{
-    top: 11em;
-    left: 10.5vw;
-}
-    
-.kontakt, .login, .shop{
-    padding: 0 20px
-}
-
-.social{
-    position: relative;
-    top: -2.5em;  
-}
-    
-.sm-icon{
-    padding: 10px 0;      
-}
-    
-.vl-sm{
-    height: 3em;
-}
-
-.headline{
-    top: 14em;
-    left: 18vw;
-}
-    
-.headline h1{
-    font-size: 40px;
-    letter-spacing: 10px;
-}
-    
-.description{
-    top: 1em;
-    left: 8vw;
-}
-    
-.description h2{
-    width: 80%;
-    font-size: 20px;
-    color: green;
-}
-
-        
-.main{
-    margin: 0;
-    padding: 50px 0 70px;
-}
-    
-.content h1{
-    font-size: 20px;
-}
-    
-#query{
-    width: 70vw;
-    margin: 0 0 20px 0;
-}
-    
-input#query {
-    font-size: 16px;
-}
-    
-span.form {
-    position: relative;
-    left: 17%;
-    top: 10px;
-}
-    
-span.form label{
-    font-size: 12px;
-    
-}
-    
-.name, .rating, .newest{
-    padding:  0 15px;
-}
-    
-.cont_select_center{
-    padding-left:20px ;
-}
-    
-.select_mate, #submit-btn{
-    width: 150px;
-}
-    
-.services-item{
-    width: 40%;
-}
-        
-    
-.add p{
-    width: 80%;
-}
-    
-.about{
-    width: 100%;
-    margin-bottom: 0;
-}
-    
-.about h1{
-    margin-left: 40px;
-    font-size: 17px;
-}
-    
-.aside{
-    width: 100%;
-}
-
-.rating-item{
-    width: 500px;
-    top: 0px;
-    margin: 50px 0;
-    left: 50px;
-}
-    
-.advertisment{
-    width: 100px;
-    position: relative;
-    left: 100px;
-    top: 8%;
-}
-    
-.advertisment-item img{
-    width: 100%;
-}
-    
-.footer{
-    padding: 40px 0;
-}
-
-.footer-logo img{
-    width: 100%;
-}
-    
-.footer-logo{
-    width: 35%;
-    margin: 10px;
-    padding-left: 50px;
-}
-
-.footer .footer-left{
-    padding-left: 60px;
-    width: 60%;
-}
-
-.footer .footer-left p,
-.footer .footer-left a{
-    font-size: 16px;
-}
-
-.footer .footer-center{
-    width: 40%;
-    margin: 0px;
-    padding-left: 60px;
-    padding-top: 35px;
-}
-    
-.footer-center p{
-    font-size: 16px;
-}
-
-.foo-btn{
-    width: 140px;
-    height: 35px;
-}
-
-.footer .footer-right{
-    width: 40%;
-    margin: 0px;
-    padding-left: 60px;
-}
-
-.foo-icon {
-    margin: 40px 10px;
-    padding: 0 0px;
-}
-            
-.foo-icon i{
-    font-size: 25px;
-}
-
-.footer .footer-company{
-    margin-left: 10px;
-    }
-}
 
 /***iPad PRO ***/
 @media only screen 
@@ -1391,2465 +4670,27 @@ span.form label{
 }
 
 
-/***iPad ***/
-@media only screen 
-and (width: 768px) 
-and (height: 1024px){ 
-body{
-    background-image: url(img/bg-tab.jpg);
-    }
 
-.logo{
-    width: 45%;
-    margin-bottom: 10px;
-}
-.small-n{
-    top: 13em;
-    left: 15vw;
-}
-    
-.kontakt, .login, .shop{
-    padding: 0 20px
-}
 
-.nav-bar{
-    width: 530px;
-    right: 12vw;
-    padding: 15px;
-}
-  
-.vl{
-    margin: 0 25px;
-}
-.headline{
-    top: 16em;
-    left: 18vw;
-}
-    
-.headline h1{
-    font-size: 40px;
-    letter-spacing: 10px;
-}
-    
-.description{
-    top: 18em;
-    left: 65vw;
-}
-    
-.description h2{
-    width: 80%;
-    font-size: 16px;
-}
-    
-.social{
-    position: relative;
-    top: -2.5em;
-    
-}
-    
-.sm-icon{
-    padding: 15px 0;
-       
-}
-    
-.vl-sm{
-    height: 4em;
-}
-        
-.main{
-    margin: 0;
-    padding: 50px 0 70px;
-}
-    
-.content h1{
-    font-size: 20px;
-}
-    
-#query{
-    width: 70vw;
-    margin: 0 0 20px 0;
-}
-    
-input#query {
-    font-size: 16px;
-}
-    
-span.form {
-    position: relative;
-    left: 27%;
-    top: 10px;
-}
-    
-span.form label{
-    font-size: 12px;
-    
-}
-    
-.name, .rating, .newest{
-    padding:  0 15px;
-}
-    
-.cont_select_center{
-    padding-left:20px ;
-}
-    
-.select_mate, #submit-btn{
-    width: 150px;
-}
-    
-.services-item{
-    width: 40%;
-}
-        
-    
-.add p{
-    width: 80%;
-}
-    
-.about{
-    width: 100%;
-    margin-bottom: 0;
-}
-    
-.about h1{
-    margin-left: 40px;
-    font-size: 17px;
-}
-    
-.aside{
-    width: 100%;
-}
 
-.rating-item{
-    width: 500px;
-    top: 0px;
-    margin: 50px 0;
-    left: 50px;
-}
-    
-.advertisment{
-    width: 100px;
-    position: relative;
-    left: 100px;
-    top: 8%;
-}
-    
-.advertisment-item img{
-    width: 100%;
-}
-    
-.footer{
-    padding: 40px 0;
-}
 
-.footer-logo img{
-    width: 100%;
-}
-    
-.footer-logo{
-    width: 35%;
-    margin: 10px;
-    padding-left: 70px;
-}
 
-.footer .footer-left{
-    padding-left: 100px;
-    width: 50%;
-}
 
-.footer .footer-left p,
-.footer .footer-left a{
-    font-size: 16px;
-}
 
-.footer .footer-center{
-    width: 40%;
-    margin-left: 40px;
-    padding-left: 60px;
-}
-    
-.footer-center p{
-    font-size: 16px;
-}
 
-.footer .footer-right{
-    width: 40%;
-    margin-left: 30px;
-}
 
-.foo-icon {
-    margin: 40px 10px;
-    padding: 0 20px;
-}
-            
-.foo-icon i{
-    font-size: 30px;
-}
 
-.footer .footer-company{
-    margin-left: 35px;
-    }
-}
 
-/***iPhone X ***/
-@media only screen 
-and (width: 375px) 
-and (height: 812px){ 
-body{
-    background-image: url(img/bg-mob.jpg);
-}
-    .logo{
-        width: 70%;
-        padding: 2em;
-        margin-bottom: 15px;
-    }
 
-    .nav-bar{
-        width: 330px;
-        right: 6vw;
-        padding: 10px;
-        top: -2em;
-    }
 
-    .nav-bar a{
-        font-size: 13px;
-    }
 
-    .vl{
-        margin: 0 10px 0 5px;
-        border-left: 2px solid #84e2a7;
-    }
 
-    .small-n{
-        top: 9.5em;
-        margin-left: 20px;
-    }
 
-    .small-n a{
-        font-size: 12px;
-    }
 
-    .kontakt, .login, .shop{
-    padding: 0 20px
-    }
 
-
-    .headline{
-        position: relative;
-        top: 1.5em;
-        left: 14vw;
-        width: 80%;
-    }
-
-    .headline h1{
-        width: 70%;
-        font-size: 38px;
-        letter-spacing: 8px;
-    }
-
-    .description{
-        position: relative;
-        width: 100%;
-        top: 4em;
-        text-align: center;
-        margin: 0 auto;
-        padding:0 20px 0 40px;
-    }
-
-    .description h2{
-        color: green;
-        width: 100%;
-        font-size: 17px;
-    }
-
-    .social{
-      display: none;
-
-    }
-    
-    .main{
-        margin: 10px 0;
-        padding: 80px 0 30px 0;
-    }
-
-    .content h1{
-        font-size: 16px;
-        padding-bottom: 30px;
-        text-align: justify;
-    }
-
-    #query{
-        width: 80vw;
-        height: 30px;
-        margin: 0 0 10px 0;
-  
-    }
-
-    input#query {
-        font-size: 14px;
-    }
-
-    span.form {
-        position: relative;
-        left: 15%;
-        top: 10px;
-    }
-
-    span.form label{
-        font-size: 9px;
-
-    }
-
-    .name, .rating, .newest{
-        padding:  0 5px;
-    }
-
-    .cont_select_center{
-        padding-left:5px ;
-    }
-
-    .select_mate, #submit-btn{
-        width: 100px;
-        height: 40px;
-    }
-
-    .select_mate p , button#submit-btn {
-        font-size: 14px;
-    }
-
-    .services{
-        padding: 20px;
-    }
-
-    .services-item{
-        width: 100%;
-        margin: 30px;
-    }
-
-    .services-item a{
-        font-size: 16px;
-    }
-    
-
-    .add p{
-        width: 80%;
-    }
-
-    .about{
-    width: 100%;
-    margin-bottom: 0;
-    padding: 50px 20px 50px 20px;
-    }
-
-    .about h1{
-        margin: 0 auto;
-        font-size: 16px;
-        text-align: center;
-    }
-
-    .ct-btn {
-        width: 150px;
-        height: 50px;
-        padding: 0px;
-    }
-
-    .aside{
-        width: 100%;
-    }
-    .rating-item{
-        width: 330px;
-        top: 0px;
-        margin: 20px auto;
-        left: 7%;
-    }
-
-    .rating-item h3{
-        margin-top: 0;
-    }
-
-    .advertisment{
-        display: none;
-    }
-
-    .footer{
-        padding: 40px 0;
-    }
-
-    .footer-logo img{
-        width: 35%;
-        margin: 0 auto;
-    }
-
-    .footer-logo{
-        width: 100%;
-        text-align: center;
-        margin: 0 auto;
-        
-    }
-    .footer .footer-left{
-        padding-left: 80px;
-        width: 100%;
-    }
-
-    .footer .footer-left p,
-    .footer .footer-left a{
-        font-size: 12px;
-    }
-
-    .footer .footer-center{
-        width: 100%;
-        padding-top: 0px;
-        padding-left: 100px;
-    }
-
-    .footer-center p{
-        font-size: 12px;
-    }
-
-    .foo-btn{
-        margin-left: 10px;
-    }
-    .foo-btn a{
-        font-size: 14px;
-    }
-
-    .footer .footer-right{
-    width: 100%;
-    padding-left: 60px ;
-    margin-left: 0;
-    }
-
-    .foo-icon {
-        padding: 15px 0px;
-    }
-
-    .foo-icon i{
-        font-size: 25px;
-    }
-
-    .footer .footer-company{
-        padding-left: 75px;
-        margin-left: 0px;
-    }
-
-    .footer p.footer-company {
-        font-size: 10px;
-
-    }
-
-    .footer p.copy, .footer .copy a{
-        font-size: 10px;
-    }
-
-    .towns{
-        width: 100%;
-        margin: 0 auto;
-        top: 50px;
-    }
-
-    .towns-item{
-        width: 80%;
-    }
-
-    .advertisment-item-two{
-        display: none;
-    }
-
-    .modal-window p,
-    .modal-window a{
-        font-size: 12px;
-    }
-
-    .modal-btn{
-        width: 200px;
-        margin: 10px ;
-    }
-
-    a.modal-btn {
-        font-size: 14px;
-    }
-}
-
-/***iPhone 6/7/8 Plus, iPhone XR, iPhone XS Max
-Nexus 6P, Nexus 5X, Google Pixel 4XL, Google Pixel 4
-Google Pixel 3a, Google Pixel 3XL, Google Pixel 2XL,
-Google Pixel XL, Google Pixel, Samsung Galaxy Note 10+,
-Samsung Galaxy Note 10***/
-@media only screen 
-and (width: 414px) 
-and (height: 736px){ 
-body{
-    background-image: url(img/bg-mob.jpg);
-}
-    .logo{
-        width: 70%;
-        padding: 2em;
-        margin-bottom: 15px;
-    }
-
-    .nav-bar{
-        width: 350px;
-        right: 7vw;
-        padding: 10px;
-        top: -2em;
-    }
-
-    .nav-bar a{
-        font-size: 13px;
-    }
-
-    .vl{
-        margin: 0 10px 0 5px;
-        border-left: 2px solid #84e2a7;
-    }
-
-    .small-n{
-        top: 10em;
-        margin-left: 40px;
-    }
-
-    .small-n a{
-        font-size: 12px;
-    }
-
-    .kontakt, .login, .shop{
-    padding: 0 20px
-    }
-
-
-    .headline{
-        position: relative;
-        top: 1.5em;
-        left: 14vw;
-        width: 80%;
-    }
-
-    .headline h1{
-        width: 70%;
-        font-size: 42px;
-        letter-spacing: 8px;
-    }
-
-    .description{
-        position: relative;
-        width: 100%;
-        top: 4em;
-        text-align: center;
-        margin: 0 auto;
-        padding:0 20px 0 40px;
-    }
-
-    .description h2{
-        color: green;
-        width: 100%;
-        font-size: 17px;
-    }
-
-    .social{
-      display: none;
-
-    }
-    
-    .main{
-        margin: 10px 0;
-        padding: 80px 0 30px 0;
-    }
-
-    .content h1{
-        font-size: 16px;
-        padding-bottom: 30px;
-        text-align: justify;
-    }
-
-    #query{
-        width: 80vw;
-        height: 30px;
-        margin: 0 0 10px 0;
-  
-    }
-
-    input#query {
-        font-size: 14px;
-    }
-
-    span.form {
-        position: relative;
-        left: 18%;
-        top: 10px;
-    }
-
-    span.form label{
-        font-size: 9px;
-
-    }
-
-    .name, .rating, .newest{
-        padding:  0 5px;
-    }
-
-    .cont_select_center{
-        padding-left:5px ;
-    }
-
-    .select_mate, #submit-btn{
-        width: 100px;
-        height: 40px;
-    }
-
-    .select_mate p , button#submit-btn {
-        font-size: 14px;
-    }
-
-    .services{
-        padding: 20px;
-    }
-
-    .services-item{
-        width: 100%;
-        margin: 30px;
-    }
-
-    .services-item a{
-        font-size: 16px;
-    }
-    
-
-    .add p{
-        width: 80%;
-    }
-
-    .about{
-    width: 100%;
-    margin-bottom: 0;
-    padding: 50px 20px 50px 20px;
-    }
-
-    .about h1{
-        margin: 0 auto;
-        font-size: 16px;
-        text-align: center;
-    }
-
-    .ct-btn {
-        width: 150px;
-        height: 50px;
-        padding: 0px;
-    }
-
-    .aside{
-        width: 100%;
-    }
-    .rating-item{
-        width: 360px;
-        top: 0px;
-        margin: 20px auto;
-        left: 7.5%;
-    }
-
-    .rating-item h3{
-        margin-top: 0;
-    }
-
-    .advertisment{
-        display: none;
-    }
-
-    .footer{
-        padding: 40px 0;
-    }
-
-    .footer-logo img{
-        width: 35%;
-        margin: 0 auto;
-    }
-
-    .footer-logo{
-        width: 100%;
-        text-align: center;
-        margin: 0 auto;
-        
-    }
-    .footer .footer-left{
-        padding-left: 100px;
-        width: 100%;
-    }
-
-    .footer .footer-left p,
-    .footer .footer-left a{
-        font-size: 12px;
-    }
-
-    .footer .footer-center{
-        width: 100%;
-        padding-top: 0px;
-        padding-left: 120px;
-    }
-
-    .footer-center p{
-        font-size: 12px;
-    }
-
-    .foo-btn{
-        margin-left: 10px;
-    }
-    .foo-btn a{
-        font-size: 14px;
-    }
-
-    .footer .footer-right{
-    width: 100%;
-    padding-left: 80px ;
-    margin-left: 0;
-    }
-
-    .foo-icon {
-        padding: 15px 0px;
-    }
-
-    .foo-icon i{
-        font-size: 25px;
-    }
-
-    .footer .footer-company{
-        padding-left: 75px;
-        margin-left: 0px;
-    }
-
-    .footer p.footer-company {
-        font-size: 10px;
-
-    }
-
-    .footer p.copy, .footer .copy a{
-        font-size: 10px;
-    }
-}
-
-/***iPhone 6/7/8***/
-@media only screen 
-and (width: 375px) 
-and (height: 667px){ 
-body{
-    background-image: url(img/bg-mob.jpg);
-}
-    .logo{
-        width: 70%;
-        padding: 2em;
-        margin-bottom: 15px;
-    }
-
-    .nav-bar{
-        width: 320px;
-        right: 7vw;
-        padding: 10px;
-        top: -2em;
-    }
-
-    .nav-bar a{
-        font-size: 11px;
-    }
-
-    .vl{
-        margin: 0 10px 0 5px;
-        border-left: 2px solid #84e2a7;
-    }
-
-    .small-n{
-        top: 9.5em;
-        margin-left: 20px;
-    }
-
-    .small-n a{
-        font-size: 12px;
-    }
-
-    .kontakt, .login, .shop{
-    padding: 0 20px
-    }
-
-
-    .headline{
-        position: relative;
-        top: 1.5em;
-        left: 14vw;
-        width: 80%;
-    }
-
-    .headline h1{
-        width: 70%;
-        font-size: 35px;
-        letter-spacing: 8px;
-    }
-
-    .description{
-        position: relative;
-        width: 100%;
-        top: 4em;
-        text-align: center;
-        margin: 0 auto;
-        padding:0 20px 0 40px;
-    }
-
-    .description h2{
-        color: green;
-        width: 100%;
-        font-size: 17px;
-    }
-
-    .social{
-      display: none;
-
-    }
-    
-    .main{
-        margin: 10px 0;
-        padding: 80px 0 30px 0;
-    }
-
-    .content h1{
-        font-size: 16px;
-        padding-bottom: 30px;
-        text-align: justify;
-    }
-
-    #query{
-        width: 80vw;
-        height: 30px;
-        margin: 0 0 10px 0;
-  
-    }
-
-    input#query {
-        font-size: 14px;
-    }
-
-    span.form {
-        position: relative;
-        left: 13%;
-        top: 10px;
-    }
-
-    span.form label{
-        font-size: 9px;
-
-    }
-
-    .name, .rating, .newest{
-        padding:  0 5px;
-    }
-
-    .cont_select_center{
-        padding-left:5px ;
-    }
-
-    .select_mate, #submit-btn{
-        width: 100px;
-        height: 40px;
-    }
-
-    .select_mate p , button#submit-btn {
-        font-size: 14px;
-    }
-
-    .services{
-        padding: 20px;
-    }
-
-    .services-item{
-        width: 100%;
-        margin: 30px;
-    }
-
-    .services-item a{
-        font-size: 16px;
-    }
-    
-
-    .add p{
-        width: 80%;
-    }
-
-    .about{
-    width: 100%;
-    margin-bottom: 0;
-    padding: 50px 20px 50px 20px;
-    }
-
-    .about h1{
-        margin: 0 auto;
-        font-size: 16px;
-        text-align: center;
-    }
-
-    .ct-btn {
-        width: 150px;
-        height: 50px;
-        padding: 0px;
-    }
-
-    .aside{
-        width: 100%;
-    }
-    .rating-item{
-        width: 330px;
-        top: 0px;
-        margin: 20px auto;
-        left: 6.5%;
-    }
-
-    .rating-item h3{
-        margin-top: 0;
-    }
-
-    .advertisment{
-        display: none;
-    }
-
-    .footer{
-        padding: 40px 0;
-    }
-
-    .footer-logo img{
-        width: 35%;
-        margin: 0 auto;
-    }
-
-    .footer-logo{
-        width: 100%;
-        text-align: center;
-        margin: 0 auto;
-        
-    }
-    .footer .footer-left{
-        padding-left: 80px;
-        width: 100%;
-    }
-
-    .footer .footer-left p,
-    .footer .footer-left a{
-        font-size: 12px;
-    }
-
-    .footer .footer-center{
-        width: 100%;
-        padding-top: 0px;
-        padding-left: 100px;
-    }
-
-    .footer-center p{
-        font-size: 12px;
-    }
-
-    .foo-btn{
-        margin-left: 10px;
-    }
-    .foo-btn a{
-        font-size: 14px;
-    }
-
-    .footer .footer-right{
-    width: 100%;
-    padding-left: 55px ;
-    margin-left: 0;
-    }
-
-    .foo-icon {
-        padding: 15px 0px;
-    }
-
-    .foo-icon i{
-        font-size: 25px;
-    }
-
-    .footer .footer-company{
-        padding-left: 75px;
-        margin-left: 0px;
-    }
-
-    .footer p.footer-company {
-        font-size: 10px;
-
-    }
-
-    .footer p.copy, .footer .copy a{
-        font-size: 10px;
-    }
-}
-
-/***iPhone 5/SE***/
-@media only screen 
-and (width: 320px) 
-and (height: 568px){ 
-body{
-    background-image: url(img/bg-mob.jpg);
-}
-    .logo{
-        width: 70%;
-        padding: 2em;
-        margin-bottom: 15px;
-    }
-
-    .nav-bar{
-        width: 280px;
-        right: 7vw;
-        padding: 10px;
-        top: -2em;
-    }
-
-    .nav-bar a{
-        font-size: 11px;
-    }
-
-    .vl{
-        margin: 0 10px 0 5px;
-        border-left: 2px solid #84e2a7;
-    }
-
-    .small-n{
-        top: 9em;
-        margin-left: -5px;
-    }
-
-    .small-n a{
-        font-size: 12px;
-    }
-
-    .kontakt, .login, .shop{
-    padding: 0 20px
-    }
-
-
-    .headline{
-        position: relative;
-        top: 1em;
-        left: 14vw;
-        width: 80%;
-    }
-
-    .headline h1{
-        width: 70%;
-        font-size: 30px;
-        letter-spacing: 8px;
-    }
-
-    .description{
-        position: relative;
-        width: 100%;
-        top: 3em;
-        text-align: center;
-        margin: 0 auto;
-        padding:0 20px 0 40px;
-    }
-
-    .description h2{
-        color: green;
-        width: 100%;
-        font-size: 17px;
-    }
-
-    .social{
-      display: none;
-
-    }
-    
-    .main{
-        margin: 0;
-        padding: 80px 0 30px 0;
-    }
-
-    .content h1{
-        font-size: 16px;
-        padding-bottom: 30px;
-        text-align: justify;
-    }
-
-    #query{
-        width: 80vw;
-        height: 30px;
-        margin: 0 0 10px 0;
-  
-    }
-
-    input#query {
-        font-size: 14px;
-    }
-
-    span.form {
-        position: relative;
-        left: 9%;
-        top: 10px;
-    }
-
-    span.form label{
-        font-size: 9px;
-
-    }
-
-    .name, .rating, .newest{
-        padding:  0 5px;
-    }
-
-    .cont_select_center{
-        padding-left:5px ;
-    }
-
-    .select_mate, #submit-btn{
-        width: 100px;
-        height: 40px;
-    }
-
-    .select_mate p , button#submit-btn {
-        font-size: 14px;
-    }
-
-    .services{
-        padding: 20px;
-    }
-
-    .services-item{
-        width: 100%;
-        margin: 30px;
-    }
-
-    .services-item a{
-        font-size: 16px;
-    }
-    
-
-    .add p{
-        width: 80%;
-    }
-
-    .about{
-    width: 100%;
-    margin-bottom: 0;
-    padding: 50px 20px 50px 0px;
-    }
-
-    .about h1{
-        margin: 0 auto;
-        font-size: 16px;
-        text-align: center;
-    }
-
-    .ct-btn {
-        width: 150px;
-        height: 50px;
-        padding: 0px;
-    }
-
-    .aside{
-        width: 100%;
-    }
-    .rating-item{
-        width: 290px;
-        top: 0px;
-        margin: 20px auto;
-        left: 5%;
-    }
-
-    .rating-item h3{
-        margin-top: 0;
-    }
-
-    .advertisment{
-        display: none;
-    }
-
-    .footer{
-        padding: 40px 0;
-    }
-
-    .footer-logo img{
-        width: 35%;
-        margin: 0 auto;
-    }
-
-    .footer-logo{
-        width: 100%;
-        text-align: center;
-        margin: 0 auto;
-        
-    }
-    .footer .footer-left{
-        padding-left: 55px;
-        width: 100%;
-    }
-
-    .footer .footer-left p,
-    .footer .footer-left a{
-        font-size: 12px;
-    }
-
-    .footer .footer-center{
-        width: 100%;
-        padding-top: 0px;
-        padding-left: 70px;
-    }
-
-    .footer-center p{
-        font-size: 12px;
-    }
-
-    .foo-btn{
-        margin-left: 10px;
-    }
-    .foo-btn a{
-        font-size: 14px;
-    }
-
-    .footer .footer-right{
-    width: 100%;
-    padding-left: 35px ;
-    margin-left: 0;
-    }
-
-    .foo-icon {
-        padding: 15px 0px;
-    }
-
-    .foo-icon i{
-        font-size: 25px;
-    }
-
-    .footer .footer-company{
-        padding-left: 75px;
-        margin-left: 0px;
-    }
-
-    .footer p.footer-company {
-        font-size: 10px;
-
-    }
-
-    .footer p.copy, .footer .copy a{
-        font-size: 10px;
-    }
-}
-
-/***Samsung Galaxy Note 5, LG G5, One Plus3***/
-@media only screen 
-and (width: 480px) 
-and (height: 853px){ 
-body{
-    background-image: url(img/bg-mob.jpg);
-}
-    .logo{
-        width: 70%;
-        padding: 2em;
-        margin-bottom: 15px;
-    }
-
-    .nav-bar{
-        width: 400px;
-        right: 7vw;
-        padding: 15px;
-        top: -2em;
-    }
-
-    .nav-bar a{
-        font-size: 14px;
-    }
-
-    .vl{
-        margin: 0 15px 0 10px;
-        border-left: 2px solid #84e2a7;
-    }
-
-    .small-n{
-        top: 12em;
-        margin-left: 10px;
-    }
-
-    .small-n a{
-        font-size: 14px;
-    }
-
-    .kontakt, .login, .shop{
-    padding: 0 20px
-    }
-
-
-    .headline{
-        position: relative;
-        top: 2em;
-        left: 14vw;
-        width: 80%;
-    }
-
-    .headline h1{
-        width: 70%;
-        font-size: 50px;
-        letter-spacing: 8px;
-    }
-
-    .description{
-        position: relative;
-        width: 100%;
-        top: 4.5em;
-        text-align: center;
-        margin: 20px auto;
-        padding:0 20px 0 40px;
-    }
-
-    .description h2{
-        color: green;
-        width: 100%;
-        font-size: 17px;
-    }
-
-    .social{
-      display: none;
-
-    }
-    
-    .main{
-        margin: 20px 0 0 0;
-        padding: 80px 0 30px 0;
-    }
-
-    .content h1{
-        font-size: 16px;
-        padding-bottom: 30px;
-        text-align: justify;
-    }
-
-    #query{
-        width: 80vw;
-        height: 30px;
-        margin: 0 0 10px 0;
-  
-    }
-
-    input#query {
-        font-size: 16px;
-    }
-
-    span.form {
-        position: relative;
-        left: 16%;
-        top: 5px;
-    }
-
-    span.form label{
-        font-size: 12px;
-
-    }
-
-    .name, .rating, .newest{
-        padding:  0 5px;
-    }
-
-    .cont_select_center{
-        padding-left:5px ;
-    }
-
-    .select_mate, #submit-btn{
-        width: 100px;
-        height: 40px;
-    }
-
-    .select_mate p , button#submit-btn {
-        font-size: 14px;
-    }
-
-    .services{
-        padding: 20px;
-    }
-
-    .services-item{
-        width: 100%;
-        margin: 30px;
-    }
-
-    .services-item a{
-        font-size: 16px;
-    }
-    
-
-    .add p{
-        width: 80%;
-    }
-
-    .about{
-    width: 100%;
-    margin-bottom: 0;
-    padding: 50px 10px 50px 20px;
-    }
-
-    .about h1{
-        margin: 0 auto;
-        font-size: 16px;
-        text-align: center;
-    }
-
-    .aside{
-        width: 100%;
-    }
-    .rating-item{
-        width: 400px;
-        top: 0px;
-        margin: 20px auto;
-        left: 10%;
-    }
-
-    .rating-item h3{
-        margin-top: 0;
-    }
-
-    .advertisment{
-        display: none;
-    }
-
-    .footer{
-        padding: 40px 0;
-    }
-
-    .footer-logo img{
-        width: 35%;
-        margin: 0 auto;
-    }
-
-    .footer-logo{
-        width: 100%;
-        text-align: center;
-        margin: 0 auto;
-        
-    }
-    .footer .footer-left{
-        padding-left: 140px;
-        width: 100%;
-    }
-
-    .footer .footer-left p,
-    .footer .footer-left a{
-        font-size: 12px;
-    }
-
-    .footer .footer-center{
-        width: 100%;
-        padding-top: 0px;
-        padding-left: 150px;
-    }
-
-    .footer-center p{
-        font-size: 12px;
-    }
-
-    .foo-btn{
-        margin-left: 10px;
-    }
-    .foo-btn a{
-        font-size: 14px;
-    }
-
-    .footer .footer-right{
-    width: 100%;
-    padding-left: 110px ;
-    margin-left: 0;
-    }
-
-    .foo-icon {
-        padding: 15px 0px;
-    }
-
-    .foo-icon i{
-        font-size: 25px;
-    }
-
-    .footer .footer-company{
-        padding-left: 75px;
-        margin-left: 0px;
-    }
-
-    .footer p.footer-company {
-        font-size: 10px;
-
-    }
-
-    .footer p.copy, .footer .copy a{
-        font-size: 10px;
-    }
-}
-
-/***Pixel 2 XL***/
-@media only screen 
-and (width: 411px) 
-and (height: 823px){ 
-body{
-    background-image: url(img/bg-mob.jpg);
-}
-    .logo{
-        width: 70%;
-        padding: 2em;
-        margin-bottom: 15px;
-    }
-
-    .nav-bar{
-        width: 350px;
-        right: 7vw;
-        padding: 10px;
-        top: -2em;
-    }
-
-    .nav-bar a{
-        font-size: 12px;
-    }
-
-    .vl{
-        margin: 0 10px 0 5px;
-        border-left: 2px solid #84e2a7;
-    }
-
-    .small-n{
-        top: 10em;
-        margin-left: 40px;
-    }
-
-    .small-n a{
-        font-size: 12px;
-    }
-
-    .kontakt, .login, .shop{
-    padding: 0 20px
-    }
-
-
-    .headline{
-        position: relative;
-        top: 2em;
-        left: 14vw;
-        width: 80%;
-    }
-
-    .headline h1{
-        width: 70%;
-        font-size: 40px;
-        letter-spacing: 8px;
-    }
-
-    .description{
-        position: relative;
-        width: 100%;
-        top: 4.5em;
-        text-align: center;
-        margin: 0 auto;
-        padding:0 20px 0 40px;
-    }
-
-    .description h2{
-        color: green;
-        width: 100%;
-        font-size: 17px;
-    }
-
-    .social{
-      display: none;
-
-    }
-    
-    .main{
-        margin: 20px 0 0 0;
-        padding: 80px 0 30px 0;
-    }
-
-    .content h1{
-        font-size: 16px;
-        padding-bottom: 30px;
-        text-align: justify;
-    }
-
-    #query{
-        width: 80vw;
-        height: 30px;
-        margin: 0 0 10px 0;
-  
-    }
-
-    input#query {
-        font-size: 16px;
-    }
-
-    span.form {
-        position: relative;
-        left: 13%;
-        top: 10px;
-    }
-
-    span.form label{
-        font-size: 9px;
-
-    }
-
-    .name, .rating, .newest{
-        padding:  0 5px;
-    }
-
-    .cont_select_center{
-        padding-left:5px ;
-    }
-
-    .select_mate, #submit-btn{
-        width: 100px;
-        height: 40px;
-    }
-
-    .select_mate p , button#submit-btn {
-        font-size: 14px;
-    }
-
-    .services{
-        padding: 20px;
-    }
-
-    .services-item{
-        width: 100%;
-        margin: 30px;
-    }
-
-    .services-item a{
-        font-size: 16px;
-    }
-    
-
-    .add p{
-        width: 80%;
-    }
-
-    .about{
-    width: 100%;
-    margin-bottom: 0;
-    padding: 50px 10px 50px 20px;
-    }
-
-    .about h1{
-        margin: 0 auto;
-        font-size: 16px;
-        text-align: center;
-    }
-
-    .aside{
-        width: 100%;
-    }
-    .rating-item{
-        width: 340px;
-        top: 0px;
-        margin: 20px auto;
-        left: 10%;
-    }
-
-    .rating-item h3{
-        margin-top: 0;
-    }
-
-    .advertisment{
-        display: none;
-    }
-
-    .footer{
-        padding: 40px 0;
-    }
-
-    .footer-logo img{
-        width: 35%;
-        margin: 0 auto;
-    }
-
-    .footer-logo{
-        width: 100%;
-        text-align: center;
-        margin: 0 auto;
-        
-    }
-    .footer .footer-left{
-        padding-left: 95px;
-        width: 100%;
-    }
-
-    .footer .footer-left p,
-    .footer .footer-left a{
-        font-size: 12px;
-    }
-
-    .footer .footer-center{
-        width: 100%;
-        padding-top: 0px;
-        padding-left: 110px;
-    }
-
-    .footer-center p{
-        font-size: 12px;
-    }
-
-    .foo-btn{
-        margin-left: 10px;
-    }
-    .foo-btn a{
-        font-size: 14px;
-    }
-
-    .footer .footer-right{
-    width: 100%;
-    padding-left: 75px ;
-    margin-left: 0;
-    }
-
-    .foo-icon {
-        padding: 15px 0px;
-    }
-
-    .foo-icon i{
-        font-size: 25px;
-    }
-
-    .footer .footer-company{
-        padding-left: 75px;
-        margin-left: 0px;
-    }
-
-    .footer p.footer-company {
-        font-size: 10px;
-
-    }
-
-    .footer p.copy, .footer .copy a{
-        font-size: 10px;
-    }
-}
-
-/***Pixel 2***/
-@media only screen 
-and (width: 411px) 
-and (height: 731px){ 
-body{
-    background-image: url(img/bg-mob.jpg);
-}
-    .logo{
-        width: 70%;
-        padding: 2em;
-        margin-bottom: 15px;
-    }
-
-    .nav-bar{
-        width: 350px;
-        right: 7vw;
-        padding: 10px;
-        top: -2em;
-    }
-
-    .nav-bar a{
-        font-size: 12px;
-    }
-
-    .vl{
-        margin: 0 10px 0 5px;
-        border-left: 2px solid #84e2a7;
-    }
-
-    .small-n{
-        top: 10em;
-        margin-left: 40px;
-    }
-
-    .small-n a{
-        font-size: 12px;
-    }
-
-    .kontakt, .login, .shop{
-    padding: 0 20px
-    }
-
-
-    .headline{
-        position: relative;
-        top: 2em;
-        left: 14vw;
-        width: 80%;
-    }
-
-    .headline h1{
-        width: 70%;
-        font-size: 40px;
-        letter-spacing: 8px;
-    }
-
-    .description{
-        position: relative;
-        width: 100%;
-        top: 4.5em;
-        text-align: center;
-        margin: 0 auto;
-        padding:0 20px 0 40px;
-    }
-
-    .description h2{
-        color: green;
-        width: 100%;
-        font-size: 17px;
-    }
-
-    .social{
-      display: none;
-
-    }
-    
-    .main{
-        margin: 20px 0 0 0;
-        padding: 80px 0 30px 0;
-    }
-
-    .content h1{
-        font-size: 16px;
-        padding-bottom: 30px;
-        text-align: justify;
-    }
-
-    #query{
-        width: 80vw;
-        height: 30px;
-        margin: 0 0 10px 0;
-  
-    }
-
-    input#query {
-        font-size: 16px;
-    }
-
-    span.form {
-        position: relative;
-        left: 13%;
-        top: 10px;
-    }
-
-    span.form label{
-        font-size: 9px;
-
-    }
-
-    .name, .rating, .newest{
-        padding:  0 5px;
-    }
-
-    .cont_select_center{
-        padding-left:5px ;
-    }
-
-    .select_mate, #submit-btn{
-        width: 100px;
-        height: 40px;
-    }
-
-    .select_mate p , button#submit-btn {
-        font-size: 14px;
-    }
-
-    .services{
-        padding: 20px;
-    }
-
-    .services-item{
-        width: 100%;
-        margin: 30px;
-    }
-
-    .services-item a{
-        font-size: 16px;
-    }
-    
-
-    .add p{
-        width: 80%;
-    }
-
-    .about{
-    width: 100%;
-    margin-bottom: 0;
-    padding: 50px 10px 50px 20px;
-    }
-
-    .about h1{
-        margin: 0 auto;
-        font-size: 16px;
-        text-align: center;
-    }
-
-    .aside{
-        width: 100%;
-    }
-    .rating-item{
-        width: 340px;
-        top: 0px;
-        margin: 20px auto;
-        left: 10%;
-    }
-
-    .rating-item h3{
-        margin-top: 0;
-    }
-
-    .advertisment{
-        display: none;
-    }
-
-    .footer{
-        padding: 40px 0;
-    }
-
-    .footer-logo img{
-        width: 35%;
-        margin: 0 auto;
-    }
-
-    .footer-logo{
-        width: 100%;
-        text-align: center;
-        margin: 0 auto;
-        
-    }
-    .footer .footer-left{
-        padding-left: 95px;
-        width: 100%;
-    }
-
-    .footer .footer-left p,
-    .footer .footer-left a{
-        font-size: 12px;
-    }
-
-    .footer .footer-center{
-        width: 100%;
-        padding-top: 0px;
-        padding-left: 110px;
-    }
-
-    .footer-center p{
-        font-size: 12px;
-    }
-
-    .foo-btn{
-        margin-left: 10px;
-    }
-    .foo-btn a{
-        font-size: 14px;
-    }
-
-    .footer .footer-right{
-    width: 100%;
-    padding-left: 75px ;
-    margin-left: 0;
-    }
-
-    .foo-icon {
-        padding: 15px 0px;
-    }
-
-    .foo-icon i{
-        font-size: 25px;
-    }
-
-    .footer .footer-company{
-        padding-left: 75px;
-        margin-left: 0px;
-    }
-
-    .footer p.footer-company {
-        font-size: 10px;
-
-    }
-
-    .footer p.copy, .footer .copy a{
-        font-size: 10px;
-    }
-}
-
-/***Samsung Galaxy Note 9, Samsung Galaxy S9+
-Samsung Galaxy S9, Samsung Galaxy S8,
-Samsung Galaxy S8+ ***/
-@media only screen 
-and (width: 360px) 
-and (height: 740px){ 
-body{
-    background-image: url(img/bg-mob.jpg);
-}
-    .logo{
-        width: 70%;
-        padding: 2em;
-        margin-bottom: 15px;
-    }
-
-    .nav-bar{
-        width: 320px;
-        right: 5vw;
-        padding: 10px;
-        top: -2em;
-    }
-
-
-    .nav-bar a{
-        font-size: 12px;
-    }
-    .vl{
-        margin: 0 10px 0 5px;
-        border-left: 2px solid #84e2a7;
-    }
-
-    .small-n{
-        top: 9em;
-        margin-left: 23px;
-    }
-
-    .small-n a{
-        font-size: 12px;
-    }
-
-    .kontakt, .login, .shop{
-    padding: 0 15px
-    }
-
-
-    .headline{
-        position: relative;
-        top: 1.5em;
-        left: 19vw;
-        width: 80%;
-    }
-
-    .headline h1{
-        width: 70%;
-        font-size: 32px;
-        letter-spacing: 8px;
-    }
-
-    .description{
-        position: relative;
-        top: 4.5em;
-        text-align: center;
-        margin: 0 80px;
-    }
-
-    .description h2{
-        color: green;
-        width: 100%;
-        font-size: 17px;
-    }
-
-    .social{
-      display: none;
-
-    }
-    
-    .main{
-        margin: 20px 0 0 0;
-        padding: 80px 0 30px 0;
-    }
-
-    .content h1{
-        font-size: 16px;
-        padding-bottom: 30px;
-    }
-
-    #query{
-        width: 80vw;
-        height: 30px;
-        margin: 0 0 10px 0;
-  
-    }
-
-    input#query {
-        font-size: 16px;
-    }
-
-    span.form {
-        position: relative;
-        left: 13%;
-        top: 10px;
-    }
-
-    span.form label{
-        font-size: 9px;
-
-    }
-
-    .name, .rating, .newest{
-        padding:  0 5px;
-    }
-
-    .cont_select_center{
-        padding-left:5px ;
-    }
-
-    .select_mate, #submit-btn{
-        width: 100px;
-        height: 40px;
-    }
-
-    .select_mate p , button#submit-btn {
-        font-size: 14px;
-    }
-
-    .services{
-        padding: 20px;
-    }
-
-    .services-item{
-        width: 100%;
-        margin: 30px;
-    }
-
-    .services-item a{
-        font-size: 16px;
-    }
-    
-
-    .add p{
-        width: 80%;
-    }
-
-    .about{
-    width: 100%;
-    margin-bottom: 0;
-    padding: 50px 10px 50px 20px;
-    }
-
-    .about h1{
-        margin: 0 auto;
-        font-size: 16px;
-        text-align: center;
-    }
-
-    .aside{
-        width: 100%;
-    }
-    .rating-item{
-        width: 300px;
-        top: 0px;
-        margin: 20px auto;
-        left: 10%;
-    }
-
-    .rating-item h3{
-        margin-top: 0;
-    }
-
-    .advertisment{
-        display: none;
-    }
-
-    .footer{
-        padding: 40px 0;
-    }
-
-    .footer-logo img{
-        width: 35%;
-        margin: 0 auto;
-    }
-
-    .footer-logo{
-        width: 100%;
-        text-align: center;
-        margin: 0 auto;
-        
-    }
-    .footer .footer-left{
-        padding-left: 75px;
-        width: 100%;
-    }
-
-    .footer .footer-left p,
-    .footer .footer-left a{
-        font-size: 12px;
-    }
-
-    .footer .footer-center{
-        width: 100%;
-        padding-top: 0px;
-        padding-left: 90px;
-    }
-
-    .footer-center p{
-        font-size: 12px;
-    }
-
-    .foo-btn{
-        margin-left: 10px;
-    }
-    .foo-btn a{
-        font-size: 14px;
-    }
-
-    .footer .footer-right{
-    width: 100%;
-    padding-left: 55px ;
-    margin-left: 0;
-    }
-
-    .foo-icon {
-        padding: 15px 0px;
-    }
-
-    .foo-icon i{
-        font-size: 25px;
-    }
-
-    .footer .footer-company{
-        padding-left: 75px;
-        margin-left: 0px;
-    }
-
-    .footer p.footer-company {
-        font-size: 10px;
-
-    }
-
-    .footer p.copy, .footer .copy a{
-        font-size: 10px;
-    }
-}
-
-/***Moto G4, Galaxy S5, Samsung Galax S7 Edge,
-Samsung Galaxy S7 ***/
-@media only screen 
-and (width: 360px) 
-and (height: 640px){ 
-body{
-    background-image: url(img/bg-mob.jpg);
-}
-    .logo{
-        width: 70%;
-        padding: 2em;
-        margin-bottom: 15px;
-    }
-
-    .nav-bar{
-        width: 320px;
-        right: 3vw;
-        padding: 10px;
-        top: -2.5em;
-    }
-
-
-    .nav-bar a{
-        font-size: 12px;
-    }
-    .vl{
-        margin: 0 10px 0 5px;
-        border-left: 2px solid #84e2a7;
-    }
-
-    .small-n{
-        top: 9em;
-        margin-left: 23px;
-    }
-
-    .small-n a{
-        font-size: 12px;
-    }
-
-    .kontakt, .login, .shop{
-    padding: 0 15px
-    }
-
-
-    .headline{
-        position: relative;
-        top: 1.5em;
-        left: 19vw;
-        width: 80%;
-    }
-
-    .headline h1{
-        width: 70%;
-        font-size: 32px;
-        letter-spacing: 8px;
-    }
-
-    .description{
-        position: relative;
-        top: 4.5em;
-        text-align: center;
-        margin: 0 80px;
-    }
-
-    .description h2{
-        color: green;
-        width: 100%;
-        font-size: 17px;
-    }
-
-    .social{
-      display: none;
-
-    }
-    
-    .main{
-        margin: 20px 0 0 0;
-        padding: 80px 0 30px 0;
-    }
-
-    .content h1{
-        font-size: 16px;
-        padding-bottom: 30px;
-    }
-
-    #query{
-        width: 80vw;
-        height: 30px;
-        margin: 0 0 10px 0;
-  
-    }
-
-    input#query {
-        font-size: 16px;
-    }
-
-    span.form {
-        position: relative;
-        left: 13%;
-        top: 10px;
-    }
-
-    span.form label{
-        font-size: 9px;
-
-    }
-
-    .name, .rating, .newest{
-        padding:  0 5px;
-    }
-
-    .cont_select_center{
-        padding-left:5px ;
-    }
-
-    .select_mate, #submit-btn{
-        width: 100px;
-        height: 40px;
-    }
-
-    .select_mate p , button#submit-btn {
-        font-size: 14px;
-    }
-
-    .services{
-        padding: 20px;
-    }
-
-    .services-item{
-        width: 100%;
-        margin: 30px;
-    }
-
-    .services-item a{
-        font-size: 16px;
-    }
-    
-
-    .add p{
-        width: 80%;
-    }
-
-    .about{
-    width: 100%;
-    margin-bottom: 0;
-    padding: 50px 10px 50px 20px;
-    }
-
-    .about h1{
-        margin: 0 auto;
-        font-size: 16px;
-        text-align: center;
-    }
-
-    .aside{
-        width: 100%;
-    }
-    .rating-item{
-        width: 300px;
-        top: 0px;
-        margin: 20px auto;
-        left: 10%;
-    }
-
-    .rating-item h3{
-        margin-top: 0;
-    }
-
-    .advertisment{
-        display: none;
-    }
-
-    .footer{
-        padding: 40px 0;
-    }
-
-    .footer-logo img{
-        width: 35%;
-        margin: 0 auto;
-    }
-
-    .footer-logo{
-        width: 100%;
-        text-align: center;
-        margin: 0 auto;
-        
-    }
-    .footer .footer-left{
-        padding-left: 75px;
-        width: 100%;
-    }
-
-    .footer .footer-left p,
-    .footer .footer-left a{
-        font-size: 12px;
-    }
-
-    .footer .footer-center{
-        width: 100%;
-        padding-top: 0px;
-        padding-left: 90px;
-    }
-
-    .footer-center p{
-        font-size: 12px;
-    }
-
-    .foo-btn{
-        margin-left: 10px;
-    }
-    .foo-btn a{
-        font-size: 14px;
-    }
-
-    .footer .footer-right{
-    width: 100%;
-    padding-left: 55px ;
-    margin-left: 0;
-    }
-
-    .foo-icon {
-        padding: 15px 0px;
-    }
-
-    .foo-icon i{
-        font-size: 25px;
-    }
-
-    .footer .footer-company{
-        padding-left: 75px;
-        margin-left: 0px;
-    }
-
-    .footer p.footer-company {
-        font-size: 10px;
-
-    }
-
-    .footer p.copy, .footer .copy a{
-        font-size: 10px;
-    }
-}
-
+/*******************/
 /**** LANDSCAPE ****/
+/*******************/
 
 /***Galaxy Fold***/
 @media only screen 
