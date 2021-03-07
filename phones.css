@@ -1295,9 +1295,9 @@ body{
     }
 }
 
-/***Samsung Galaxy Note 9, Samsung Galaxy S9+
-Samsung Galaxy S9, Samsung Galaxy S8,
-Samsung Galaxy S8+ ***/
+/***LG K61, LG G8X ThinQ, Huawei Mate 30,
+Huawei Y9s, Huawei Nova 7 Pro, LG G7 Fit, G7 One,
+iPhone 12mini***/
 @media only screen 
 and (width: 360px) 
 and (height: 780px){ 
@@ -4463,8 +4463,6 @@ span.form label{
     }
 }
 
-
-
 /***iPad PRO ***/
 @media only screen 
 and (width: 1024px) 
@@ -4669,6 +4667,134 @@ span.form label{
     }
 }
 
+@media only screen 
+and (width: 1440px) 
+and (height: 900px){ 
+    .logo{
+        width: 30%;
+    }
+    .small-n{
+        top: 10em;
+        left: 7vw;
+    }
+
+    .kontakt, .login, .shop{
+    padding: 0 40px
+    }
+
+    .nav-bar{
+        width: 700px;
+        right: 4vw;
+        top: -10vw;
+    }
+    .headline{
+        top: 12.5em;
+    }
+
+    .headline h1{
+        font-size: 65px;
+    }
+    .description{
+        top: 18.4em;
+    }
+
+    .description h2{
+        font-size: 16px;
+    }
+
+    .social{
+        position: relative;
+        top: -1.5em;
+
+    }
+    .vl-sm{
+        height: 4em;
+    }
+
+    .main{
+        padding: 30px 0 70px 0;
+    }
+
+    input#query {
+        font-size: 18px;
+    }
+
+    span.form {
+        position: relative;
+        left: 18%;
+        top: 10px;
+    }
+
+    span.form label{
+        font-size: 15px;
+    }
+
+    #submit-btn{
+        right: 1%;
+    }
+
+    .about{
+    width: 45%;
+    }
+    .about h1{
+        margin-left: 60px;
+    }
+
+    .rating-item{
+        width: 500px;
+    }
+
+    .advertisment-item img{
+        margin-left: 25px;
+    }
+
+/****KATALOG AUTO-MOTO****/
+.services-two{
+    top: -80px;
+}
+            
+h1.categorie{
+    font-size: 80px;
+    letter-spacing: 5px;
+    top: 3.5em;
+}
+
+.headline h1#firm-headline  {
+    position: relative;
+    font-size: 65px;
+    width: 60%;
+    top: -40px;
+}
+            
+#add-two{
+    margin: -30px 0 30px auto;
+}
+.towns{
+    left: -6%;
+}
+
+.advertisment-two {
+    left: 100%;
+    padding-left: 30px;
+}
+
+.main-container-item-one{
+    width: 15%;
+}
+
+.main-container-item-two{
+    width: 60%;
+}
+
+.footer .footer-center{
+    margin-left: 40px;
+}
+
+.footer .footer-right{
+    margin-left: 20px;
+}
+
+}
 
 
 
